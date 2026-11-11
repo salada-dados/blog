@@ -1,0 +1,27 @@
+# Salada de Dados: code from the blog
+
+Code and data for the experiments and tutorials published on [saladadedados.com](https://saladadedados.com).
+Each folder is a self-contained project, with its own README and dependencies.
+
+## Experiments and tutorials
+
+| Folder | Article | Topic |
+|---|---|---|
+| [`rag-chunking-gdpr`](rag-chunking-gdpr) | RAG in Practice: Does Chunk Size Change the Answer? ([en](https://saladadedados.com/en/blog/rag-chunking-experiment) · [pt](https://saladadedados.com/pt/blog/rag-chunking-experiment)) | RAG, pgvector, embeddings |
+
+Older series with their own repository:
+
+- [`langgraph-fastapi-example`](https://github.com/salada-dados/langgraph-fastapi-example): LangGraph agent with FastAPI and SSE streaming.
+
+## Versions
+
+Each article links to a tag (for example `rag-chunking-v1`), so the code you find always matches
+what the article describes, even if the folder changes later.
+
+## Getting a single folder
+
+```bash
+git clone --filter=blob:none --sparse https://github.com/salada-dados/blog.git
+cd blog
+git sparse-checkout set rag-chunking-gdpr
+```

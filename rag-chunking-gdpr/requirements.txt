@@ -1,0 +1,6 @@
+sentence-transformers>=5
+lxml
+requests
+numpy
+psycopg[binary]
+pgvector

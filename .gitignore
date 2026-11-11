@@ -1,0 +1,5 @@
+# Separate repository (github.com/salada-dados/langgraph-fastapi-example)
+langgraph-fastapi-example/
+
+__pycache__/
+.venv/
