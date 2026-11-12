@@ -1,0 +1,10 @@
+{
+ "pypdf/pt": 14.7,
+ "pypdf/en": 22.4,
+ "pymupdf4llm/pt": 64.2,
+ "pymupdf4llm/en": 49.4,
+ "docling/pt": 486.5,
+ "docling/en": 305.4,
+ "vlm/pt": 8666.4,
+ "vlm/en": 7519.3
+}

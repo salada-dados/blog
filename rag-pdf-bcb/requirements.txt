@@ -1,0 +1,7 @@
+pypdf>=7
+pymupdf>=2.1
+pymupdf4llm>=2.1
+docling>=2.150
+sentence-transformers>=5
+numpy
+requests

@@ -1,0 +1,2822 @@
+{
+ "pt/no-rag": {
+  "rows": [
+   {
+    "id": "t01",
+    "type": "table",
+    "reply": "Não há dados específicos para o segundo trimestre de 2026 disponível, pois este ano ainda não terminou.",
+    "correct": false
+   },
+   {
+    "id": "t02",
+    "type": "table",
+    "reply": "A variação anual da construção civil em 2022 foi de -12,5%.",
+    "correct": false
+   },
+   {
+    "id": "t03",
+    "type": "table",
+    "reply": "Não há dados para agosto de 2026, provavelmente porque essa data não existe.",
+    "correct": false
+   },
+   {
+    "id": "t04",
+    "type": "table",
+    "reply": "Não há dados disponíveis sobre a variação da expedição de papelão ondulado em maio de 2026, pois não há informações econômicas relevantes para esse período específico no Brasil.",
+    "correct": false
+   },
+   {
+    "id": "t05",
+    "type": "table",
+    "reply": "Não há dados específicos para esse período, pois o ano ainda não terminou.",
+    "correct": false
+   },
+   {
+    "id": "t06",
+    "type": "table",
+    "reply": "A despesa total do Governo Central em 2026 projetada pelo QPC na 281ª reunião do Copom não foi anunciada oficialmente até o momento.",
+    "correct": false
+   },
+   {
+    "id": "t07",
+    "type": "table",
+    "reply": "Não há dados disponíveis para o período de janeiro a julho de 2024, pois este ano ainda não terminou.",
+    "correct": false
+   },
+   {
+    "id": "t08",
+    "type": "table",
+    "reply": "O IPCA em julho de 2026 não foi observado, pois 2026 ainda não ocorreu.",
+    "correct": false
+   },
+   {
+    "id": "t09",
+    "type": "table",
+    "reply": "A projeção de curto prazo do IPCA em doze meses para novembro de 2026 é de 4,5% pela BC.",
+    "correct": false
+   },
+   {
+    "id": "t10",
+    "type": "table",
+    "reply": "A projeção do IPCA Livres para o quarto trimestre de 2027 não foi mencionada em dados disponíveis atualmente.",
+    "correct": false
+   },
+   {
+    "id": "t11",
+    "type": "table",
+    "reply": "Não há dados específicos para essa pergunta sobre a inflação em 2027, pois são decisões futuras que não podem ser previsíveis com precisão.",
+    "correct": false
+   },
+   {
+    "id": "c01",
+    "type": "chart",
+    "reply": "O Reino Unido teve o menor crescimento do PIB no segundo trimestre de 2026 entre as economias mencionadas.",
+    "correct": false
+   },
+   {
+    "id": "c02",
+    "type": "chart",
+    "reply": "O pico do índice de incerteza de política comercial dos EUA (TPU) está no ano de 2020.",
+    "correct": false
+   },
+   {
+    "id": "c03",
+    "type": "chart",
+    "reply": "A dívida líquida do setor público (DLSP) atingiu o menor nível no ano de 2010 no gráfico de projeções de dívida brasileira.",
+    "correct": false
+   },
+   {
+    "id": "c04",
+    "type": "chart",
+    "reply": "Em 2016, a taxa de desocupação atingiu o maior valor na série desde 2004.",
+    "correct": false
+   },
+   {
+    "id": "c05",
+    "type": "chart",
+    "reply": "Em 2016, a variação em doze meses do IPA-DI chegou perto de 50%.",
+    "correct": false
+   },
+   {
+    "id": "c06",
+    "type": "chart",
+    "reply": "Em 2026, o preço do enxofre subiu mais em relação à ureia no mercado internacional.",
+    "correct": true
+   },
+   {
+    "id": "c07",
+    "type": "chart",
+    "reply": "Não há dados específicos para o período mencionado (meados de 2026) sobre as exportações brasileiras.",
+    "correct": false
+   },
+   {
+    "id": "c08",
+    "type": "chart",
+    "reply": "Em 2016, a taxa de desligamento voluntário atingiu o menor valor no gráfico.",
+    "correct": false
+   },
+   {
+    "id": "c09",
+    "type": "chart",
+    "reply": "O gráfico não menciona um ano específico para esse valor máximo.",
+    "correct": false
+   },
+   {
+    "id": "c10",
+    "type": "chart",
+    "reply": "O Brasil tinha a maior inflação ao consumidor no gráfico de IPC dos países emergentes.",
+    "correct": false
+   },
+   {
+    "id": "x01",
+    "type": "text",
+    "reply": "O PIB cresceu 0,5% na comparação interanual no segundo trimestre de 2026.",
+    "correct": false
+   },
+   {
+    "id": "x02",
+    "type": "text",
+    "reply": "O IBC-Br não foi calculado para o mês de julho de 2026, pois esse dado não existe.",
+    "correct": false
+   },
+   {
+    "id": "x03",
+    "type": "text",
+    "reply": "A taxa de participação na força de trabalho no trimestre encerrado em julho foi de 63,8%.",
+    "correct": false
+   },
+   {
+    "id": "x04",
+    "type": "text",
+    "reply": "O saldo de empregos formais do Novo Caged no acumulado do ano até julho não foi divulgado oficialmente.",
+    "correct": false
+   },
+   {
+    "id": "x05",
+    "type": "text",
+    "reply": "O rendimento médio real do trabalho recuou 0,4% no trimestre encerrado em julho.",
+    "correct": false
+   },
+   {
+    "id": "x06",
+    "type": "text",
+    "reply": "O relatório de avaliação do terceiro bimestre reduziu o bloqueio de gastos em 10%.",
+    "correct": false
+   },
+   {
+    "id": "x07",
+    "type": "text",
+    "reply": "As exportações brasileiras cresceram 12,1% no acumulado do ano até agosto, segundo dados do Banco Central.",
+    "correct": false
+   },
+   {
+    "id": "x08",
+    "type": "text",
+    "reply": "A média dos núcleos de inflação em doze meses em agosto foi de 0,6% segundo dados do IBGE.",
+    "correct": false
+   },
+   {
+    "id": "x09",
+    "type": "text",
+    "reply": "O preço médio da gasolina C subiu para mais de R$ 4,00 após o choque do petróleo.",
+    "correct": false
+   },
+   {
+    "id": "x10",
+    "type": "text",
+    "reply": "A projeção do IPCA para setembro foi revisada para 4,8% em 2023.",
+    "correct": false
+   },
+   {
+    "id": "x11",
+    "type": "text",
+    "reply": "A projeção de inflação para o primeiro trimestre de 2028 é de 4,5% pelo Banco Central Brasileiro.",
+    "correct": false
+   },
+   {
+    "id": "x12",
+    "type": "text",
+    "reply": "A expectativa de inflação para 2028 desde o RPM anterior subiu 0,5 pontos percentuais.",
+    "correct": false
+   }
+  ]
+ },
+ "pt/pypdf": {
+  "chunks": 222,
+  "rows": [
+   {
+    "id": "t01",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1170,
+    "reply": "2,8%",
+    "correct": true
+   },
+   {
+    "id": "t02",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 1006,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "t03",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1162,
+    "reply": "-2,9%",
+    "correct": false
+   },
+   {
+    "id": "t04",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 659,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "t05",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 916,
+    "reply": "133 bilhões de reais",
+    "correct": true
+   },
+   {
+    "id": "t06",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 979,
+    "reply": "2.616",
+    "correct": false
+   },
+   {
+    "id": "t07",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 764,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "t08",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 989,
+    "reply": "4,22%",
+    "correct": false
+   },
+   {
+    "id": "t09",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 725,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "t10",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 701,
+    "reply": "5,2%",
+    "correct": false
+   },
+   {
+    "id": "t11",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 593,
+    "reply": "0",
+    "correct": false
+   },
+   {
+    "id": "c01",
+    "type": "chart",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 689,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "c02",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 959,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "c03",
+    "type": "chart",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 761,
+    "reply": "2036",
+    "correct": false
+   },
+   {
+    "id": "c04",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1162,
+    "reply": "2026",
+    "correct": false
+   },
+   {
+    "id": "c05",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 773,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "c06",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1161,
+    "reply": "40",
+    "correct": false
+   },
+   {
+    "id": "c07",
+    "type": "chart",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 483,
+    "reply": "8,9 US$ bilhões",
+    "correct": false
+   },
+   {
+    "id": "c08",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1011,
+    "reply": "2026",
+    "correct": false
+   },
+   {
+    "id": "c09",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1171,
+    "reply": "2025",
+    "correct": false
+   },
+   {
+    "id": "c10",
+    "type": "chart",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1144,
+    "reply": "Brasil",
+    "correct": false
+   },
+   {
+    "id": "x01",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1171,
+    "reply": "2,0%",
+    "correct": true
+   },
+   {
+    "id": "x02",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1041,
+    "reply": "-0.2%",
+    "correct": true
+   },
+   {
+    "id": "x03",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1174,
+    "reply": "62,2%",
+    "correct": true
+   },
+   {
+    "id": "x04",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1166,
+    "reply": "958 mil",
+    "correct": true
+   },
+   {
+    "id": "x05",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 903,
+    "reply": "0,6%",
+    "correct": true
+   },
+   {
+    "id": "x06",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 879,
+    "reply": "R$24 bilhões",
+    "correct": false
+   },
+   {
+    "id": "x07",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 830,
+    "reply": "10,3%",
+    "correct": true
+   },
+   {
+    "id": "x08",
+    "type": "text",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1121,
+    "reply": "4,22%",
+    "correct": false
+   },
+   {
+    "id": "x09",
+    "type": "text",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 705,
+    "reply": "30%",
+    "correct": false
+   },
+   {
+    "id": "x10",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1023,
+    "reply": "0,65%",
+    "correct": true
+   },
+   {
+    "id": "x11",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 792,
+    "reply": "3,2%",
+    "correct": true
+   },
+   {
+    "id": "x12",
+    "type": "text",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 807,
+    "reply": "4,72%",
+    "correct": false
+   }
+  ]
+ },
+ "pt/pymupdf4llm": {
+  "chunks": 303,
+  "rows": [
+   {
+    "id": "t01",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 747,
+    "reply": "5,4%",
+    "correct": false
+   },
+   {
+    "id": "t02",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 878,
+    "reply": "30%",
+    "correct": false
+   },
+   {
+    "id": "t03",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1005,
+    "reply": "10,1%",
+    "correct": false
+   },
+   {
+    "id": "t04",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 734,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "t05",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 993,
+    "reply": "44,6%",
+    "correct": false
+   },
+   {
+    "id": "t06",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 796,
+    "reply": "18 bilhões",
+    "correct": false
+   },
+   {
+    "id": "t07",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 349,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "t08",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 869,
+    "reply": "0,07",
+    "correct": true
+   },
+   {
+    "id": "t09",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 913,
+    "reply": "4,85",
+    "correct": true
+   },
+   {
+    "id": "t10",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1063,
+    "reply": "3,1%",
+    "correct": false
+   },
+   {
+    "id": "t11",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 811,
+    "reply": "90%",
+    "correct": false
+   },
+   {
+    "id": "c01",
+    "type": "chart",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 868,
+    "reply": "Argentina",
+    "correct": false
+   },
+   {
+    "id": "c02",
+    "type": "chart",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 769,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "c03",
+    "type": "chart",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 1116,
+    "reply": "2036",
+    "correct": false
+   },
+   {
+    "id": "c04",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 687,
+    "reply": "2010",
+    "correct": false
+   },
+   {
+    "id": "c05",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 850,
+    "reply": "2025",
+    "correct": false
+   },
+   {
+    "id": "c06",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 996,
+    "reply": "o da ureia",
+    "correct": false
+   },
+   {
+    "id": "c07",
+    "type": "chart",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 215,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "c08",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 706,
+    "reply": "2026",
+    "correct": false
+   },
+   {
+    "id": "c09",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 740,
+    "reply": "2023",
+    "correct": false
+   },
+   {
+    "id": "c10",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 867,
+    "reply": "Período de 9 a 15 de 2026.",
+    "correct": false
+   },
+   {
+    "id": "x01",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 683,
+    "reply": "2,0%",
+    "correct": true
+   },
+   {
+    "id": "x02",
+    "type": "text",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 973,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "x03",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 846,
+    "reply": "62,2%",
+    "correct": true
+   },
+   {
+    "id": "x04",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 926,
+    "reply": "958 mil",
+    "correct": true
+   },
+   {
+    "id": "x05",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 876,
+    "reply": "0,6%",
+    "correct": true
+   },
+   {
+    "id": "x06",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 693,
+    "reply": "R$24 bilhões foram reduzidos para R$18 bilhões.",
+    "correct": true
+   },
+   {
+    "id": "x07",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 745,
+    "reply": "As exportações cresceram 10,3% no acumulado do ano até agosto.",
+    "correct": true
+   },
+   {
+    "id": "x08",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1021,
+    "reply": "4,35%",
+    "correct": true
+   },
+   {
+    "id": "x09",
+    "type": "text",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 913,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "x10",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 772,
+    "reply": "0,65%",
+    "correct": true
+   },
+   {
+    "id": "x11",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1107,
+    "reply": "3,2%",
+    "correct": true
+   },
+   {
+    "id": "x12",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 897,
+    "reply": "4 encontrou.",
+    "correct": false
+   }
+  ]
+ },
+ "pt/docling": {
+  "chunks": 247,
+  "rows": [
+   {
+    "id": "t01",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 874,
+    "reply": "2,0%",
+    "correct": false
+   },
+   {
+    "id": "t02",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1141,
+    "reply": "1,4",
+    "correct": false
+   },
+   {
+    "id": "t03",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 835,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "t04",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 824,
+    "reply": "-1,7%",
+    "correct": true
+   },
+   {
+    "id": "t05",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 874,
+    "reply": "44,6% do limite máximo preconizado pelo arcabouço fiscal para a despesa total.",
+    "correct": false
+   },
+   {
+    "id": "t06",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 878,
+    "reply": "11 bilhões",
+    "correct": false
+   },
+   {
+    "id": "t07",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 810,
+    "reply": "147",
+    "correct": false
+   },
+   {
+    "id": "t08",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 902,
+    "reply": "O IPCA observado em julho de 2026 foi de 0,07.",
+    "correct": true
+   },
+   {
+    "id": "t09",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 771,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "t10",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 823,
+    "reply": "5,1",
+    "correct": false
+   },
+   {
+    "id": "t11",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 822,
+    "reply": "16%",
+    "correct": false
+   },
+   {
+    "id": "c01",
+    "type": "chart",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 765,
+    "reply": "Reino Unido",
+    "correct": false
+   },
+   {
+    "id": "c02",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 879,
+    "reply": "1985",
+    "correct": false
+   },
+   {
+    "id": "c03",
+    "type": "chart",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 988,
+    "reply": "2036",
+    "correct": false
+   },
+   {
+    "id": "c04",
+    "type": "chart",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1030,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "c05",
+    "type": "chart",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 932,
+    "reply": "2025",
+    "correct": false
+   },
+   {
+    "id": "c06",
+    "type": "chart",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 938,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "c07",
+    "type": "chart",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 435,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "c08",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 983,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "c09",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1054,
+    "reply": "2025",
+    "correct": false
+   },
+   {
+    "id": "c10",
+    "type": "chart",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 883,
+    "reply": "Perdão, mas não encontramos essa informação no relatório fornecido.",
+    "correct": false
+   },
+   {
+    "id": "x01",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 915,
+    "reply": "2,0%",
+    "correct": true
+   },
+   {
+    "id": "x02",
+    "type": "text",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 975,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "x03",
+    "type": "text",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 780,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "x04",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 917,
+    "reply": "958 mil",
+    "correct": true
+   },
+   {
+    "id": "x05",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 826,
+    "reply": "0,6%",
+    "correct": true
+   },
+   {
+    "id": "x06",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 658,
+    "reply": "R$24 bilhões para R$18 bilhões",
+    "correct": true
+   },
+   {
+    "id": "x07",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 689,
+    "reply": "10,3%",
+    "correct": true
+   },
+   {
+    "id": "x08",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 880,
+    "reply": "4,35%",
+    "correct": true
+   },
+   {
+    "id": "x09",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1058,
+    "reply": "R$6,78 por litro",
+    "correct": true
+   },
+   {
+    "id": "x10",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1060,
+    "reply": "0,65%",
+    "correct": true
+   },
+   {
+    "id": "x11",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 958,
+    "reply": "3,2%",
+    "correct": true
+   },
+   {
+    "id": "x12",
+    "type": "text",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 783,
+    "reply": "3,68% para 3,80%",
+    "correct": true
+   }
+  ]
+ },
+ "pt/docling-vlm": {
+  "chunks": 299,
+  "rows": [
+   {
+    "id": "t01",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 930,
+    "reply": "2.0%",
+    "correct": false
+   },
+   {
+    "id": "t02",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1141,
+    "reply": "1,4",
+    "correct": false
+   },
+   {
+    "id": "t03",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 814,
+    "reply": "1,4%",
+    "correct": false
+   },
+   {
+    "id": "t04",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 972,
+    "reply": "-1,7%",
+    "correct": true
+   },
+   {
+    "id": "t05",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1048,
+    "reply": "44.6",
+    "correct": false
+   },
+   {
+    "id": "t06",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1084,
+    "reply": "2.790",
+    "correct": false
+   },
+   {
+    "id": "t07",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 893,
+    "reply": "147",
+    "correct": false
+   },
+   {
+    "id": "t08",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 973,
+    "reply": "O IPCA observado em julho de 2026 foi de 0,07%.",
+    "correct": true
+   },
+   {
+    "id": "t09",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 759,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "t10",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 786,
+    "reply": "5,1",
+    "correct": false
+   },
+   {
+    "id": "t11",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 875,
+    "reply": "16%",
+    "correct": false
+   },
+   {
+    "id": "c01",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1000,
+    "reply": "Reino Unido",
+    "correct": false
+   },
+   {
+    "id": "c02",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1029,
+    "reply": "2026",
+    "correct": false
+   },
+   {
+    "id": "c03",
+    "type": "chart",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1088,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "c04",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1058,
+    "reply": "2020",
+    "correct": true
+   },
+   {
+    "id": "c05",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1033,
+    "reply": "2021",
+    "correct": true
+   },
+   {
+    "id": "c06",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1092,
+    "reply": "O preço do enxofre subiu mais em 2026.",
+    "correct": true
+   },
+   {
+    "id": "c07",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 778,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "c08",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 978,
+    "reply": "julho de 2026",
+    "correct": false
+   },
+   {
+    "id": "c09",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 920,
+    "reply": "2021",
+    "correct": true
+   },
+   {
+    "id": "c10",
+    "type": "chart",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1174,
+    "reply": "A Itália tinha a inflação ao consumidor mais alta no gráfico de IPC dos países emergentes.",
+    "correct": false
+   },
+   {
+    "id": "x01",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 915,
+    "reply": "2,0%",
+    "correct": true
+   },
+   {
+    "id": "x02",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1110,
+    "reply": "O IBC-Br recuou 0,2% em julho de 2026.",
+    "correct": true
+   },
+   {
+    "id": "x03",
+    "type": "text",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 889,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "x04",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 981,
+    "reply": "958 mil",
+    "correct": true
+   },
+   {
+    "id": "x05",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 726,
+    "reply": "O rendimento médio real do trabalho recuou 0,6% no trimestre encerrado em julho.",
+    "correct": true
+   },
+   {
+    "id": "x06",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 687,
+    "reply": "R$24 bilhões para R$18 bilhões.",
+    "correct": true
+   },
+   {
+    "id": "x07",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 888,
+    "reply": "10,3%",
+    "correct": true
+   },
+   {
+    "id": "x08",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1017,
+    "reply": "4,35%",
+    "correct": true
+   },
+   {
+    "id": "x09",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 957,
+    "reply": "R$6,78 por litro",
+    "correct": true
+   },
+   {
+    "id": "x10",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1089,
+    "reply": "0,65%",
+    "correct": true
+   },
+   {
+    "id": "x11",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 988,
+    "reply": "3,2%",
+    "correct": true
+   },
+   {
+    "id": "x12",
+    "type": "text",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 750,
+    "reply": "A expectativa de inflação para 2028 aumentou de 3,68% para 3,80% desde o RPM anterior.",
+    "correct": true
+   }
+  ]
+ },
+ "en/no-rag": {
+  "rows": [
+   {
+    "id": "t01",
+    "type": "table",
+    "reply": "I don't have specific data for agriculture growth in the second quarter of 2026, as this information is not provided in the question.",
+    "correct": false
+   },
+   {
+    "id": "t02",
+    "type": "table",
+    "reply": "The annual growth of construction in 2022 was 12. 3%.",
+    "correct": false
+   },
+   {
+    "id": "t03",
+    "type": "table",
+    "reply": "The question is not applicable as there is no data provided for August 2026.",
+    "correct": false
+   },
+   {
+    "id": "t04",
+    "type": "table",
+    "reply": "The question is not applicable as there is no data provided for May 2026. The Brazilian economy data for such a specific and future date is not available.",
+    "correct": false
+   },
+   {
+    "id": "t05",
+    "type": "table",
+    "reply": "The question is unclear as there is no specific year provided and no mention of July 2026. Additionally, discretionary expenses are not typically reported by the Central Government in a single figure.",
+    "correct": false
+   },
+   {
+    "id": "t06",
+    "type": "table",
+    "reply": "The QPC project at the 281st Copom meeting did not provide a total Central Government expenditure for 2026.",
+    "correct": false
+   },
+   {
+    "id": "t07",
+    "type": "table",
+    "reply": "Note that Brazil does not import in 2024 as it is not a valid year for imports, as Brazil's fiscal year typically starts in April.",
+    "correct": false
+   },
+   {
+    "id": "t08",
+    "type": "table",
+    "reply": "The observed IPCA in July 2026 was [Not provided in the question, hence no specific number or name can be answered.].",
+    "correct": false
+   },
+   {
+    "id": "t09",
+    "type": "table",
+    "reply": "The short-term projection of 12-month IPCA for November 2026 is not provided in the given context.",
+    "correct": false
+   },
+   {
+    "id": "t10",
+    "type": "table",
+    "reply": "The projection for market-set prices (IPCA Livres) in the fourth quarter of 2027 in the reference scenario is not provided, as it requires specific economic data and forecasts which are not included in your question.",
+    "correct": false
+   },
+   {
+    "id": "t11",
+    "type": "table",
+    "reply": "The question is not clear about which specific Brazilian economy data point or probability model is being asked for.",
+    "correct": false
+   },
+   {
+    "id": "c01",
+    "type": "chart",
+    "reply": "The question cannot be answered with the given data as the year 2026 has not occurred yet, and the GDP growth rates for the mentioned economies in the second quarter of 2026 are not available.",
+    "correct": false
+   },
+   {
+    "id": "c02",
+    "type": "chart",
+    "reply": "The US trade policy uncertainty index (TPU) did not peak in any specific year in the uncertainty measures chart as it is a dynamic index.",
+    "correct": false
+   },
+   {
+    "id": "c03",
+    "type": "chart",
+    "reply": "I need the debt projections chart to answer this question as the year of the lowest public sector net debt (DLSP) varies depending on the specific data provided.",
+    "correct": false
+   },
+   {
+    "id": "c04",
+    "type": "chart",
+    "reply": "I need a specific unemployment rate value or ranking to answer this question, not just the year. The highest unemployment rate in the series since 2004 was reached in a particular year, but that year is not provided in your question.",
+    "correct": false
+   },
+   {
+    "id": "c05",
+    "type": "chart",
+    "reply": "The 12-month change in the IPA-DI came close to 50% in the year 2015.",
+    "correct": false
+   },
+   {
+    "id": "c06",
+    "type": "chart",
+    "reply": "The question is not applicable as it asks about a US price rise, but Brazil's economy was the focus of the inquiry.",
+    "correct": false
+   },
+   {
+    "id": "c07",
+    "type": "chart",
+    "reply": "The level of Brazilian exports, as a three-month moving average, in mid-2026 was 150 billion Brazilian reais.",
+    "correct": false
+   },
+   {
+    "id": "c08",
+    "type": "chart",
+    "reply": "I need a specific chart or dataset to answer this question as it is not provided in the question.",
+    "correct": false
+   },
+   {
+    "id": "c09",
+    "type": "chart",
+    "reply": "I need the chart to answer your question as it varies each year.",
+    "correct": false
+   },
+   {
+    "id": "c10",
+    "type": "chart",
+    "reply": "To answer your question accurately, I would need the specific emerging-market CPI chart you are referring to, as the country with the highest consumer price inflation can vary depending on the data source and time period.",
+    "correct": false
+   },
+   {
+    "id": "x01",
+    "type": "text",
+    "reply": "The question cannot be answered as there is no data available for the second quarter of 2026 as it is a future date.",
+    "correct": false
+   },
+   {
+    "id": "x02",
+    "type": "text",
+    "reply": "The question is unclear as there is no specific data available for IBC-Br change in July 2026 as it does not align with any known economic indicator or time period.",
+    "correct": false
+   },
+   {
+    "id": "x03",
+    "type": "text",
+    "reply": "The labor force participation rate in the quarter ending in July is not provided in the given context.",
+    "correct": false
+   },
+   {
+    "id": "x04",
+    "type": "text",
+    "reply": "The net formal job creation (Novo Caged) in the year to July was not provided in the given context, so an exact number or name cannot be answered here.",
+    "correct": false
+   },
+   {
+    "id": "x05",
+    "type": "text",
+    "reply": "The question cannot be answered with the given information as no specific data is provided regarding the fall in average real labor income in the quarter ending in July.",
+    "correct": false
+   },
+   {
+    "id": "x06",
+    "type": "text",
+    "reply": "The spending freeze reduction in the third bimonthly assessment report was not provided in the given context, so a specific number or name cannot be answered.",
+    "correct": false
+   },
+   {
+    "id": "x07",
+    "type": "text",
+    "reply": "The question cannot be answered with the given information as no specific growth percentage for exports in the year to August is provided.",
+    "correct": false
+   },
+   {
+    "id": "x08",
+    "type": "text",
+    "reply": "The 12-month average of the core inflation measures in August was 3.7%.",
+    "correct": false
+   },
+   {
+    "id": "x09",
+    "type": "text",
+    "reply": "The average price of gasoline C at the pump rose by 100% after the oil shock.",
+    "correct": false
+   },
+   {
+    "id": "x10",
+    "type": "text",
+    "reply": "The September IPCA projection was revised.",
+    "correct": false
+   },
+   {
+    "id": "x11",
+    "type": "text",
+    "reply": "The inflation projection for the first quarter of 2028 is 5.2% according to the Central Bank of Brazil.",
+    "correct": false
+   },
+   {
+    "id": "x12",
+    "type": "text",
+    "reply": "The question cannot be answered with the given information as no specific inflation expectation for 2028 or comparison to a previous report is provided.",
+    "correct": false
+   }
+  ]
+ },
+ "en/pypdf": {
+  "chunks": 210,
+  "rows": [
+   {
+    "id": "t01",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1158,
+    "reply": "2.8%",
+    "correct": true
+   },
+   {
+    "id": "t02",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 938,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "t03",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1157,
+    "reply": "-2.9%",
+    "correct": false
+   },
+   {
+    "id": "t04",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 796,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "t05",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1155,
+    "reply": "133 BRL billion",
+    "correct": true
+   },
+   {
+    "id": "t06",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 989,
+    "reply": "2,616",
+    "correct": false
+   },
+   {
+    "id": "t07",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1174,
+    "reply": "150",
+    "correct": false
+   },
+   {
+    "id": "t08",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 836,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "t09",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 1168,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "t10",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1184,
+    "reply": "The projection for market-set prices (IPCA Livres) in the fourth quarter of 2027 in the reference scenario is 4.5%.",
+    "correct": false
+   },
+   {
+    "id": "t11",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1014,
+    "reply": "33",
+    "correct": true
+   },
+   {
+    "id": "c01",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 966,
+    "reply": "UK",
+    "correct": false
+   },
+   {
+    "id": "c02",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1169,
+    "reply": "2026",
+    "correct": false
+   },
+   {
+    "id": "c03",
+    "type": "chart",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1113,
+    "reply": "could not find",
+    "correct": false
+   },
+   {
+    "id": "c04",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 892,
+    "reply": "2022",
+    "correct": false
+   },
+   {
+    "id": "c05",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1169,
+    "reply": "2026",
+    "correct": false
+   },
+   {
+    "id": "c06",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1014,
+    "reply": "The excerpt does not provide a direct comparison of the rise in urea and sulfur prices in 2026.",
+    "correct": true
+   },
+   {
+    "id": "c07",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1174,
+    "reply": "4.0",
+    "correct": false
+   },
+   {
+    "id": "c08",
+    "type": "chart",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 866,
+    "reply": "2016",
+    "correct": false
+   },
+   {
+    "id": "c09",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1112,
+    "reply": "2025",
+    "correct": false
+   },
+   {
+    "id": "c10",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1151,
+    "reply": "Brazil",
+    "correct": false
+   },
+   {
+    "id": "x01",
+    "type": "text",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 961,
+    "reply": "1.5%",
+    "correct": false
+   },
+   {
+    "id": "x02",
+    "type": "text",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 1160,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "x03",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1147,
+    "reply": "62.2%",
+    "correct": true
+   },
+   {
+    "id": "x04",
+    "type": "text",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1163,
+    "reply": "958,000",
+    "correct": false
+   },
+   {
+    "id": "x05",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1094,
+    "reply": "-0.6%",
+    "correct": true
+   },
+   {
+    "id": "x06",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 999,
+    "reply": "BRL 63 billion",
+    "correct": false
+   },
+   {
+    "id": "x07",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1173,
+    "reply": "10.3%",
+    "correct": true
+   },
+   {
+    "id": "x08",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1174,
+    "reply": "2.4%",
+    "correct": false
+   },
+   {
+    "id": "x09",
+    "type": "text",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 1154,
+    "reply": "0.33%",
+    "correct": false
+   },
+   {
+    "id": "x10",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 945,
+    "reply": "The September IPCA projection was revised upward.",
+    "correct": false
+   },
+   {
+    "id": "x11",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1167,
+    "reply": "3.2%",
+    "correct": true
+   },
+   {
+    "id": "x12",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1171,
+    "reply": "The inflation expectation for 2028 rose from 3.68% to 3.80% since the previous report.",
+    "correct": true
+   }
+  ]
+ },
+ "en/pymupdf4llm": {
+  "chunks": 291,
+  "rows": [
+   {
+    "id": "t01",
+    "type": "table",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 984,
+    "reply": "Agriculture grew by 2.8% in the second quarter of 2026 compared with the previous quarter.",
+    "correct": true
+   },
+   {
+    "id": "t02",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 982,
+    "reply": "The annual growth of construction in 2022 is 100, as the series is normalized to 2022 = 100.",
+    "correct": false
+   },
+   {
+    "id": "t03",
+    "type": "table",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 855,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "t04",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 752,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "t05",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 878,
+    "reply": "44.6%",
+    "correct": false
+   },
+   {
+    "id": "t06",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 786,
+    "reply": "2,790",
+    "correct": false
+   },
+   {
+    "id": "t07",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 879,
+    "reply": "Could not find.",
+    "correct": false
+   },
+   {
+    "id": "t08",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 779,
+    "reply": "0.07%",
+    "correct": true
+   },
+   {
+    "id": "t09",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 915,
+    "reply": "5.21%",
+    "correct": false
+   },
+   {
+    "id": "t10",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 951,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "t11",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1045,
+    "reply": "16%",
+    "correct": false
+   },
+   {
+    "id": "c01",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1052,
+    "reply": "UK",
+    "correct": false
+   },
+   {
+    "id": "c02",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1083,
+    "reply": "2026",
+    "correct": false
+   },
+   {
+    "id": "c03",
+    "type": "chart",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 796,
+    "reply": "2036",
+    "correct": false
+   },
+   {
+    "id": "c04",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 797,
+    "reply": "2026",
+    "correct": false
+   },
+   {
+    "id": "c05",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 838,
+    "reply": "2026",
+    "correct": false
+   },
+   {
+    "id": "c06",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 951,
+    "reply": "Urea prices rose more in the US in 2026.",
+    "correct": false
+   },
+   {
+    "id": "c07",
+    "type": "chart",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 989,
+    "reply": "Could not find.",
+    "correct": false
+   },
+   {
+    "id": "c08",
+    "type": "chart",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 797,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "c09",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 884,
+    "reply": "2026",
+    "correct": false
+   },
+   {
+    "id": "c10",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1021,
+    "reply": "Brazil",
+    "correct": false
+   },
+   {
+    "id": "x01",
+    "type": "text",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 895,
+    "reply": "The GDP grew by 0.5% in the second quarter of 2026.",
+    "correct": false
+   },
+   {
+    "id": "x02",
+    "type": "text",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 753,
+    "reply": "108",
+    "correct": false
+   },
+   {
+    "id": "x03",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1015,
+    "reply": "62.2%",
+    "correct": true
+   },
+   {
+    "id": "x04",
+    "type": "text",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 989,
+    "reply": "958000",
+    "correct": false
+   },
+   {
+    "id": "x05",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 923,
+    "reply": "-0.6%",
+    "correct": true
+   },
+   {
+    "id": "x06",
+    "type": "text",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 971,
+    "reply": "Could not find.",
+    "correct": false
+   },
+   {
+    "id": "x07",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1015,
+    "reply": "10.3%",
+    "correct": true
+   },
+   {
+    "id": "x08",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 946,
+    "reply": "4.35%",
+    "correct": true
+   },
+   {
+    "id": "x09",
+    "type": "text",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 929,
+    "reply": "0.33 p.p.",
+    "correct": false
+   },
+   {
+    "id": "x10",
+    "type": "text",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 947,
+    "reply": "The September IPCA projection was revised upward.",
+    "correct": false
+   },
+   {
+    "id": "x11",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1046,
+    "reply": "The inflation projection for the relevant horizon, the first quarter of 2028, is 3.2%.",
+    "correct": true
+   },
+   {
+    "id": "x12",
+    "type": "text",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 841,
+    "reply": "The inflation expectation for 2028 rose from 3.68% to 3.80%.",
+    "correct": true
+   }
+  ]
+ },
+ "en/docling": {
+  "chunks": 235,
+  "rows": [
+   {
+    "id": "t01",
+    "type": "table",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 814,
+    "reply": "2.8%",
+    "correct": true
+   },
+   {
+    "id": "t02",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 690,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "t03",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 900,
+    "reply": "-2.9%",
+    "correct": false
+   },
+   {
+    "id": "t04",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 686,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "t05",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 805,
+    "reply": "44.6% of total expenses.",
+    "correct": false
+   },
+   {
+    "id": "t06",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 812,
+    "reply": "2,628",
+    "correct": true
+   },
+   {
+    "id": "t07",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 863,
+    "reply": "6.1%",
+    "correct": false
+   },
+   {
+    "id": "t08",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 812,
+    "reply": "0.07",
+    "correct": true
+   },
+   {
+    "id": "t09",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1150,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "t10",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1021,
+    "reply": "3.80%",
+    "correct": false
+   },
+   {
+    "id": "t11",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 964,
+    "reply": "16%",
+    "correct": false
+   },
+   {
+    "id": "c01",
+    "type": "chart",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 936,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "c02",
+    "type": "chart",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 832,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "c03",
+    "type": "chart",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1180,
+    "reply": "could not find",
+    "correct": false
+   },
+   {
+    "id": "c04",
+    "type": "chart",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 948,
+    "reply": "2026",
+    "correct": false
+   },
+   {
+    "id": "c05",
+    "type": "chart",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 946,
+    "reply": "2026",
+    "correct": false
+   },
+   {
+    "id": "c06",
+    "type": "chart",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 1093,
+    "reply": "Could not find.",
+    "correct": false
+   },
+   {
+    "id": "c07",
+    "type": "chart",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 881,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "c08",
+    "type": "chart",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 854,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "c09",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1003,
+    "reply": "2025",
+    "correct": false
+   },
+   {
+    "id": "c10",
+    "type": "chart",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 770,
+    "reply": "Could not find.",
+    "correct": false
+   },
+   {
+    "id": "x01",
+    "type": "text",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 656,
+    "reply": "1.2%",
+    "correct": false
+   },
+   {
+    "id": "x02",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 870,
+    "reply": "-0.2%",
+    "correct": true
+   },
+   {
+    "id": "x03",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 976,
+    "reply": "62.2%",
+    "correct": true
+   },
+   {
+    "id": "x04",
+    "type": "text",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 891,
+    "reply": "958000",
+    "correct": false
+   },
+   {
+    "id": "x05",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 781,
+    "reply": "0.6%",
+    "correct": true
+   },
+   {
+    "id": "x06",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 853,
+    "reply": "The spending freeze was reduced from BRL 24 billion to BRL 18 billion in the third bimonthly assessment report.",
+    "correct": true
+   },
+   {
+    "id": "x07",
+    "type": "text",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 1005,
+    "reply": "6.1%",
+    "correct": false
+   },
+   {
+    "id": "x08",
+    "type": "text",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 972,
+    "reply": "2.4%",
+    "correct": false
+   },
+   {
+    "id": "x09",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 973,
+    "reply": "The average price of gasoline C at the pump rose from BRL 6.28 per liter to BRL 6.78 per liter.",
+    "correct": true
+   },
+   {
+    "id": "x10",
+    "type": "text",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1001,
+    "reply": "The September IPCA projection was revised upward.",
+    "correct": false
+   },
+   {
+    "id": "x11",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1054,
+    "reply": "3.2%",
+    "correct": true
+   },
+   {
+    "id": "x12",
+    "type": "text",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 983,
+    "reply": "The inflation expectation for 2028 rose since the previous report.",
+    "correct": false
+   }
+  ]
+ },
+ "en/docling-vlm": {
+  "chunks": 305,
+  "rows": [
+   {
+    "id": "t01",
+    "type": "table",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 918,
+    "reply": "2.8%",
+    "correct": true
+   },
+   {
+    "id": "t02",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 998,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "t03",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 900,
+    "reply": "-2.9%",
+    "correct": false
+   },
+   {
+    "id": "t04",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 686,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "t05",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 805,
+    "reply": "44.6% of total expenses.",
+    "correct": false
+   },
+   {
+    "id": "t06",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 956,
+    "reply": "2,628",
+    "correct": true
+   },
+   {
+    "id": "t07",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 803,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "t08",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 765,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "t09",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1110,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "t10",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1011,
+    "reply": "4.52%",
+    "correct": false
+   },
+   {
+    "id": "t11",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 778,
+    "reply": "The estimated probability of inflation surpassing the upper limit of the tolerance interval in 2027 is 33%.",
+    "correct": true
+   },
+   {
+    "id": "c01",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 994,
+    "reply": "China",
+    "correct": false
+   },
+   {
+    "id": "c02",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 840,
+    "reply": "2024",
+    "correct": false
+   },
+   {
+    "id": "c03",
+    "type": "chart",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1034,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "c04",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1016,
+    "reply": "2021",
+    "correct": false
+   },
+   {
+    "id": "c05",
+    "type": "chart",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1001,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "c06",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1001,
+    "reply": "Sulfur price rose more in 2026 in the US.",
+    "correct": true
+   },
+   {
+    "id": "c07",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 855,
+    "reply": "The level of Brazilian exports, as a three-month moving average, in mid-2026 was approximately USD billion.",
+    "correct": false
+   },
+   {
+    "id": "c08",
+    "type": "chart",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 1101,
+    "reply": "Could not find",
+    "correct": false
+   },
+   {
+    "id": "c09",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1016,
+    "reply": "2023",
+    "correct": false
+   },
+   {
+    "id": "c10",
+    "type": "chart",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 960,
+    "reply": "China",
+    "correct": false
+   },
+   {
+    "id": "x01",
+    "type": "text",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 664,
+    "reply": "0.2%",
+    "correct": false
+   },
+   {
+    "id": "x02",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 985,
+    "reply": "The IBC-Br fell by 0.2% in July 2026.",
+    "correct": true
+   },
+   {
+    "id": "x03",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1037,
+    "reply": "62.2%",
+    "correct": true
+   },
+   {
+    "id": "x04",
+    "type": "text",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 965,
+    "reply": "958000",
+    "correct": false
+   },
+   {
+    "id": "x05",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 962,
+    "reply": "-0.6%",
+    "correct": true
+   },
+   {
+    "id": "x06",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 858,
+    "reply": "BRL 6 billion",
+    "correct": false
+   },
+   {
+    "id": "x07",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 887,
+    "reply": "10.3%",
+    "correct": true
+   },
+   {
+    "id": "x08",
+    "type": "text",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 838,
+    "reply": "2.4%",
+    "correct": false
+   },
+   {
+    "id": "x09",
+    "type": "text",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 1104,
+    "reply": "0.33 p.p.",
+    "correct": false
+   },
+   {
+    "id": "x10",
+    "type": "text",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 947,
+    "reply": "The September IPCA projection was revised upward.",
+    "correct": false
+   },
+   {
+    "id": "x11",
+    "type": "text",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1003,
+    "reply": "3.2%",
+    "correct": true
+   },
+   {
+    "id": "x12",
+    "type": "text",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 1052,
+    "reply": "To find the rise in inflation expectation for 2028, we need to look at the change in inflation expectations for 2026 and 2027. The excerpt states that inflation expectations for 2026 fell from 5.30% to 4.90%, and for 2027 increased from 4.10% to 4.30%. Therefore, the expectation for 2028 increased from 3.68% to 3.80%. The rise in inflation expectation for 2028 is from 3.68% to 3.80%, which is an increase of 0.12 percentage points.",
+    "correct": true
+   }
+  ]
+ }
+}

@@ -1,0 +1,418 @@
+{
+ "pt/pypdf": {
+  "chunks": 222,
+  "rows": [
+   {
+    "id": "t01",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1170,
+    "reply": "2,8%",
+    "correct": true
+   },
+   {
+    "id": "t02",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 1006,
+    "reply": "100",
+    "correct": false
+   },
+   {
+    "id": "t03",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1162,
+    "reply": "-0,0",
+    "correct": false
+   },
+   {
+    "id": "t04",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 659,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "t05",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 916,
+    "reply": "354",
+    "correct": false
+   },
+   {
+    "id": "t06",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 979,
+    "reply": "2.628",
+    "correct": true
+   },
+   {
+    "id": "t07",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 764,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "t08",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 989,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "t09",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 725,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "t10",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 701,
+    "reply": "3.1%",
+    "correct": false
+   },
+   {
+    "id": "t11",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 593,
+    "reply": "Não encontrou.",
+    "correct": false
+   }
+  ]
+ },
+ "pt/docling": {
+  "chunks": 247,
+  "rows": [
+   {
+    "id": "t01",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 874,
+    "reply": "cresceu fortemente.",
+    "correct": false
+   },
+   {
+    "id": "t02",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1141,
+    "reply": "1,5",
+    "correct": false
+   },
+   {
+    "id": "t03",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 835,
+    "reply": "2,4",
+    "correct": true
+   },
+   {
+    "id": "t04",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 824,
+    "reply": "-1,7",
+    "correct": true
+   },
+   {
+    "id": "t05",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 874,
+    "reply": "44,6%",
+    "correct": false
+   },
+   {
+    "id": "t06",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 878,
+    "reply": "Não encontrou.",
+    "correct": false
+   },
+   {
+    "id": "t07",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 810,
+    "reply": "155",
+    "correct": true
+   },
+   {
+    "id": "t08",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 902,
+    "reply": "0,07%",
+    "correct": true
+   },
+   {
+    "id": "t09",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 771,
+    "reply": "4,90%",
+    "correct": false
+   },
+   {
+    "id": "t10",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 823,
+    "reply": "3,0",
+    "correct": false
+   },
+   {
+    "id": "t11",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 822,
+    "reply": "33%",
+    "correct": true
+   }
+  ]
+ },
+ "en/pypdf": {
+  "chunks": 210,
+  "rows": [
+   {
+    "id": "t01",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1158,
+    "reply": "2.8%",
+    "correct": true
+   },
+   {
+    "id": "t02",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 938,
+    "reply": "You could not find it.",
+    "correct": false
+   },
+   {
+    "id": "t03",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1157,
+    "reply": "-2.9%",
+    "correct": false
+   },
+   {
+    "id": "t04",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 796,
+    "reply": "You could not find it.",
+    "correct": false
+   },
+   {
+    "id": "t05",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1155,
+    "reply": "133",
+    "correct": true
+   },
+   {
+    "id": "t06",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 989,
+    "reply": "2,628",
+    "correct": true
+   },
+   {
+    "id": "t07",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1174,
+    "reply": "You could not find it.",
+    "correct": false
+   },
+   {
+    "id": "t08",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 836,
+    "reply": "Could not find it.",
+    "correct": false
+   },
+   {
+    "id": "t09",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 1168,
+    "reply": "4.3%",
+    "correct": false
+   },
+   {
+    "id": "t10",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1184,
+    "reply": "4.1%",
+    "correct": true
+   },
+   {
+    "id": "t11",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 1014,
+    "reply": "33%",
+    "correct": true
+   }
+  ]
+ },
+ "en/docling": {
+  "chunks": 235,
+  "rows": [
+   {
+    "id": "t01",
+    "type": "table",
+    "found": false,
+    "in_ctx": true,
+    "tokens": 814,
+    "reply": "Agriculture grew by 2.8% in 2026Q2 compared with the previous quarter.",
+    "correct": true
+   },
+   {
+    "id": "t02",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 690,
+    "reply": "Could not find it.",
+    "correct": false
+   },
+   {
+    "id": "t03",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 900,
+    "reply": "2.4",
+    "correct": true
+   },
+   {
+    "id": "t04",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 686,
+    "reply": "You could not find it.",
+    "correct": false
+   },
+   {
+    "id": "t05",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 805,
+    "reply": "The Central Government spent BRL 18 billion on discretionary expenses in the year to July 2026.",
+    "correct": false
+   },
+   {
+    "id": "t06",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 812,
+    "reply": "2,628",
+    "correct": true
+   },
+   {
+    "id": "t07",
+    "type": "table",
+    "found": false,
+    "in_ctx": false,
+    "tokens": 863,
+    "reply": "You could not find it.",
+    "correct": false
+   },
+   {
+    "id": "t08",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 812,
+    "reply": "0.07%",
+    "correct": true
+   },
+   {
+    "id": "t09",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1150,
+    "reply": "You could not find it.",
+    "correct": false
+   },
+   {
+    "id": "t10",
+    "type": "table",
+    "found": true,
+    "in_ctx": false,
+    "tokens": 1021,
+    "reply": "You could not find it.",
+    "correct": false
+   },
+   {
+    "id": "t11",
+    "type": "table",
+    "found": true,
+    "in_ctx": true,
+    "tokens": 964,
+    "reply": "33%",
+    "correct": true
+   }
+  ]
+ }
+}
