@@ -1765,7 +1765,7 @@
     "in_ctx": true,
     "tokens": 1014,
     "reply": "The excerpt does not provide a direct comparison of the rise in urea and sulfur prices in 2026.",
-    "correct": true
+    "correct": false
    },
    {
     "id": "c07",
@@ -1837,7 +1837,7 @@
     "in_ctx": false,
     "tokens": 1163,
     "reply": "958,000",
-    "correct": false
+    "correct": true
    },
    {
     "id": "x05",
@@ -2139,7 +2139,7 @@
     "in_ctx": false,
     "tokens": 989,
     "reply": "958000",
-    "correct": false
+    "correct": true
    },
    {
     "id": "x05",
@@ -2441,7 +2441,7 @@
     "in_ctx": false,
     "tokens": 891,
     "reply": "958000",
-    "correct": false
+    "correct": true
    },
    {
     "id": "x05",
@@ -2743,7 +2743,7 @@
     "in_ctx": false,
     "tokens": 965,
     "reply": "958000",
-    "correct": false
+    "correct": true
    },
    {
     "id": "x05",

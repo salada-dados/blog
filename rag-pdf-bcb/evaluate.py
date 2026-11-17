@@ -85,6 +85,22 @@ def contains(text: str, answers: list[str]) -> bool:
     return False
 
 
+REFUSAL = re.compile(r"não (encontrei|foi possível|está)|não (há|consta|aparece)|"
+                     r"could not find|couldn't find|cannot find|can't find|"
+                     r"not (found|given|shown|provided|in the)|(does|do) not provide",
+                     re.I)
+
+
+def refused(reply: str) -> bool:
+    """A refusal often repeats the question ('no data on the US, China, Japan...' or 'does not
+    compare urea and sulfur'), so it must not count as right just because the answer appears in it."""
+    return bool(REFUSAL.search(reply))
+
+
+def is_correct(reply: str, answers: list[str]) -> bool:
+    return contains(reply, answers) and not refused(reply)
+
+
 PROMPT = {
     "pt": "Responda à pergunta usando apenas os trechos do Relatório de Política Monetária abaixo. "
           "Responda em uma frase curta, com o número ou o nome pedido. "
@@ -137,7 +153,7 @@ def evaluate(chunks, questions, targets, lang, use_llm):
         }
         if use_llm:
             row["reply"] = ask(PROMPT[lang], f"{context}\n\n---\n\n{q[lang]}")
-            row["correct"] = contains(row["reply"], q["answers"])
+            row["correct"] = is_correct(row["reply"], q["answers"])
         rows.append(row)
     return rows
 
@@ -160,7 +176,7 @@ if __name__ == "__main__":
             rows = []
             for q in questions:
                 reply = ask(NO_RAG[lang], q[lang])
-                rows.append({"id": q["id"], "type": q["type"], "reply": reply, "correct": contains(reply, q["answers"])})
+                rows.append({"id": q["id"], "type": q["type"], "reply": reply, "correct": is_correct(reply, q["answers"])})
             results[f"{lang}/no-rag"] = {"rows": rows}
         for name in EXTRACTORS:
             md_file = OUT / f"{name}_{lang}.md"

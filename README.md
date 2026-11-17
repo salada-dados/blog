@@ -9,6 +9,7 @@ Each folder is a self-contained project, with its own README and dependencies.
 |---|---|---|
 | [`rag-chunking-gdpr`](rag-chunking-gdpr) | RAG in Practice: Does Chunk Size Change the Answer? ([en](https://saladadedados.com/en/blog/rag-chunking-experiment) · [pt](https://saladadedados.com/pt/blog/rag-chunking-experiment)) | RAG, pgvector, embeddings |
 | [`rag-pdf-bcb`](rag-pdf-bcb) | RAG over PDFs: What Gets Lost Between the Table and the Text ([en](https://saladadedados.com/en/blog/rag-pdf-tables-images) · [pt](https://saladadedados.com/pt/blog/rag-pdf-tables-images)) | RAG, PDF extraction, Docling, vision models |
+| [`rag-pdf-bcb`](rag-pdf-bcb) (`vision.py`) | Why the Chat Reads Your Screenshot and Your RAG Does Not ([en](https://saladadedados.com/en/blog/rag-pdf-page-as-image) · [pt](https://saladadedados.com/pt/blog/rag-pdf-page-as-image)) | RAG, page images, large vision models, cost |
 
 Older series with their own repository:
 
