@@ -93,8 +93,11 @@ REFUSAL = re.compile(r"não (encontrei|foi possível|está)|não (há|consta|apa
 
 def refused(reply: str) -> bool:
     """A refusal often repeats the question ('no data on the US, China, Japan...' or 'does not
-    compare urea and sulfur'), so it must not count as right just because the answer appears in it."""
-    return bool(REFUSAL.search(reply))
+    compare urea and sulfur'), so it must not count as right just because the answer appears in it.
+    Only the first sentence is checked: a right answer may explain itself later ('the headers were
+    not in the text, so I matched the columns...'), and that is not a refusal."""
+    first = re.split(r"(?<=[.!?])\s+", reply.strip(), maxsplit=1)[0]
+    return bool(REFUSAL.search(first))
 
 
 def is_correct(reply: str, answers: list[str]) -> bool:

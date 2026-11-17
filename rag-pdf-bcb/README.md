@@ -1,6 +1,6 @@
 # RAG over PDFs: the Central Bank's Monetary Policy Report
 
-Code for two Salada de Dados articles in the RAG series:
+Code for three Salada de Dados articles in the RAG series:
 
 - Part 2, **"RAG over PDFs: What Gets Lost Between the Table and the Text"**
   ([English](https://saladadedados.com/en/blog/rag-pdf-tables-images) ·
@@ -10,8 +10,12 @@ Code for two Salada de Dados articles in the RAG series:
   ([English](https://saladadedados.com/en/blog/rag-pdf-page-as-image) ·
   [Português](https://saladadedados.com/pt/blog/rag-pdf-page-as-image)): the same search, with the page
   sent as an image to four large models through OpenRouter. Needs an API key and costs a few dollars.
+- Part 4, **"RAG as a Tool: An Agent Found What the Fixed Search Missed"**
+  ([English](https://saladadedados.com/en/blog/rag-mcp-agent) ·
+  [Português](https://saladadedados.com/pt/blog/rag-mcp-agent)): the chunks in Postgres + pgvector,
+  served by an MCP server with two tools, and an agent that decides how to search. Needs an API key.
 
-Both use the Banco Central do Brasil's Monetary Policy Report (September 2026) in English and
+All three use the Banco Central do Brasil's Monetary Policy Report (September 2026) in English and
 Portuguese, and the same 33 questions with known answers: 12 in the text, 11 in tables and 10 only in charts.
 
 ## What's inside
@@ -25,7 +29,10 @@ Portuguese, and the same 33 questions with known answers: 12 in the text, 11 in 
 | `targets.py` | Finds the page of every answer in each language and saves `targets.json` |
 | `evaluate.py` | Splits, embeds and searches each extraction, asks a local LLM, and measures right page, answer in context and right answer |
 | `vision.py` | Part 3: searches the `pypdf` text as above, then asks large models through OpenRouter twice, with the 3 chunks as text and with their pages as images |
-| `results/` | The results reported in the articles (`qwen2.5:3b`, the `qwen2.5:7b` rerun on table questions, extraction times, and `results_vision.json` for part 3) |
+| `index_pg.py` | Part 4: stores the `pypdf` chunks in Postgres + pgvector and creates a read-only role for the MCP server |
+| `mcp_server.py` | Part 4: MCP server (stdio) with two read-only tools, `search_report(query)` and `view_page(page)` |
+| `agent.py` | Part 4: the agent loop, with no framework: lists the server's tools, calls models through OpenRouter, at most 6 steps |
+| `results/` | The results reported in the articles (`qwen2.5:3b`, the `qwen2.5:7b` rerun on table questions, extraction times, `results_vision.json` for part 3 and `results_agent.json` for part 4) |
 
 ## Running part 2
 
@@ -78,6 +85,27 @@ Set a spending limit on your OpenRouter key before the full run. The key is read
 OpenRouter reports for each call are cached in `out/vision_cache.jsonl`, so reruns are free.
 Model names and prices are from November 2026 and change often.
 
+## Running part 4
+
+Needs the `pypdf` extraction from part 3, Docker for Postgres, and an [OpenRouter](https://openrouter.ai) key.
+
+```bash
+docker compose up -d db            # Postgres + pgvector on port 5433
+python index_pg.py                 # chunks into the database, plus the read-only role rpm_reader
+
+export OPENROUTER_API_KEY=...      # Windows PowerShell: $env:OPENROUTER_API_KEY = "..."
+MODELS=google/gemini-4-argon IDS=t01,c01 python agent.py   # a test run: 2 questions, a few cents
+python agent.py                    # three models, both languages: about US$ 3
+TOOL_DOCS=bare python agent.py     # the same with one-line tool descriptions: about US$ 3.30
+```
+
+`agent.py` starts `mcp_server.py` as a subprocess, one per model and language. Every finished
+question is cached in `out/agent_cache.jsonl` with its tool calls, tokens and cost, so reruns and
+regrading are free. `BUDGET` (US$, default 15) stops the run when the reported cost goes past it.
+The server uses MCP SDK 2.x (`MCPServer`); v1 code with `FastMCP` will not run on it.
+
+To use the server from another MCP client, run `DOC_LANG=en python mcp_server.py` over stdio.
+
 ## Notes
 
 - Everything after the extractor is fixed: chunks of up to 400 tokens that never cross a page, the same
@@ -88,12 +116,14 @@ Model names and prices are from November 2026 and change often.
   names the right answer, since large models often refuse by repeating the question. See `REFUSAL`
   in `evaluate.py`. This rule and the "958,000" answer for question x04 were added in `rag-pdf-v2`;
   part 2's English totals were regraded from the saved replies (see the correction note in the article).
+  In `rag-pdf-v3`, the rule looks only at the first sentence, so a right answer that later says
+  "the headers were not in the text" is not taken as a refusal. This changed no result in parts 2 and 3.
 - LLM replies and figure descriptions are cached in `out/`, so reruns are free. Delete `out/` to start over.
 - Docling's figure captions are often missing, so `describe.py` reads them from the PDF text layer,
   just above each figure.
 - Results from a local LLM can change slightly with the hardware and the Ollama version.
 - `pymupdf4llm` depends on PyMuPDF, which is licensed under the AGPL (or a commercial licence).
-- In part 3, the whole page leaves your machine. Fine for a public report; think twice for anything else.
+- In parts 3 and 4, the whole page leaves your machine. Fine for a public report; think twice for anything else.
 - Results hold for this document and these questions. See the articles for the caveats.
 
 ## Data source

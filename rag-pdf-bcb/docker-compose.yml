@@ -6,5 +6,19 @@ services:
     volumes:
       - ollama:/root/.ollama
 
+  # Part 4: the chunks for the MCP server (index_pg.py). Same port as the GDPR experiment;
+  # stop that one first if it is running.
+  db:
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_USER: rag
+      POSTGRES_PASSWORD: rag
+      POSTGRES_DB: rag
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
 volumes:
   ollama:
+  pgdata:
