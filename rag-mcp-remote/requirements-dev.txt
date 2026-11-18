@@ -1,0 +1,5 @@
+# Only on your machine: build_model.py, check_model.py and copy_to_cloud.py.
+-r requirements.txt
+onnx
+sentence-transformers>=5
+uvicorn

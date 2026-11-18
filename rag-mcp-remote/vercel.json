@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "app.py": {
+      "maxDuration": 120,
+      "excludeFiles": "{model/**,build_model.py,check_model.py,copy_to_cloud.py,requirements-dev.txt,README.md}"
+    }
+  }
+}
