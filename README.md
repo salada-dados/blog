@@ -11,6 +11,7 @@ Each folder is a self-contained project, with its own README and dependencies.
 | [`rag-pdf-bcb`](rag-pdf-bcb) | RAG over PDFs: What Gets Lost Between the Table and the Text ([en](https://saladadedados.com/en/blog/rag-pdf-tables-images) · [pt](https://saladadedados.com/pt/blog/rag-pdf-tables-images)) | RAG, PDF extraction, Docling, vision models |
 | [`rag-pdf-bcb`](rag-pdf-bcb) (`vision.py`) | Why the Chat Reads Your Screenshot and Your RAG Does Not ([en](https://saladadedados.com/en/blog/rag-pdf-page-as-image) · [pt](https://saladadedados.com/pt/blog/rag-pdf-page-as-image)) | RAG, page images, large vision models, cost |
 | [`rag-pdf-bcb`](rag-pdf-bcb) (`mcp_server.py`, `agent.py`) | RAG as a Tool: An Agent Found What the Fixed Search Missed ([en](https://saladadedados.com/en/blog/rag-mcp-agent) · [pt](https://saladadedados.com/pt/blog/rag-mcp-agent)) | RAG, MCP, agents, pgvector |
+| [`rag-pdf-bcb`](rag-pdf-bcb) (`mcp_server.py`) | Chat With Your PDF: an MCP Server in Claude Code and Claude Desktop ([en](https://saladadedados.com/en/blog/mcp-claude-desktop-code) · [pt](https://saladadedados.com/pt/blog/mcp-claude-desktop-code)) | MCP, Claude Code, Claude Desktop |
 
 Older series with their own repository:
 

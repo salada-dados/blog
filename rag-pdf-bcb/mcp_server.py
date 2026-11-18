@@ -14,6 +14,7 @@ Over stdio, stdout IS the protocol: never print() here. Logs go to stderr.
 """
 import os
 import sys
+from functools import cache
 from pathlib import Path
 
 import pymupdf
@@ -23,7 +24,6 @@ from mcp.server.mcpserver import Image
 from mcp.server.mcpserver.exceptions import ToolError
 from mcp_types import ToolAnnotations
 from pgvector.psycopg import register_vector
-from sentence_transformers import SentenceTransformer
 
 HERE = Path(__file__).parent
 LANG = os.environ.get("DOC_LANG", "en")
@@ -33,7 +33,15 @@ PDF = {"pt": "data/rpm202609p.pdf", "en": "data/rpm202609i.pdf"}[LANG]
 K = 3
 DPI = 150
 
-model = SentenceTransformer("intfloat/multilingual-e5-small")
+
+
+@cache
+def embedder():
+    """Loaded on the first search, not at startup: importing PyTorch and loading the model takes
+    30 s or more, and MCP clients give a server about that long to start (30 s in Claude Code)."""
+    from sentence_transformers import SentenceTransformer
+    return SentenceTransformer("intfloat/multilingual-e5-small")
+
 doc = pymupdf.open(HERE / PDF)
 conn = psycopg.connect(DSN, autocommit=True)
 register_vector(conn)
@@ -52,20 +60,31 @@ DESCRIPTIONS = {
             "Write the query in the report's language, with the words the report would use. "
             "If the chunks do not answer the question, search again with other words."
         ),
+        # Clients such as Claude Desktop load MCP tools on demand, by searching their descriptions.
+        # Before rag-pdf-v5 this one did not name the report, so a search for "Banco Central relatório
+        # política monetária" found search_report and left view_page out for nine searches.
         "view_page": (
-            f"Return one page of the report (1 to {len(doc)}) as an image. Use it to read a chart or "
-            "a table on a page that search_report found: the values of charts are only in the image."
+            f"Return one page (1 to {len(doc)}) of the Banco Central do Brasil's Monetary Policy Report "
+            "(Relatório de Política Monetária, September 2026) as an image. Use it to read a chart "
+            "(gráfico) or a table (tabela) on a page that search_report found: the values of charts "
+            "are only in the image. Load it together with search_report."
         ),
     },
 }[DOCS]
 
-mcp = MCPServer("monetary-policy-report", instructions="Read-only access to one PDF report.")
+INSTRUCTIONS = (
+    "Read-only access to the Banco Central do Brasil's Monetary Policy Report (Relatório de Política "
+    "Monetária, September 2026). Two tools work together: search_report finds the pages, and view_page "
+    "shows a page as an image. Chart values exist only in the image, so after a search that points to "
+    "a chart or a table, call view_page on that page."
+)
+mcp = MCPServer("monetary-policy-report", instructions=INSTRUCTIONS)
 READ_ONLY = ToolAnnotations(read_only_hint=True, destructive_hint=False, open_world_hint=False)
 
 
 @mcp.tool(description=DESCRIPTIONS["search_report"], annotations=READ_ONLY)
 def search_report(query: str) -> str:
-    vector = model.encode("query: " + query, normalize_embeddings=True)
+    vector = embedder().encode("query: " + query, normalize_embeddings=True)
     rows = conn.execute(
         "SELECT page, content FROM rpm_chunks WHERE lang = %s ORDER BY embedding <=> %s LIMIT %s",
         (LANG, vector, K),

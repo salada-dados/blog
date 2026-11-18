@@ -1,6 +1,6 @@
 # RAG over PDFs: the Central Bank's Monetary Policy Report
 
-Code for three Salada de Dados articles in the RAG series:
+Code for three Salada de Dados articles in the RAG series, and a companion post:
 
 - Part 2, **"RAG over PDFs: What Gets Lost Between the Table and the Text"**
   ([English](https://saladadedados.com/en/blog/rag-pdf-tables-images) ·
@@ -14,6 +14,10 @@ Code for three Salada de Dados articles in the RAG series:
   ([English](https://saladadedados.com/en/blog/rag-mcp-agent) ·
   [Português](https://saladadedados.com/pt/blog/rag-mcp-agent)): the chunks in Postgres + pgvector,
   served by an MCP server with two tools, and an agent that decides how to search. Needs an API key.
+- Companion post, **"Chat With Your PDF: an MCP Server in Claude Code and Claude Desktop"**
+  ([English](https://saladadedados.com/en/blog/mcp-claude-desktop-code) ·
+  [Português](https://saladadedados.com/pt/blog/mcp-claude-desktop-code)): the same MCP server used
+  from Claude Code and Claude Desktop. No API key; usage counts against your Claude plan.
 
 All three use the Banco Central do Brasil's Monetary Policy Report (September 2026) in English and
 Portuguese, and the same 33 questions with known answers: 12 in the text, 11 in tables and 10 only in charts.
@@ -111,7 +115,19 @@ question is cached in `out/agent_cache.jsonl` with its tool calls, tokens and co
 regrading are free. `BUDGET` (US$, default 15) stops the run when the reported cost goes past it.
 The server uses MCP SDK 2.x (`MCPServer`); v1 code with `FastMCP` will not run on it.
 
-To use the server from another MCP client, run `DOC_LANG=en python mcp_server.py` over stdio.
+To use the server from Claude Code, Claude Desktop or another MCP client, see the companion post. In short:
+
+```bash
+claude mcp add --env DOC_LANG=en --scope project --transport stdio relatorio-bc --   /absolute/path/to/.venv/bin/python /absolute/path/to/rag-pdf-bcb/mcp_server.py
+```
+
+Use the venv's Python and absolute paths: the client starts the server as a separate process, without
+your terminal's venv. Put `--env` before another option, not right before the server's name.
+
+Changes in `rag-pdf-v5`, after testing in those clients: the embedding model loads on the first search
+instead of at startup (startup went from 28-40 s, against Claude Code's 30 s limit, to 2-3 s), and the
+`view_page` description and the server's `instructions` now name the report, so clients that load tools
+on demand find both tools together. Part 4's agent ran with `rag-pdf-v4`.
 
 ## Notes
 
