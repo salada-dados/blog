@@ -1,0 +1,2350 @@
+{
+ "pt/anthropic/claude-sonnet-5.5": {
+  "t01": {
+   "id": "t01",
+   "type": "table",
+   "query": "Agropecuária cresceu no segundo trimestre de 2026 ante o trimestre anterior",
+   "pages": [
+    16,
+    17,
+    56
+   ],
+   "found": true,
+   "rewrite_cost": 0.000678
+  },
+  "t02": {
+   "id": "t02",
+   "type": "table",
+   "query": "Construção civil registrou crescimento anual em 2022",
+   "pages": [
+    16,
+    18,
+    19
+   ],
+   "found": true,
+   "rewrite_cost": 0.000488
+  },
+  "t03": {
+   "id": "t03",
+   "type": "table",
+   "query": "Produção de veículos leves em agosto de 2026 variação",
+   "pages": [
+    1,
+    20,
+    39
+   ],
+   "found": true,
+   "rewrite_cost": 0.00288
+  },
+  "t04": {
+   "id": "t04",
+   "type": "table",
+   "query": "Expedição de papelão ondulado em maio de 2026 variação",
+   "pages": [
+    20,
+    39,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.000544
+  },
+  "t05": {
+   "id": "t05",
+   "type": "table",
+   "query": "Despesas discricionárias do Governo Central acumuladas até julho de 2026",
+   "pages": [
+    28,
+    29,
+    30
+   ],
+   "found": true,
+   "rewrite_cost": 0.000614
+  },
+  "t06": {
+   "id": "t06",
+   "type": "table",
+   "query": "Projeção de despesa total do Governo Central para 2026",
+   "pages": [
+    29,
+    30,
+    57
+   ],
+   "found": true,
+   "rewrite_cost": 0.000542
+  },
+  "t07": {
+   "id": "t07",
+   "type": "table",
+   "query": "Importações brasileiras acumuladas de janeiro a julho de 2024 em US$ bilhões",
+   "pages": [
+    32,
+    66
+   ],
+   "found": false,
+   "rewrite_cost": 0.000684
+  },
+  "t08": {
+   "id": "t08",
+   "type": "table",
+   "query": "IPCA de julho de 2026 registrou variação mensal de",
+   "pages": [
+    20,
+    34,
+    40
+   ],
+   "found": false,
+   "rewrite_cost": 0.002098
+  },
+  "t09": {
+   "id": "t09",
+   "type": "table",
+   "query": "Projeção do IPCA acumulado em doze meses para novembro de 2026",
+   "pages": [
+    39,
+    40,
+    85
+   ],
+   "found": false,
+   "rewrite_cost": 0.000594
+  },
+  "t10": {
+   "id": "t10",
+   "type": "table",
+   "query": "Projeção IPCA Livres quarto trimestre 2027 cenário de referência",
+   "pages": [
+    39,
+    85
+   ],
+   "found": true,
+   "rewrite_cost": 0.000622
+  },
+  "t11": {
+   "id": "t11",
+   "type": "table",
+   "query": "Probabilidade de a inflação superar o limite superior da meta em 2027",
+   "pages": [
+    39,
+    85
+   ],
+   "found": true,
+   "rewrite_cost": 0.000606
+  },
+  "c01": {
+   "id": "c01",
+   "type": "chart",
+   "query": "",
+   "pages": [
+    1,
+    27,
+    76
+   ],
+   "found": false,
+   "rewrite_cost": 0.003358
+  },
+  "c02": {
+   "id": "c02",
+   "type": "chart",
+   "query": "Índice de inc",
+   "pages": [
+    6,
+    16,
+    35
+   ],
+   "found": false,
+   "rewrite_cost": 0.003348
+  },
+  "c03": {
+   "id": "c03",
+   "type": "chart",
+   "query": "Menor nível da dívida líquida do setor público (DLSP) em projeções, % do PIB",
+   "pages": [
+    3,
+    30,
+    39
+   ],
+   "found": false,
+   "rewrite_cost": 0.000678
+  },
+  "c04": {
+   "id": "c04",
+   "type": "chart",
+   "query": "Taxa de desocupação atingiu o maior patamar da série histórica em",
+   "pages": [
+    16,
+    21,
+    22
+   ],
+   "found": true,
+   "rewrite_cost": 0.00058
+  },
+  "c05": {
+   "id": "c05",
+   "type": "chart",
+   "query": "IPA-DI acumulado em doze meses próximo de 50%",
+   "pages": [
+    16,
+    39,
+    71
+   ],
+   "found": false,
+   "rewrite_cost": 0.002838
+  },
+  "c06": {
+   "id": "c06",
+   "type": "chart",
+   "query": "Alta de preços da ureia e do enxofre nos EUA em 2026",
+   "pages": [
+    15,
+    67,
+    69
+   ],
+   "found": true,
+   "rewrite_cost": 0.000588
+  },
+  "c07": {
+   "id": "c07",
+   "type": "chart",
+   "query": "Exportações brasileiras média móvel trimestral meados de 2026",
+   "pages": [
+    16,
+    47,
+    66
+   ],
+   "found": false,
+   "rewrite_cost": 0.00057
+  },
+  "c08": {
+   "id": "c08",
+   "type": "chart",
+   "query": "Taxa de desligamento voluntário atingiu menor valor em",
+   "pages": [
+    22,
+    84,
+    88
+   ],
+   "found": true,
+   "rewrite_cost": 0.000554
+  },
+  "c09": {
+   "id": "c09",
+   "type": "chart",
+   "query": "Geração de empregos formais atingiu recorde histórico no ano",
+   "pages": [
+    16,
+    22,
+    23
+   ],
+   "found": true,
+   "rewrite_cost": 0.000546
+  },
+  "c10": {
+   "id": "c10",
+   "type": "chart",
+   "query": "País emergente com a maior inflação ao consumidor (IPC) no gráfico",
+   "pages": [
+    16,
+    36,
+    56
+   ],
+   "found": false,
+   "rewrite_cost": 0.00062
+  },
+  "x01": {
+   "id": "x01",
+   "type": "text",
+   "query": "PIB cresce na comparação com o segundo trimestre de 2025",
+   "pages": [
+    16,
+    18,
+    19
+   ],
+   "found": true,
+   "rewrite_cost": 0.000562
+  },
+  "x02": {
+   "id": "x02",
+   "type": "text",
+   "query": "IBC-Br registrou variação mensal em julho de 2026",
+   "pages": [
+    20,
+    40
+   ],
+   "found": true,
+   "rewrite_cost": 0.00052
+  },
+  "x03": {
+   "id": "x03",
+   "type": "text",
+   "query": "Taxa de participação na força de trabalho no trimestre encerrado em julho",
+   "pages": [
+    22,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.00059
+  },
+  "x04": {
+   "id": "x04",
+   "type": "text",
+   "query": "Novo Caged saldo de empregos formais acumulado janeiro a julho",
+   "pages": [
+    20,
+    22,
+    23
+   ],
+   "found": true,
+   "rewrite_cost": 0.000596
+  },
+  "x05": {
+   "id": "x05",
+   "type": "text",
+   "query": "Rendimento médio real do trabalho recuou no trimestre encerrado em julho",
+   "pages": [
+    22,
+    23
+   ],
+   "found": true,
+   "rewrite_cost": 0.000614
+  },
+  "x06": {
+   "id": "x06",
+   "type": "text",
+   "query": "Bloqueio de gastos reduzido no terceiro bimestre para R$",
+   "pages": [
+    16,
+    29,
+    30
+   ],
+   "found": true,
+   "rewrite_cost": 0.000608
+  },
+  "x07": {
+   "id": "x07",
+   "type": "text",
+   "query": "Exportações cresceram no acumulado de janeiro a agosto, em relação ao mesmo período do ano anterior",
+   "pages": [
+    3,
+    16,
+    31
+   ],
+   "found": true,
+   "rewrite_cost": 0.000708
+  },
+  "x08": {
+   "id": "x08",
+   "type": "text",
+   "query": "Média dos núcleos de inflação acumulada em doze meses em agosto",
+   "pages": [
+    12,
+    34,
+    36
+   ],
+   "found": true,
+   "rewrite_cost": 0.000572
+  },
+  "x09": {
+   "id": "x09",
+   "type": "text",
+   "query": "Preço médio da gasolina C nos postos subiu para R$",
+   "pages": [
+    70
+   ],
+   "found": false,
+   "rewrite_cost": 0.000546
+  },
+  "x10": {
+   "id": "x10",
+   "type": "text",
+   "query": "projeção do IPCA de setembro revisada para",
+   "pages": [
+    40,
+    79,
+    80
+   ],
+   "found": true,
+   "rewrite_cost": 0.000476
+  },
+  "x11": {
+   "id": "x11",
+   "type": "text",
+   "query": "Projeção de inflação para o primeiro trimestre de 2028 no horizonte relevante",
+   "pages": [
+    39,
+    85,
+    86
+   ],
+   "found": true,
+   "rewrite_cost": 0.00065
+  },
+  "x12": {
+   "id": "x12",
+   "type": "text",
+   "query": "Expectativa de inflação para 2028 aumentou, passando de",
+   "pages": [
+    14,
+    39
+   ],
+   "found": false,
+   "rewrite_cost": 0.000552
+  }
+ },
+ "pt/openai/gpt-6.1-sol": {
+  "t01": {
+   "id": "t01",
+   "type": "table",
+   "query": "Crescimento trimestral da agropecuária no segundo trimestre de 2026",
+   "pages": [
+    16,
+    17,
+    57
+   ],
+   "found": true,
+   "rewrite_cost": 0.001054
+  },
+  "t02": {
+   "id": "t02",
+   "type": "table",
+   "query": "Variação anual da construção civil em 2022",
+   "pages": [
+    18,
+    19,
+    65
+   ],
+   "found": false,
+   "rewrite_cost": 0.00224
+  },
+  "t03": {
+   "id": "t03",
+   "type": "table",
+   "query": "Variação da produção de veículos leves em agosto de 2026",
+   "pages": [
+    12,
+    20,
+    67
+   ],
+   "found": true,
+   "rewrite_cost": 0.001006
+  },
+  "t04": {
+   "id": "t04",
+   "type": "table",
+   "query": "Variação da expedição de papelão ondulado em maio de 2026",
+   "pages": [
+    34,
+    39,
+    66
+   ],
+   "found": false,
+   "rewrite_cost": 0.001104
+  },
+  "t05": {
+   "id": "t05",
+   "type": "table",
+   "query": "Despesas discricionárias do Governo Central acumuladas até julho de 2026",
+   "pages": [
+    28,
+    29,
+    30
+   ],
+   "found": true,
+   "rewrite_cost": 0.001158
+  },
+  "t06": {
+   "id": "t06",
+   "type": "table",
+   "query": "Despesa total do Governo Central projetada para 2026",
+   "pages": [
+    29,
+    30,
+    57
+   ],
+   "found": true,
+   "rewrite_cost": 0.001326
+  },
+  "t07": {
+   "id": "t07",
+   "type": "table",
+   "query": "Importações acumuladas de janeiro a julho de 2024, US$ bilhões",
+   "pages": [
+    31,
+    33,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.001136
+  },
+  "t08": {
+   "id": "t08",
+   "type": "table",
+   "query": "Variação mensal do IPCA em julho de 2026",
+   "pages": [
+    34,
+    40,
+    80
+   ],
+   "found": true,
+   "rewrite_cost": 0.001498
+  },
+  "t09": {
+   "id": "t09",
+   "type": "table",
+   "query": "Projeção do IPCA em doze meses para novembro de 2026",
+   "pages": [
+    39,
+    40,
+    64
+   ],
+   "found": false,
+   "rewrite_cost": 0.001426
+  },
+  "t10": {
+   "id": "t10",
+   "type": "table",
+   "query": "",
+   "pages": [
+    1,
+    27,
+    76
+   ],
+   "found": false,
+   "rewrite_cost": 0.00321
+  },
+  "t11": {
+   "id": "t11",
+   "type": "table",
+   "query": "Probabilidade de a inflação superar o limite superior em 2027",
+   "pages": [
+    14,
+    39,
+    85
+   ],
+   "found": true,
+   "rewrite_cost": 0.000972
+  },
+  "c01": {
+   "id": "c01",
+   "type": "chart",
+   "query": "Menor crescimento do PIB no segundo trimestre de 2026",
+   "pages": [
+    16,
+    17,
+    56
+   ],
+   "found": false,
+   "rewrite_cost": 0.001152
+  },
+  "c02": {
+   "id": "c02",
+   "type": "chart",
+   "query": "Ano do pico da incerteza de política comercial dos EUA",
+   "pages": [
+    9,
+    11,
+    87
+   ],
+   "found": false,
+   "rewrite_cost": 0.001494
+  },
+  "c03": {
+   "id": "c03",
+   "type": "chart",
+   "query": "Ano do mínimo projetado da dívida líquida do",
+   "pages": [
+    30,
+    39
+   ],
+   "found": false,
+   "rewrite_cost": 0.003216
+  },
+  "c04": {
+   "id": "c04",
+   "type": "chart",
+   "query": "Taxa de desocupação atingiu o maior nível desde 2004",
+   "pages": [
+    21,
+    22
+   ],
+   "found": true,
+   "rewrite_cost": 0.001984
+  },
+  "c05": {
+   "id": "c05",
+   "type": "chart",
+   "query": "A variação em doze meses do IPA-DI aproximou-se de 50%.",
+   "pages": [
+    3,
+    27,
+    75
+   ],
+   "found": false,
+   "rewrite_cost": 0.001144
+  },
+  "c06": {
+   "id": "c06",
+   "type": "chart",
+   "query": "Variação dos preços de ureia e enxofre nos EUA, 202",
+   "pages": [
+    15,
+    56,
+    69
+   ],
+   "found": true,
+   "rewrite_cost": 0.00321
+  },
+  "c07": {
+   "id": "c07",
+   "type": "chart",
+   "query": "Exportações brasileiras em média móvel trimestral em meados de 2026",
+   "pages": [
+    16,
+    47,
+    66
+   ],
+   "found": false,
+   "rewrite_cost": 0.001118
+  },
+  "c08": {
+   "id": "c08",
+   "type": "chart",
+   "query": "Ano da menor taxa de desligamento voluntário no gráfico",
+   "pages": [
+    22,
+    39,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.002518
+  },
+  "c09": {
+   "id": "c09",
+   "type": "chart",
+   "query": "Ano de maior geração de emprego formal no gráfico",
+   "pages": [
+    16,
+    22
+   ],
+   "found": true,
+   "rewrite_cost": 0.000844
+  },
+  "c10": {
+   "id": "c10",
+   "type": "chart",
+   "query": "Maior inflação ao consumidor entre os países emergentes",
+   "pages": [
+    12,
+    14,
+    74
+   ],
+   "found": true,
+   "rewrite_cost": 0.001372
+  },
+  "x01": {
+   "id": "x01",
+   "type": "text",
+   "query": "Crescimento interanual do PIB no segundo trimestre de 2026",
+   "pages": [
+    16,
+    17,
+    56
+   ],
+   "found": true,
+   "rewrite_cost": 0.000998
+  },
+  "x02": {
+   "id": "x02",
+   "type": "text",
+   "query": "Variação do IBC-Br em julho de 2026",
+   "pages": [
+    20,
+    40
+   ],
+   "found": true,
+   "rewrite_cost": 0.00091
+  },
+  "x03": {
+   "id": "x03",
+   "type": "text",
+   "query": "Participação na força de trabalho no trimestre encerrado em julho",
+   "pages": [
+    22,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.001806
+  },
+  "x04": {
+   "id": "x04",
+   "type": "text",
+   "query": "Saldo acumulado de empregos formais até julho pelo Novo Caged",
+   "pages": [
+    22,
+    23,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.001932
+  },
+  "x05": {
+   "id": "x05",
+   "type": "text",
+   "query": "Rendimento médio real do trabalho recuou no trimestre até julho",
+   "pages": [
+    22,
+    23
+   ],
+   "found": true,
+   "rewrite_cost": 0.001916
+  },
+  "x06": {
+   "id": "x06",
+   "type": "text",
+   "query": "Valor do bloqueio de gastos reduzido no terceiro bimestre",
+   "pages": [
+    29,
+    30,
+    85
+   ],
+   "found": true,
+   "rewrite_cost": 0.00214
+  },
+  "x07": {
+   "id": "x07",
+   "type": "text",
+   "query": "Crescimento das exportações no acumulado do ano até agosto",
+   "pages": [
+    16,
+    31,
+    56
+   ],
+   "found": true,
+   "rewrite_cost": 0.00135
+  },
+  "x08": {
+   "id": "x08",
+   "type": "text",
+   "query": "Média dos núcleos de inflação em 12 meses em agosto",
+   "pages": [
+    12,
+    34,
+    36
+   ],
+   "found": true,
+   "rewrite_cost": 0.001996
+  },
+  "x09": {
+   "id": "x09",
+   "type": "text",
+   "query": "Preço médio da gasolina C após o choque do petróleo",
+   "pages": [
+    69,
+    70,
+    72
+   ],
+   "found": true,
+   "rewrite_cost": 0.002368
+  },
+  "x10": {
+   "id": "x10",
+   "type": "text",
+   "query": "Projeção revisada do IPCA de setembro",
+   "pages": [
+    40,
+    79,
+    80
+   ],
+   "found": true,
+   "rewrite_cost": 0.00185
+  },
+  "x11": {
+   "id": "x11",
+   "type": "text",
+   "query": "Projeção de inflação para o primeiro trimestre de 2028",
+   "pages": [
+    39,
+    40,
+    85
+   ],
+   "found": true,
+   "rewrite_cost": 0.000932
+  },
+  "x12": {
+   "id": "x12",
+   "type": "text",
+   "query": "A expectativa de inflação para 2028 subiu para",
+   "pages": [
+    14,
+    39,
+    78
+   ],
+   "found": false,
+   "rewrite_cost": 0.001796
+  }
+ },
+ "pt/google/gemini-4-argon": {
+  "t01": {
+   "id": "t01",
+   "type": "table",
+   "query": "Agropecuária cresceu no segundo trimestre de 2026 ante trimestre anterior",
+   "pages": [
+    16,
+    17,
+    55
+   ],
+   "found": true,
+   "rewrite_cost": 0.000468
+  },
+  "t02": {
+   "id": "t02",
+   "type": "table",
+   "query": "variação anual da construção civil em 2022",
+   "pages": [
+    18,
+    19,
+    65
+   ],
+   "found": false,
+   "rewrite_cost": 0.000404
+  },
+  "t03": {
+   "id": "t03",
+   "type": "table",
+   "query": "variação da produção de veículos leves em agosto de 2026",
+   "pages": [
+    12,
+    20,
+    39
+   ],
+   "found": true,
+   "rewrite_cost": 0.00044
+  },
+  "t04": {
+   "id": "t04",
+   "type": "table",
+   "query": "variação da expedição de papelão ondulado em maio de 2026",
+   "pages": [
+    34,
+    39,
+    66
+   ],
+   "found": false,
+   "rewrite_cost": 0.000488
+  },
+  "t05": {
+   "id": "t05",
+   "type": "table",
+   "query": "despesas discricionárias do Governo Central no acumulado até julho 2026",
+   "pages": [
+    28,
+    29,
+    30
+   ],
+   "found": true,
+   "rewrite_cost": 0.000484
+  },
+  "t06": {
+   "id": "t06",
+   "type": "table",
+   "query": "Projeção da despesa total do Governo Central em 2026 QPC",
+   "pages": [
+    29,
+    30
+   ],
+   "found": true,
+   "rewrite_cost": 0.000496
+  },
+  "t07": {
+   "id": "t07",
+   "type": "table",
+   "query": "As importações somaram bilhões de dólares até julho de 2024",
+   "pages": [
+    31,
+    33,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.00046
+  },
+  "t08": {
+   "id": "t08",
+   "type": "table",
+   "query": "O IPCA observado em julho de 2026 foi de",
+   "pages": [
+    34,
+    39,
+    40
+   ],
+   "found": false,
+   "rewrite_cost": 0.000424
+  },
+  "t09": {
+   "id": "t09",
+   "type": "table",
+   "query": "projeção de curto prazo do IPCA em novembro de 2026",
+   "pages": [
+    40,
+    80
+   ],
+   "found": true,
+   "rewrite_cost": 0.000472
+  },
+  "t10": {
+   "id": "t10",
+   "type": "table",
+   "query": "Projeção da inflação de preços livres no cenário de referência",
+   "pages": [
+    79,
+    85
+   ],
+   "found": true,
+   "rewrite_cost": 0.000436
+  },
+  "t11": {
+   "id": "t11",
+   "type": "table",
+   "query": "probabilidade de a inflação ultrapassar o limite superior em 2027",
+   "pages": [
+    14,
+    39,
+    85
+   ],
+   "found": true,
+   "rewrite_cost": 0.000478
+  },
+  "c01": {
+   "id": "c01",
+   "type": "chart",
+   "query": "crescimento do PIB no segundo trimestre de 2026 economias avançadas China",
+   "pages": [
+    16,
+    17,
+    18
+   ],
+   "found": false,
+   "rewrite_cost": 0.000508
+  },
+  "c02": {
+   "id": "c02",
+   "type": "chart",
+   "query": "Índice de incerteza da política comercial dos EUA TPU pico",
+   "pages": [
+    1,
+    16,
+    87
+   ],
+   "found": false,
+   "rewrite_cost": 0.000434
+  },
+  "c03": {
+   "id": "c03",
+   "type": "chart",
+   "query": "dívida líquida do setor público DLSP atingiu o menor nível",
+   "pages": [
+    30,
+    31,
+    55
+   ],
+   "found": true,
+   "rewrite_cost": 0.000462
+  },
+  "c04": {
+   "id": "c04",
+   "type": "chart",
+   "query": "taxa de desocupação atingiu o maior valor desde 2004",
+   "pages": [
+    21,
+    22
+   ],
+   "found": true,
+   "rewrite_cost": 0.00046
+  },
+  "c05": {
+   "id": "c05",
+   "type": "chart",
+   "query": "Variação acumulada em doze meses do IPA-DI próxima de 50%",
+   "pages": [
+    16,
+    39,
+    62
+   ],
+   "found": false,
+   "rewrite_cost": 0.000484
+  },
+  "c06": {
+   "id": "c06",
+   "type": "chart",
+   "query": "preços da ureia e enxofre nos EUA em 2026",
+   "pages": [
+    15,
+    32,
+    69
+   ],
+   "found": true,
+   "rewrite_cost": 0.000476
+  },
+  "c07": {
+   "id": "c07",
+   "type": "chart",
+   "query": "exportações brasileiras média móvel de três meses em 2026",
+   "pages": [
+    16,
+    32,
+    66
+   ],
+   "found": false,
+   "rewrite_cost": 0.000456
+  },
+  "c08": {
+   "id": "c08",
+   "type": "chart",
+   "query": "taxa de desligamento voluntário atingiu o menor valor no gráfico",
+   "pages": [
+    22,
+    24,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.00042
+  },
+  "c09": {
+   "id": "c09",
+   "type": "chart",
+   "query": "geração de emprego formal atingiu o maior valor no gráfico",
+   "pages": [
+    18,
+    22
+   ],
+   "found": true,
+   "rewrite_cost": 0.000406
+  },
+  "c10": {
+   "id": "c10",
+   "type": "chart",
+   "query": "Gráfico de inflação ao consumidor IPC em economias emergentes",
+   "pages": [
+    56,
+    59,
+    73
+   ],
+   "found": false,
+   "rewrite_cost": 0.000426
+  },
+  "x01": {
+   "id": "x01",
+   "type": "text",
+   "query": "crescimento interanual do PIB no segundo trimestre de 2026",
+   "pages": [
+    16,
+    18,
+    56
+   ],
+   "found": true,
+   "rewrite_cost": 0.000464
+  },
+  "x02": {
+   "id": "x02",
+   "type": "text",
+   "query": "O IBC-Br variou em julho de 2026",
+   "pages": [
+    20,
+    39,
+    40
+   ],
+   "found": true,
+   "rewrite_cost": 0.000426
+  },
+  "x03": {
+   "id": "x03",
+   "type": "text",
+   "query": "taxa de participação na força de trabalho no trimestre julho",
+   "pages": [
+    12,
+    22
+   ],
+   "found": true,
+   "rewrite_cost": 0.000388
+  },
+  "x04": {
+   "id": "x04",
+   "type": "text",
+   "query": "Saldo de empregos formais do Novo Caged até julho.",
+   "pages": [
+    20,
+    22,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.000424
+  },
+  "x05": {
+   "id": "x05",
+   "type": "text",
+   "query": "O rendimento médio real recuou no trimestre encerrado em julho",
+   "pages": [
+    22,
+    23,
+    24
+   ],
+   "found": true,
+   "rewrite_cost": 0.000418
+  },
+  "x06": {
+   "id": "x06",
+   "type": "text",
+   "query": "redução do bloqueio de gastos na avaliação do terceiro bimestre",
+   "pages": [
+    19,
+    30,
+    85
+   ],
+   "found": false,
+   "rewrite_cost": 0.000422
+  },
+  "x07": {
+   "id": "x07",
+   "type": "text",
+   "query": "Crescimento das exportações no acumulado do ano até agosto",
+   "pages": [
+    16,
+    31,
+    56
+   ],
+   "found": true,
+   "rewrite_cost": 0.0004
+  },
+  "x08": {
+   "id": "x08",
+   "type": "text",
+   "query": "Média dos núcleos de inflação acumulada em doze meses agosto",
+   "pages": [
+    12,
+    34,
+    36
+   ],
+   "found": true,
+   "rewrite_cost": 0.000426
+  },
+  "x09": {
+   "id": "x09",
+   "type": "text",
+   "query": "preço médio da gasolina C nos postos após o choque",
+   "pages": [
+    69,
+    70,
+    72
+   ],
+   "found": true,
+   "rewrite_cost": 0.000412
+  },
+  "x10": {
+   "id": "x10",
+   "type": "text",
+   "query": "A projeção de inflação do IPCA para setembro foi revisada.",
+   "pages": [
+    1,
+    40,
+    80
+   ],
+   "found": true,
+   "rewrite_cost": 0.000432
+  },
+  "x11": {
+   "id": "x11",
+   "type": "text",
+   "query": "Projeção de inflação para o primeiro trimestre de 2028",
+   "pages": [
+    39,
+    40,
+    85
+   ],
+   "found": true,
+   "rewrite_cost": 0.00046
+  },
+  "x12": {
+   "id": "x12",
+   "type": "text",
+   "query": "A expectativa de inflação para 2028 subiu para",
+   "pages": [
+    14,
+    39,
+    78
+   ],
+   "found": false,
+   "rewrite_cost": 0.000434
+  }
+ },
+ "en/anthropic/claude-sonnet-5.5": {
+  "t01": {
+   "id": "t01",
+   "type": "table",
+   "query": "Agriculture value added grew quarter-on-quarter in the second quarter of 2026",
+   "pages": [
+    16,
+    17
+   ],
+   "found": true,
+   "rewrite_cost": 0.00057
+  },
+  "t02": {
+   "id": "t02",
+   "type": "table",
+   "query": "construction sector value added grew annually in 2022",
+   "pages": [
+    18,
+    19,
+    60
+   ],
+   "found": false,
+   "rewrite_cost": 0.0004
+  },
+  "t03": {
+   "id": "t03",
+   "type": "table",
+   "query": "light vehicle production in August fell month over month",
+   "pages": [
+    20,
+    35,
+    36
+   ],
+   "found": true,
+   "rewrite_cost": 0.000394
+  },
+  "t04": {
+   "id": "t04",
+   "type": "table",
+   "query": "corrugated cardboard shipments change May 2026",
+   "pages": [
+    9,
+    39,
+    74
+   ],
+   "found": false,
+   "rewrite_cost": 0.000434
+  },
+  "t05": {
+   "id": "t05",
+   "type": "table",
+   "query": "Central Government discretionary spending, 12 months to July 2026",
+   "pages": [
+    28,
+    29
+   ],
+   "found": true,
+   "rewrite_cost": 0.000484
+  },
+  "t06": {
+   "id": "t06",
+   "type": "table",
+   "query": "Central Government total expenditure projected for 2026",
+   "pages": [
+    28,
+    30
+   ],
+   "found": false,
+   "rewrite_cost": 0.000446
+  },
+  "t07": {
+   "id": "t07",
+   "type": "table",
+   "query": "Brazil imports January-July 2024 US$ billion",
+   "pages": [
+    31,
+    32,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.000456
+  },
+  "t08": {
+   "id": "t08",
+   "type": "table",
+   "query": "IPCA inflation rose in July 2026, monthly change",
+   "pages": [
+    34,
+    36,
+    83
+   ],
+   "found": false,
+   "rewrite_cost": 0.00045
+  },
+  "t09": {
+   "id": "t09",
+   "type": "table",
+   "query": "12-month IPCA inflation projection for November 2026",
+   "pages": [
+    39,
+    81,
+    83
+   ],
+   "found": false,
+   "rewrite_cost": 0.000446
+  },
+  "t10": {
+   "id": "t10",
+   "type": "table",
+   "query": "IPCA market-set prices projection 2027 Q4 reference scenario",
+   "pages": [
+    77,
+    79,
+    83
+   ],
+   "found": true,
+   "rewrite_cost": 0.000552
+  },
+  "t11": {
+   "id": "t11",
+   "type": "table",
+   "query": "probability of inflation above upper band of tolerance range in 2027",
+   "pages": [
+    13,
+    83
+   ],
+   "found": true,
+   "rewrite_cost": 0.000498
+  },
+  "c01": {
+   "id": "c01",
+   "type": "chart",
+   "query": "GDP growth second quarter 2026 US China Japan euro area UK",
+   "pages": [
+    10,
+    12,
+    13
+   ],
+   "found": true,
+   "rewrite_cost": 0.000548
+  },
+  "c02": {
+   "id": "c02",
+   "type": "chart",
+   "query": "US trade policy uncertainty index TPU peaked in",
+   "pages": [
+    10,
+    41,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.00048
+  },
+  "c03": {
+   "id": "c03",
+   "type": "chart",
+   "query": "Public sector net debt DLSP projected lowest level year",
+   "pages": [
+    27,
+    30,
+    57
+   ],
+   "found": true,
+   "rewrite_cost": 0.000474
+  },
+  "c04": {
+   "id": "c04",
+   "type": "chart",
+   "query": "unemployment rate peaked at its highest level since 2004",
+   "pages": [
+    21,
+    61,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.00046
+  },
+  "c05": {
+   "id": "c05",
+   "type": "chart",
+   "query": "IPA-DI 12-month inflation approached 50%",
+   "pages": [
+    36,
+    62,
+    70
+   ],
+   "found": true,
+   "rewrite_cost": 0.00046
+  },
+  "c06": {
+   "id": "c06",
+   "type": "chart",
+   "query": "urea and sulfur price increases in 2026 fertilizer",
+   "pages": [
+    15,
+    68,
+    70
+   ],
+   "found": true,
+   "rewrite_cost": 0.000474
+  },
+  "c07": {
+   "id": "c07",
+   "type": "chart",
+   "query": "Brazil exports three-month moving average June 2026",
+   "pages": [
+    31,
+    32,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.000448
+  },
+  "c08": {
+   "id": "c08",
+   "type": "chart",
+   "query": "voluntary quit rate lowest level in the chart",
+   "pages": [
+    21,
+    23,
+    82
+   ],
+   "found": false,
+   "rewrite_cost": 0.00044
+  },
+  "c09": {
+   "id": "c09",
+   "type": "chart",
+   "query": "Formal job creation peaked in year",
+   "pages": [
+    22,
+    23,
+    75
+   ],
+   "found": true,
+   "rewrite_cost": 0.00038
+  },
+  "c10": {
+   "id": "c10",
+   "type": "chart",
+   "query": "Emerging markets consumer price inflation highest in Turkey",
+   "pages": [
+    12,
+    14,
+    70
+   ],
+   "found": true,
+   "rewrite_cost": 0.00049
+  },
+  "x01": {
+   "id": "x01",
+   "type": "text",
+   "query": "GDP grew year over year in the second quarter of 2026",
+   "pages": [
+    11,
+    16,
+    18
+   ],
+   "found": true,
+   "rewrite_cost": 0.000454
+  },
+  "x02": {
+   "id": "x02",
+   "type": "text",
+   "query": "IBC-Br economic activity index rose in July 2026",
+   "pages": [
+    18,
+    19,
+    20
+   ],
+   "found": true,
+   "rewrite_cost": 0.000444
+  },
+  "x03": {
+   "id": "x03",
+   "type": "text",
+   "query": "Labor force participation rate in the second quarter",
+   "pages": [
+    21,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.00041
+  },
+  "x04": {
+   "id": "x04",
+   "type": "text",
+   "query": "Novo Caged net formal job creation in 12 months to July",
+   "pages": [
+    22,
+    23,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.000466
+  },
+  "x05": {
+   "id": "x05",
+   "type": "text",
+   "query": "real labor income declined quarter ending July",
+   "pages": [
+    22,
+    23,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.00039
+  },
+  "x06": {
+   "id": "x06",
+   "type": "text",
+   "query": "spending freeze reduced third bimonthly assessment report",
+   "pages": [
+    17,
+    55,
+    72
+   ],
+   "found": false,
+   "rewrite_cost": 0.000462
+  },
+  "x07": {
+   "id": "x07",
+   "type": "text",
+   "query": "Exports grew year-on-year in August",
+   "pages": [
+    16,
+    31,
+    56
+   ],
+   "found": true,
+   "rewrite_cost": 0.000376
+  },
+  "x08": {
+   "id": "x08",
+   "type": "text",
+   "query": "Core inflation measures 12-month average in August",
+   "pages": [
+    12,
+    34,
+    36
+   ],
+   "found": true,
+   "rewrite_cost": 0.000408
+  },
+  "x09": {
+   "id": "x09",
+   "type": "text",
+   "query": "average price of gasoline C at the pump rose to R$",
+   "pages": [
+    68,
+    69,
+    70
+   ],
+   "found": true,
+   "rewrite_cost": 0.000452
+  },
+  "x10": {
+   "id": "x10",
+   "type": "text",
+   "query": "September IPCA inflation projection revised to",
+   "pages": [
+    77,
+    78,
+    83
+   ],
+   "found": true,
+   "rewrite_cost": 0.000388
+  },
+  "x11": {
+   "id": "x11",
+   "type": "text",
+   "query": "inflation projection first quarter of 2028",
+   "pages": [
+    7,
+    83
+   ],
+   "found": true,
+   "rewrite_cost": 0.000414
+  },
+  "x12": {
+   "id": "x12",
+   "type": "text",
+   "query": "inflation expectations for 2028 increased compared with previous report",
+   "pages": [
+    39,
+    79,
+    83
+   ],
+   "found": false,
+   "rewrite_cost": 0.000466
+  }
+ },
+ "en/openai/gpt-6.1-sol": {
+  "t01": {
+   "id": "t01",
+   "type": "table",
+   "query": "Agriculture quarter-on-quarter growth in the second quarter of 2026",
+   "pages": [
+    16,
+    55
+   ],
+   "found": true,
+   "rewrite_cost": 0.001298
+  },
+  "t02": {
+   "id": "t02",
+   "type": "table",
+   "query": "Annual growth of the construction sector in 2022",
+   "pages": [
+    18,
+    19,
+    22
+   ],
+   "found": false,
+   "rewrite_cost": 0.000324
+  },
+  "t03": {
+   "id": "t03",
+   "type": "table",
+   "query": "Change in light vehicle production in August 2026",
+   "pages": [
+    20,
+    66,
+    67
+   ],
+   "found": true,
+   "rewrite_cost": 0.000848
+  },
+  "t04": {
+   "id": "t04",
+   "type": "table",
+   "query": "Change in corrugated cardboard shipments in May 2026",
+   "pages": [
+    9,
+    67,
+    74
+   ],
+   "found": false,
+   "rewrite_cost": 0.00034
+  },
+  "t05": {
+   "id": "t05",
+   "type": "table",
+   "query": "Central government discretionary expenditure in the year to July 2026",
+   "pages": [
+    28,
+    29
+   ],
+   "found": true,
+   "rewrite_cost": 0.001058
+  },
+  "t06": {
+   "id": "t06",
+   "type": "table",
+   "query": "Projected total central government expenditure in 2026",
+   "pages": [
+    28,
+    30
+   ],
+   "found": false,
+   "rewrite_cost": 0.000786
+  },
+  "t07": {
+   "id": "t07",
+   "type": "table",
+   "query": "Brazil imports January to July 2024 US$ billion",
+   "pages": [
+    31,
+    32,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.000526
+  },
+  "t08": {
+   "id": "t08",
+   "type": "table",
+   "query": "Observed IPCA inflation in July 2026",
+   "pages": [
+    34,
+    39,
+    83
+   ],
+   "found": false,
+   "rewrite_cost": 0.000644
+  },
+  "t09": {
+   "id": "t09",
+   "type": "table",
+   "query": "Short-term projection for 12-month IPCA inflation in November 2026",
+   "pages": [
+    39,
+    78,
+    83
+   ],
+   "found": true,
+   "rewrite_cost": 0.001076
+  },
+  "t10": {
+   "id": "t10",
+   "type": "table",
+   "query": "Reference scenario market-set price inflation projection for Q4 2027",
+   "pages": [
+    7,
+    77,
+    83
+   ],
+   "found": true,
+   "rewrite_cost": 0.001086
+  },
+  "t11": {
+   "id": "t11",
+   "type": "table",
+   "query": "Probability of inflation exceeding the upper tolerance limit in 2027",
+   "pages": [
+    13,
+    39,
+    83
+   ],
+   "found": true,
+   "rewrite_cost": 0.00096
+  },
+  "c01": {
+   "id": "c01",
+   "type": "chart",
+   "query": "GDP growth across major economies in second quarter 2026",
+   "pages": [
+    11,
+    16,
+    18
+   ],
+   "found": false,
+   "rewrite_cost": 0.000962
+  },
+  "c02": {
+   "id": "c02",
+   "type": "chart",
+   "query": "US trade policy uncertainty index peak year",
+   "pages": [
+    10,
+    13,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.000762
+  },
+  "c03": {
+   "id": "c03",
+   "type": "chart",
+   "query": "Year of lowest projected public sector net debt (DLSP)",
+   "pages": [
+    27,
+    30,
+    57
+   ],
+   "found": true,
+   "rewrite_cost": 0.001504
+  },
+  "c04": {
+   "id": "c04",
+   "type": "chart",
+   "query": "Unemployment rate reached its highest level since 2004",
+   "pages": [
+    21,
+    26,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.001098
+  },
+  "c05": {
+   "id": "c05",
+   "type": "chart",
+   "query": "12-month IPA-DI change reached nearly 50%",
+   "pages": [
+    62,
+    70
+   ],
+   "found": false,
+   "rewrite_cost": 0.001052
+  },
+  "c06": {
+   "id": "c06",
+   "type": "chart",
+   "query": "US urea and sulfur price increases in 2026",
+   "pages": [
+    14,
+    15,
+    68
+   ],
+   "found": true,
+   "rewrite_cost": 0.001026
+  },
+  "c07": {
+   "id": "c07",
+   "type": "chart",
+   "query": "Brazilian exports three-month moving average in mid-2026",
+   "pages": [
+    31,
+    32,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.001102
+  },
+  "c08": {
+   "id": "c08",
+   "type": "chart",
+   "query": "Year when the voluntary quit rate reached its lowest level",
+   "pages": [
+    21,
+    26,
+    82
+   ],
+   "found": false,
+   "rewrite_cost": 0.000332
+  },
+  "c09": {
+   "id": "c09",
+   "type": "chart",
+   "query": "Year of highest formal job creation",
+   "pages": [
+    21,
+    22
+   ],
+   "found": true,
+   "rewrite_cost": 0.00074
+  },
+  "c10": {
+   "id": "c10",
+   "type": "chart",
+   "query": "Highest consumer price inflation among emerging market economies",
+   "pages": [
+    10,
+    14,
+    73
+   ],
+   "found": true,
+   "rewrite_cost": 0.001032
+  },
+  "x01": {
+   "id": "x01",
+   "type": "text",
+   "query": "GDP year-over-year growth in the second quarter of 2026",
+   "pages": [
+    11,
+    16
+   ],
+   "found": true,
+   "rewrite_cost": 0.000364
+  },
+  "x02": {
+   "id": "x02",
+   "type": "text",
+   "query": "IBC-Br percentage change in July 2026",
+   "pages": [
+    18,
+    19,
+    83
+   ],
+   "found": false,
+   "rewrite_cost": 0.000818
+  },
+  "x03": {
+   "id": "x03",
+   "type": "text",
+   "query": "Labor force participation rate in quarter ending July",
+   "pages": [
+    21,
+    22,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.000728
+  },
+  "x04": {
+   "id": "x04",
+   "type": "text",
+   "query": "Novo Caged net formal job creation through July",
+   "pages": [
+    22,
+    23,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.001986
+  },
+  "x05": {
+   "id": "x05",
+   "type": "text",
+   "query": "Average real labor income decline in quarter ending July",
+   "pages": [
+    22,
+    23,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.00079
+  },
+  "x06": {
+   "id": "x06",
+   "type": "text",
+   "query": "Spending freeze reduced in the third bimonthly budget assessment",
+   "pages": [
+    1,
+    17,
+    41
+   ],
+   "found": false,
+   "rewrite_cost": 0.001596
+  },
+  "x07": {
+   "id": "x07",
+   "type": "text",
+   "query": "Year-on-year export growth in August",
+   "pages": [
+    16,
+    31,
+    56
+   ],
+   "found": true,
+   "rewrite_cost": 0.000442
+  },
+  "x08": {
+   "id": "x08",
+   "type": "text",
+   "query": "12-month average of core inflation measures in August",
+   "pages": [
+    12,
+    34,
+    36
+   ],
+   "found": true,
+   "rewrite_cost": 0.00032
+  },
+  "x09": {
+   "id": "x09",
+   "type": "text",
+   "query": "Average gasoline C pump price following the oil shock",
+   "pages": [
+    68,
+    70,
+    71
+   ],
+   "found": true,
+   "rewrite_cost": 0.000898
+  },
+  "x10": {
+   "id": "x10",
+   "type": "text",
+   "query": "September IPCA inflation projection revised to",
+   "pages": [
+    77,
+    78,
+    83
+   ],
+   "found": true,
+   "rewrite_cost": 0.00049
+  },
+  "x11": {
+   "id": "x11",
+   "type": "text",
+   "query": "Inflation forecast for the first quarter of 2028",
+   "pages": [
+    39,
+    79,
+    83
+   ],
+   "found": true,
+   "rewrite_cost": 0.000346
+  },
+  "x12": {
+   "id": "x12",
+   "type": "text",
+   "query": "2028 inflation expectations revised upward from the previous report",
+   "pages": [
+    39,
+    79,
+    83
+   ],
+   "found": false,
+   "rewrite_cost": 0.000932
+  }
+ },
+ "en/google/gemini-4-argon": {
+  "t01": {
+   "id": "t01",
+   "type": "table",
+   "query": "agriculture growth in the second quarter of 2026 quarter-on-quarter",
+   "pages": [
+    16,
+    17,
+    55
+   ],
+   "found": true,
+   "rewrite_cost": 0.000466
+  },
+  "t02": {
+   "id": "t02",
+   "type": "table",
+   "query": "annual growth of the construction sector in 2022",
+   "pages": [
+    11,
+    18,
+    19
+   ],
+   "found": false,
+   "rewrite_cost": 0.000402
+  },
+  "t03": {
+   "id": "t03",
+   "type": "table",
+   "query": "Light vehicle production in August 2026",
+   "pages": [
+    20,
+    66,
+    67
+   ],
+   "found": true,
+   "rewrite_cost": 0.000386
+  },
+  "t04": {
+   "id": "t04",
+   "type": "table",
+   "query": "Corrugated cardboard shipments in May 2026",
+   "pages": [
+    15,
+    67,
+    74
+   ],
+   "found": false,
+   "rewrite_cost": 0.000406
+  },
+  "t05": {
+   "id": "t05",
+   "type": "table",
+   "query": "Central Government discretionary expenses year to July 2026",
+   "pages": [
+    28,
+    29
+   ],
+   "found": true,
+   "rewrite_cost": 0.000416
+  },
+  "t06": {
+   "id": "t06",
+   "type": "table",
+   "query": "QPC projection for 2026 total Central Government expenditure 281st meeting",
+   "pages": [
+    29,
+    55,
+    77
+   ],
+   "found": true,
+   "rewrite_cost": 0.000498
+  },
+  "t07": {
+   "id": "t07",
+   "type": "table",
+   "query": "Brazil imports from January to July 2024 US billion",
+   "pages": [
+    31,
+    32,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.000424
+  },
+  "t08": {
+   "id": "t08",
+   "type": "table",
+   "query": "IPCA inflation rate in July 2026",
+   "pages": [
+    34,
+    39,
+    83
+   ],
+   "found": false,
+   "rewrite_cost": 0.000392
+  },
+  "t09": {
+   "id": "t09",
+   "type": "table",
+   "query": "Short-term projection for 12-month IPCA in November 2026",
+   "pages": [
+    39,
+    78,
+    83
+   ],
+   "found": true,
+   "rewrite_cost": 0.00049
+  },
+  "t10": {
+   "id": "t10",
+   "type": "table",
+   "query": "reference scenario market-set prices IPCA Livres projection Q4 2027",
+   "pages": [
+    77,
+    79,
+    83
+   ],
+   "found": true,
+   "rewrite_cost": 0.000496
+  },
+  "t11": {
+   "id": "t11",
+   "type": "table",
+   "query": "probability of inflation exceeding the upper limit in 2027",
+   "pages": [
+    13,
+    79,
+    83
+   ],
+   "found": true,
+   "rewrite_cost": 0.000428
+  },
+  "c01": {
+   "id": "c01",
+   "type": "chart",
+   "query": "real GDP growth in Q2 2026 across major economies",
+   "pages": [
+    7,
+    11,
+    17
+   ],
+   "found": false,
+   "rewrite_cost": 0.00046
+  },
+  "c02": {
+   "id": "c02",
+   "type": "chart",
+   "query": "US trade policy uncertainty index peak chart",
+   "pages": [
+    10,
+    13,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.000364
+  },
+  "c03": {
+   "id": "c03",
+   "type": "chart",
+   "query": "Public sector net debt DLSP projections lowest level",
+   "pages": [
+    27,
+    30,
+    57
+   ],
+   "found": true,
+   "rewrite_cost": 0.000388
+  },
+  "c04": {
+   "id": "c04",
+   "type": "chart",
+   "query": "unemployment rate reached its highest level since 2004 in",
+   "pages": [
+    21,
+    61,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.000436
+  },
+  "c05": {
+   "id": "c05",
+   "type": "chart",
+   "query": "12-month change in the IPA-DI close to 50 percent",
+   "pages": [
+    62,
+    70
+   ],
+   "found": false,
+   "rewrite_cost": 0.00046
+  },
+  "c06": {
+   "id": "c06",
+   "type": "chart",
+   "query": "US urea and sulfur price increases in 2026",
+   "pages": [
+    14,
+    15,
+    68
+   ],
+   "found": true,
+   "rewrite_cost": 0.000412
+  },
+  "c07": {
+   "id": "c07",
+   "type": "chart",
+   "query": "Brazilian exports three-month moving average in mid-2026",
+   "pages": [
+    31,
+    32,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.000442
+  },
+  "c08": {
+   "id": "c08",
+   "type": "chart",
+   "query": "voluntary quit rate reached its lowest value in chart",
+   "pages": [
+    21,
+    26,
+    82
+   ],
+   "found": false,
+   "rewrite_cost": 0.000386
+  },
+  "c09": {
+   "id": "c09",
+   "type": "chart",
+   "query": "formal job creation reached its highest value in",
+   "pages": [
+    21,
+    22
+   ],
+   "found": true,
+   "rewrite_cost": 0.000364
+  },
+  "c10": {
+   "id": "c10",
+   "type": "chart",
+   "query": "emerging market economies consumer price inflation chart highest",
+   "pages": [
+    12,
+    14,
+    39
+   ],
+   "found": true,
+   "rewrite_cost": 0.000368
+  },
+  "x01": {
+   "id": "x01",
+   "type": "text",
+   "query": "year over year GDP growth in second quarter 2026",
+   "pages": [
+    11,
+    16,
+    17
+   ],
+   "found": true,
+   "rewrite_cost": 0.000422
+  },
+  "x02": {
+   "id": "x02",
+   "type": "text",
+   "query": "IBC-Br change in July 2026 economic activity index",
+   "pages": [
+    18,
+    19,
+    20
+   ],
+   "found": true,
+   "rewrite_cost": 0.000426
+  },
+  "x03": {
+   "id": "x03",
+   "type": "text",
+   "query": "labor force participation rate in the quarter ended in July",
+   "pages": [
+    21,
+    22,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.000382
+  },
+  "x04": {
+   "id": "x04",
+   "type": "text",
+   "query": "net formal job creation Novo Caged year to July",
+   "pages": [
+    22,
+    23
+   ],
+   "found": true,
+   "rewrite_cost": 0.00039
+  },
+  "x05": {
+   "id": "x05",
+   "type": "text",
+   "query": "average real labor income fell in the quarter ending July",
+   "pages": [
+    22,
+    23,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.000384
+  },
+  "x06": {
+   "id": "x06",
+   "type": "text",
+   "query": "spending freeze reduced in the third bimonthly assessment report",
+   "pages": [
+    17,
+    55,
+    72
+   ],
+   "found": false,
+   "rewrite_cost": 0.000398
+  },
+  "x07": {
+   "id": "x07",
+   "type": "text",
+   "query": "exports grew in the year to August",
+   "pages": [
+    16,
+    31,
+    56
+   ],
+   "found": true,
+   "rewrite_cost": 0.000346
+  },
+  "x08": {
+   "id": "x08",
+   "type": "text",
+   "query": "12-month average of core inflation measures in August",
+   "pages": [
+    12,
+    34,
+    36
+   ],
+   "found": true,
+   "rewrite_cost": 0.000398
+  },
+  "x09": {
+   "id": "x09",
+   "type": "text",
+   "query": "average price of gasoline C at the pump oil shock",
+   "pages": [
+    68,
+    70
+   ],
+   "found": true,
+   "rewrite_cost": 0.000392
+  },
+  "x10": {
+   "id": "x10",
+   "type": "text",
+   "query": "September IPCA projection was revised to",
+   "pages": [
+    77,
+    83
+   ],
+   "found": false,
+   "rewrite_cost": 0.000344
+  },
+  "x11": {
+   "id": "x11",
+   "type": "text",
+   "query": "inflation projection for the first quarter of 2028 relevant horizon",
+   "pages": [
+    7,
+    83
+   ],
+   "found": true,
+   "rewrite_cost": 0.000434
+  },
+  "x12": {
+   "id": "x12",
+   "type": "text",
+   "query": "inflation expectations for 2028 rose to",
+   "pages": [
+    39,
+    79,
+    83
+   ],
+   "found": false,
+   "rewrite_cost": 0.00039
+  }
+ }
+}

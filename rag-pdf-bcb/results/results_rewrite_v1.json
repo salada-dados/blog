@@ -1,0 +1,2345 @@
+{
+ "pt/anthropic/claude-sonnet-5.5": {
+  "t01": {
+   "id": "t01",
+   "type": "table",
+   "query": "agropecuária valor adicionado PIB segundo trimestre de 2026 variação dessazonalizada em relação ao trimestre anterior (T/T-1) atividade econômica componentes da oferta",
+   "pages": [
+    16,
+    17,
+    56
+   ],
+   "found": true,
+   "rewrite_cost": 0.002256
+  },
+  "t02": {
+   "id": "t02",
+   "type": "table",
+   "query": "construção civil valor adicionado PIB 2022 variação anual (%) Contas Nacionais IBGE oferta indústria da construção",
+   "pages": [
+    19,
+    56,
+    57
+   ],
+   "found": false,
+   "rewrite_cost": 0.002486
+  },
+  "t03": {
+   "id": "t03",
+   "type": "table",
+   "query": "produção de veículos leves agosto 2026 Anfavea indústria automotiva produção industrial indústria de transformação variação mensal dessazonalizada",
+   "pages": [
+    1,
+    16,
+    20
+   ],
+   "found": true,
+   "rewrite_cost": 0.002168
+  },
+  "t04": {
+   "id": "t04",
+   "type": "table",
+   "query": "expedição de papelão ondulado maio 2026 variação mensal dessazonalizada produção industrial indicadores coincidentes atividade econômica",
+   "pages": [
+    17,
+    20,
+    74
+   ],
+   "found": true,
+   "rewrite_cost": 0.002802
+  },
+  "t05": {
+   "id": "t05",
+   "type": "table",
+   "query": "despesas discricionárias Governo Central resultado primário acumulado no ano até julho de 2026 despesas primárias R$ bilhões, arcabouço fiscal",
+   "pages": [
+    28,
+    29,
+    30
+   ],
+   "found": true,
+   "rewrite_cost": 0.002542
+  },
+  "t06": {
+   "id": "t06",
+   "type": "table",
+   "query": "despesa primária total do Governo Central 2026",
+   "pages": [
+    29,
+    30
+   ],
+   "found": true,
+   "rewrite_cost": 0.00327
+  },
+  "t07": {
+   "id": "t07",
+   "type": "table",
+   "query": "importações de bens balança comercial acumulado janeiro a julho 2024 US$ bilhões",
+   "pages": [
+    31,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.001902
+  },
+  "t08": {
+   "id": "t08",
+   "type": "table",
+   "query": "IPCA julho 2026 variação mensal e acumulada em 12 meses, inflação ao consumidor, preços livres e administrados",
+   "pages": [
+    34,
+    40,
+    56
+   ],
+   "found": false,
+   "rewrite_cost": 0.002276
+  },
+  "t09": {
+   "id": "t09",
+   "type": "table",
+   "query": "IPCA projeção acumulada em quatro trimestres e em 12 meses, cenário de referência, quarto trimestre de 2026, novembro de 2026, projeção de curto prazo, inflação, Relatório de Política Monetária (RPM) setembro de 2026",
+   "pages": [
+    79,
+    85
+   ],
+   "found": false,
+   "rewrite_cost": 0.001182
+  },
+  "t10": {
+   "id": "t10",
+   "type": "table",
+   "query": "IPCA preços livres projeção cenário de referência quarto trimestre 2027 variação acumulada em quatro trimestres Relatório de Política Monetária setembro 2026",
+   "pages": [
+    40,
+    85
+   ],
+   "found": true,
+   "rewrite_cost": 0.00087
+  },
+  "t11": {
+   "id": "t11",
+   "type": "table",
+   "query": "probabilidade projeção de in",
+   "pages": [
+    73,
+    85
+   ],
+   "found": true,
+   "rewrite_cost": 0.003274
+  },
+  "c01": {
+   "id": "c01",
+   "type": "chart",
+   "query": "PIB segundo trimestre de 2026 cenário externo atividade econômica global Estados Unidos China Japão área do euro Reino Unido crescimento trimestral dessazonalizado menor variação desaceleração",
+   "pages": [
+    7,
+    16,
+    17
+   ],
+   "found": false,
+   "rewrite_cost": 0.002696
+  },
+  "c02": {
+   "id": "c02",
+   "type": "chart",
+   "query": "índice de incerteza da política comercial dos EUA (TPU) medidas de incerteza gráfico pico máximo histórico incerteza de política econômica (EPU) tarifas cenário externo",
+   "pages": [
+    1,
+    16,
+    87
+   ],
+   "found": false,
+   "rewrite_cost": 0.002586
+  },
+  "c03": {
+   "id": "c03",
+   "type": "chart",
+   "query": "dívida líquida do setor público DLSP % do PIB projeção trajetória gráfico menor nível ano resultado primário cenário fiscal",
+   "pages": [
+    28,
+    30
+   ],
+   "found": false,
+   "rewrite_cost": 0.002316
+  },
+  "c04": {
+   "id": "c04",
+   "type": "chart",
+   "query": "taxa de desocupação maior valor da série histórica desde 2004 PNAD Contínua dessazonalizada mercado de trabalho",
+   "pages": [
+    21,
+    24,
+    74
+   ],
+   "found": false,
+   "rewrite_cost": 0.002738
+  },
+  "c05": {
+   "id": "c05",
+   "type": "chart",
+   "query": "IPA-DI variação",
+   "pages": [
+    16,
+    70
+   ],
+   "found": false,
+   "rewrite_cost": 0.003246
+  },
+  "c06": {
+   "id": "c06",
+   "type": "chart",
+   "query": "preços fertilizantes ureia enxofre Estados Unidos alta acumulada em 2026 commodities",
+   "pages": [
+    15,
+    32,
+    69
+   ],
+   "found": true,
+   "rewrite_cost": 0.002406
+  },
+  "c07": {
+   "id": "c07",
+   "type": "chart",
+   "query": "exportações brasileiras média móvel de três meses dessazonalizadas US$ bilhões balança comercial junho julho 2026",
+   "pages": [
+    1,
+    31,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.002378
+  },
+  "c08": {
+   "id": "c08",
+   "type": "chart",
+   "query": "taxa de pedidos de demissão Caged desligamentos voluntários proporção do emprego formal rotatividade mercado de trabalho gráfico série histórica menor nível",
+   "pages": [
+    22,
+    23,
+    74
+   ],
+   "found": true,
+   "rewrite_cost": 0.002592
+  },
+  "c09": {
+   "id": "c09",
+   "type": "chart",
+   "query": "criação líquida de empregos formais Caged saldo anual série histórica mercado de trabalho gráfico maior nível",
+   "pages": [
+    16,
+    22,
+    23
+   ],
+   "found": true,
+   "rewrite_cost": 0.001874
+  },
+  "c10": {
+   "id": "c10",
+   "type": "chart",
+   "query": "inflação ao consumidor economias emergentes IPC variação em 12 meses gráfico comparação entre países",
+   "pages": [
+    1,
+    35,
+    56
+   ],
+   "found": false,
+   "rewrite_cost": 0.002398
+  },
+  "x01": {
+   "id": "x01",
+   "type": "text",
+   "query": "PIB segundo trimestre de 2026 variação interanual crescimento ante o mesmo trimestre do ano anterior, Contas Nacionais Trimestrais IBGE, atividade econômica",
+   "pages": [
+    16,
+    56
+   ],
+   "found": true,
+   "rewrite_cost": 0.00236
+  },
+  "x02": {
+   "id": "x02",
+   "type": "text",
+   "query": "IBC-Br julho 2026 variação mensal dessazonalizada Índice de Atividade Econômica do Banco Central, trimestre encerrado em julho",
+   "pages": [
+    16,
+    20
+   ],
+   "found": true,
+   "rewrite_cost": 0.002518
+  },
+  "x03": {
+   "id": "x03",
+   "type": "text",
+   "query": "taxa de participação força de trabalho PNAD Contínua trimestre encerrado em julho dessazonalizada mercado de trabalho população ocupada taxa de desocupação",
+   "pages": [
+    21,
+    22,
+    24
+   ],
+   "found": true,
+   "rewrite_cost": 0.002258
+  },
+  "x04": {
+   "id": "x04",
+   "type": "text",
+   "query": "Novo Caged saldo de empregos formais acumulado no ano até julho, criação líquida de vagas com carteira assinada, mercado de trabalho, dessazonalizado",
+   "pages": [
+    20,
+    22,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.000864
+  },
+  "x05": {
+   "id": "x05",
+   "type": "text",
+   "query": "rendimento médio real habitual do trabalho PNAD Contínua trimestre encerrado em julho variação dessazonalizada mercado de trabalho massa de rendimentos",
+   "pages": [
+    21,
+    22,
+    24
+   ],
+   "found": true,
+   "rewrite_cost": 0.002172
+  },
+  "x06": {
+   "id": "x06",
+   "type": "text",
+   "query": "Relatório de Avaliação de Receitas e Despesas Primárias do 3º bimestre de 2026: bloqueio (contingenciamento) de despesas discricionárias reduzido para R$ bilhões, resultado primário do Governo Central, meta fiscal, arcabouço",
+   "pages": [
+    28,
+    29
+   ],
+   "found": true,
+   "rewrite_cost": 0.003266
+  },
+  "x07": {
+   "id": "x07",
+   "type": "text",
+   "query": "exportações acumulado do ano até agosto variação balança comercial bens volume exportado valor em dólares setor externo",
+   "pages": [
+    1,
+    31
+   ],
+   "found": true,
+   "rewrite_cost": 0.002076
+  },
+  "x08": {
+   "id": "x08",
+   "type": "text",
+   "query": "média dos núcleos de inflação variação acumulada em 12 meses agosto IPCA-EX0 IPCA-EX",
+   "pages": [
+    1,
+    36,
+    38
+   ],
+   "found": true,
+   "rewrite_cost": 0.00324
+  },
+  "x09": {
+   "id": "x09",
+   "type": "text",
+   "query": "gasolina C preço médio ao consumidor postos revendedores alta após choque do petróleo Brent reajuste Petrobras combustíveis preços administrados IPCA R$/litro",
+   "pages": [
+    35,
+    70
+   ],
+   "found": false,
+   "rewrite_cost": 0.002584
+  },
+  "x10": {
+   "id": "x10",
+   "type": "text",
+   "query": "projeção de inflação IPCA cenário de referência revisão 2026 2027 horizonte relevante da política monetária Copom variação trimestral acumulada em quatro trimestres",
+   "pages": [
+    7,
+    85
+   ],
+   "found": false,
+   "rewrite_cost": 0.002624
+  },
+  "x11": {
+   "id": "x11",
+   "type": "text",
+   "query": "projeção de inflação cenário de referência horizonte relevante da política monetária primeiro trimestre de 2028 IPCA variação acumulada em quatro trimestres meta de inflação 3,0% intervalo de tolerância Copom",
+   "pages": [
+    85,
+    86
+   ],
+   "found": true,
+   "rewrite_cost": 0.001068
+  },
+  "x12": {
+   "id": "x12",
+   "type": "text",
+   "query": "expectativas de inflação 2028 mediana Pesquisa Focus variação em relação ao RPM anterior (junho de 2026) IPCA",
+   "pages": [
+    39,
+    40,
+    81
+   ],
+   "found": false,
+   "rewrite_cost": 0.00076
+  }
+ },
+ "pt/openai/gpt-6.1-sol": {
+  "t01": {
+   "id": "t01",
+   "type": "table",
+   "query": "PIB da agropecuária no segundo trimestre de 2026: variação em relação ao trimestre anterior, com ajuste sazonal",
+   "pages": [
+    16,
+    17
+   ],
+   "found": true,
+   "rewrite_cost": 0.000826
+  },
+  "t02": {
+   "id": "t02",
+   "type": "table",
+   "query": "Construção: variação anual do valor adicionado em 2022",
+   "pages": [
+    18,
+    65,
+    85
+   ],
+   "found": false,
+   "rewrite_cost": 0.001482
+  },
+  "t03": {
+   "id": "t03",
+   "type": "table",
+   "query": "produção de veículos leves variação agosto de 2026",
+   "pages": [
+    1,
+    20,
+    39
+   ],
+   "found": true,
+   "rewrite_cost": 0.001118
+  },
+  "t04": {
+   "id": "t04",
+   "type": "table",
+   "query": "expedição de papelão ondulado\" \"maio de 2026\" variação Relatório de Política Monetária setembro 2026",
+   "pages": [
+    1,
+    31,
+    39
+   ],
+   "found": false,
+   "rewrite_cost": 0.001916
+  },
+  "t05": {
+   "id": "t05",
+   "type": "table",
+   "query": "Governo Central despesas discricionárias acumuladas de janeiro a julho de 2026 R$ bilhões",
+   "pages": [
+    28,
+    29
+   ],
+   "found": true,
+   "rewrite_cost": 0.00132
+  },
+  "t06": {
+   "id": "t06",
+   "type": "table",
+   "query": "QPC 281ª reunião do Copom projeção despesa total do Governo Central em 2026",
+   "pages": [
+    29,
+    30,
+    39
+   ],
+   "found": true,
+   "rewrite_cost": 0.001718
+  },
+  "t07": {
+   "id": "t07",
+   "type": "table",
+   "query": "importações de bens (FOB) acumuladas de janeiro a julho de 2024 US$ bilhões",
+   "pages": [
+    1,
+    3,
+    80
+   ],
+   "found": false,
+   "rewrite_cost": 0.001128
+  },
+  "t08": {
+   "id": "t08",
+   "type": "table",
+   "query": "IPCA julho de 2026 inflação observada variação mensal",
+   "pages": [
+    34,
+    40,
+    80
+   ],
+   "found": true,
+   "rewrite_cost": 0.00123
+  },
+  "t09": {
+   "id": "t09",
+   "type": "table",
+   "query": "Relatório de Política Monetária setembro de 2026 projeções de curto prazo IPCA acumulado em doze meses novembro de 2026",
+   "pages": [
+    1,
+    79,
+    80
+   ],
+   "found": true,
+   "rewrite_cost": 0.001138
+  },
+  "t10": {
+   "id": "t10",
+   "type": "table",
+   "query": "projeção de inflação dos preços livres quarto trimestre de 2027 cenário de referência Relatório de Política Monetária setembro de 2026",
+   "pages": [
+    1,
+    6,
+    78
+   ],
+   "found": false,
+   "rewrite_cost": 0.000492
+  },
+  "t11": {
+   "id": "t11",
+   "type": "table",
+   "query": "probabilidade estimada de a inflação ultrapassar o limite superior do intervalo de tolerância da meta em 2027",
+   "pages": [
+    14,
+    85
+   ],
+   "found": true,
+   "rewrite_cost": 0.001384
+  },
+  "c01": {
+   "id": "c01",
+   "type": "chart",
+   "query": "PIB no segundo trimestre de 2026: taxas de crescimento nos Estados Unidos, China, Japão, área do euro e Reino Unido — menor expansão trimestral",
+   "pages": [
+    7,
+    13,
+    17
+   ],
+   "found": false,
+   "rewrite_cost": 0.001154
+  },
+  "c02": {
+   "id": "c02",
+   "type": "chart",
+   "query": "Relatório de Política Monetária setembro 2026 gráfico medidas de incerteza índice de incerteza de política comercial dos EUA (TPU) ano do pico",
+   "pages": [
+    1,
+    14,
+    87
+   ],
+   "found": false,
+   "rewrite_cost": 0.000836
+  },
+  "c03": {
+   "id": "c03",
+   "type": "chart",
+   "query": "Dívida Líquida do Setor Público (DLSP) — gráfico de projeções, trajetória e ano de menor nível",
+   "pages": [
+    28,
+    30
+   ],
+   "found": false,
+   "rewrite_cost": 0.001338
+  },
+  "c04": {
+   "id": "c04",
+   "type": "chart",
+   "query": "taxa de desocupação maior nível da série histórica iniciada em 2004 ano",
+   "pages": [
+    21,
+    22
+   ],
+   "found": true,
+   "rewrite_cost": 0.001316
+  },
+  "c05": {
+   "id": "c05",
+   "type": "chart",
+   "query": "IPA-DI variação acumulada em doze meses próxima de 50% ano",
+   "pages": [
+    16,
+    39,
+    71
+   ],
+   "found": false,
+   "rewrite_cost": 0.001076
+  },
+  "c06": {
+   "id": "c06",
+   "type": "chart",
+   "query": "Estados Unidos: variação acumulada dos preços de ureia e enxofre em 2026",
+   "pages": [
+    15,
+    67,
+    69
+   ],
+   "found": true,
+   "rewrite_cost": 0.001092
+  },
+  "c07": {
+   "id": "c07",
+   "type": "chart",
+   "query": "exportações brasileiras média móvel trimestral junho julho 2026",
+   "pages": [
+    32,
+    34,
+    66
+   ],
+   "found": false,
+   "rewrite_cost": 0.00146
+  },
+  "c08": {
+   "id": "c08",
+   "type": "chart",
+   "query": "taxa de desligamentos a pedido (desligamentos voluntários) mínimo da série histórica ano gráfico",
+   "pages": [
+    1,
+    3,
+    27
+   ],
+   "found": false,
+   "rewrite_cost": 0.00176
+  },
+  "c09": {
+   "id": "c09",
+   "type": "chart",
+   "query": "Geração líquida de empregos formais por ano – maior saldo anual no gráfico – Novo Caged",
+   "pages": [
+    22,
+    23,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.001006
+  },
+  "c10": {
+   "id": "c10",
+   "type": "chart",
+   "query": "Relatório de Política Monetária\" \"setembro de 2026\" inflação ao consumidor países emergentes gráfico IPC maior inflação",
+   "pages": [
+    1,
+    14,
+    87
+   ],
+   "found": true,
+   "rewrite_cost": 0.001254
+  },
+  "x01": {
+   "id": "x01",
+   "type": "text",
+   "query": "PIB segundo trimestre de 2026 crescimento em relação ao mesmo trimestre do ano anterior",
+   "pages": [
+    16,
+    56
+   ],
+   "found": true,
+   "rewrite_cost": 0.00129
+  },
+  "x02": {
+   "id": "x02",
+   "type": "text",
+   "query": "IBC-Br julho de 2026 variação mensal série dessazonalizada",
+   "pages": [
+    20,
+    40
+   ],
+   "found": true,
+   "rewrite_cost": 0.001182
+  },
+  "x03": {
+   "id": "x03",
+   "type": "text",
+   "query": "Taxa de participação na força de trabalho no trimestre encerrado em julho de 2026",
+   "pages": [
+    12,
+    22,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.001138
+  },
+  "x04": {
+   "id": "x04",
+   "type": "text",
+   "query": "Novo Caged geração líquida de postos de trabalho formais acumulado de janeiro a julho de 2026",
+   "pages": [
+    20,
+    22,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.001204
+  },
+  "x05": {
+   "id": "x05",
+   "type": "text",
+   "query": "Relatório de Política Monetária setembro 2026 rendimento médio real habitual do trabalho recuo no trimestre encerrado em julho",
+   "pages": [
+    12,
+    23,
+    84
+   ],
+   "found": false,
+   "rewrite_cost": 0.001618
+  },
+  "x06": {
+   "id": "x06",
+   "type": "text",
+   "query": "bloqueio de despesas reduzido valor Relatório de Avaliação de Receitas e Despesas Primárias terceiro bimestre de 2026",
+   "pages": [
+    1,
+    29
+   ],
+   "found": true,
+   "rewrite_cost": 0.001822
+  },
+  "x07": {
+   "id": "x07",
+   "type": "text",
+   "query": "Exportações: variação acumulada de janeiro a agosto de 2026",
+   "pages": [
+    16,
+    20,
+    66
+   ],
+   "found": false,
+   "rewrite_cost": 0.001212
+  },
+  "x08": {
+   "id": "x08",
+   "type": "text",
+   "query": "média dos núcleos de inflação acumulada em doze meses agosto de 2026 Relatório de Política Monetária setembro de 2026",
+   "pages": [
+    1,
+    12,
+    36
+   ],
+   "found": true,
+   "rewrite_cost": 0.001318
+  },
+  "x09": {
+   "id": "x09",
+   "type": "text",
+   "query": "preço médio de revenda da gasolina C nos postos após o choque nos preços do petróleo",
+   "pages": [
+    69,
+    70,
+    72
+   ],
+   "found": true,
+   "rewrite_cost": 0.00124
+  },
+  "x10": {
+   "id": "x10",
+   "type": "text",
+   "query": "Relatório de Política Monetária setembro de 2026 revisão da projeção para a inflação medida pelo IPCA",
+   "pages": [
+    1,
+    40,
+    80
+   ],
+   "found": true,
+   "rewrite_cost": 0.001502
+  },
+  "x11": {
+   "id": "x11",
+   "type": "text",
+   "query": "projeção de inflação IPCA horizonte relevante de política monetária primeiro trimestre de 2028 Relatório de Política Monetária setembro de 2026",
+   "pages": [
+    1,
+    85,
+    86
+   ],
+   "found": true,
+   "rewrite_cost": 0.000864
+  },
+  "x12": {
+   "id": "x12",
+   "type": "text",
+   "query": "Expectativas de inflação para 2028 na pesquisa Focus: elevação desde o Relatório de Política Monetária anterior — setembro de 2026",
+   "pages": [
+    39,
+    78,
+    81
+   ],
+   "found": false,
+   "rewrite_cost": 0.001238
+  }
+ },
+ "pt/google/gemini-4-argon": {
+  "t01": {
+   "id": "t01",
+   "type": "table",
+   "query": "PIB agropecuária segundo trimestre de 2026 margem ajuste sazonal",
+   "pages": [
+    16,
+    17
+   ],
+   "found": true,
+   "rewrite_cost": 0.000422
+  },
+  "t02": {
+   "id": "t02",
+   "type": "table",
+   "query": "PIB indústria construção civil variação anual 2022 contas nacionais",
+   "pages": [
+    6,
+    18,
+    19
+   ],
+   "found": false,
+   "rewrite_cost": 0.000378
+  },
+  "t03": {
+   "id": "t03",
+   "type": "table",
+   "query": "produção veículos leves Anfavea agosto 2026 variação indústria automotiva",
+   "pages": [
+    1,
+    20,
+    39
+   ],
+   "found": true,
+   "rewrite_cost": 0.000424
+  },
+  "t04": {
+   "id": "t04",
+   "type": "table",
+   "query": "expedição de papelão ondulado variação maio 2026 Empapel atividade econômica indústria",
+   "pages": [
+    1,
+    39,
+    56
+   ],
+   "found": false,
+   "rewrite_cost": 0.000462
+  },
+  "t05": {
+   "id": "t05",
+   "type": "table",
+   "query": "Governo Central despesas discricionárias acumulado no ano julho 2026",
+   "pages": [
+    28,
+    29,
+    30
+   ],
+   "found": true,
+   "rewrite_cost": 0.000448
+  },
+  "t06": {
+   "id": "t06",
+   "type": "table",
+   "query": "despesa total\" \"Governo Central\" 2026 \"QPC\" \"Questionário Pré-Copom\" 281ª reunião",
+   "pages": [
+    3,
+    29,
+    39
+   ],
+   "found": true,
+   "rewrite_cost": 0.00062
+  },
+  "t07": {
+   "id": "t07",
+   "type": "table",
+   "query": "importações balança comercial acumulado janeiro julho 2024 US$ bilhões",
+   "pages": [
+    31,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.000424
+  },
+  "t08": {
+   "id": "t08",
+   "type": "table",
+   "query": "inflação ao consumidor IPCA julho de 2026 variação mensal evolução recente dos preços",
+   "pages": [
+    1,
+    34,
+    80
+   ],
+   "found": true,
+   "rewrite_cost": 0.000438
+  },
+  "t09": {
+   "id": "t09",
+   "type": "table",
+   "query": "Projeções de curto prazo\" IPCA variação acumulada em doze meses novembro de 2026",
+   "pages": [
+    1,
+    6,
+    39
+   ],
+   "found": false,
+   "rewrite_cost": 0.000506
+  },
+  "t10": {
+   "id": "t10",
+   "type": "table",
+   "query": "projeção IPCA preços livres cenário de referência quarto trimestre 2027 2027T4 Relatório de Política Monetária setembro 2026",
+   "pages": [
+    1,
+    40,
+    85
+   ],
+   "found": true,
+   "rewrite_cost": 0.00063
+  },
+  "t11": {
+   "id": "t11",
+   "type": "table",
+   "query": "probabilidade estimada inflação ultrapassar limite superior intervalo de tolerância 2027",
+   "pages": [
+    39,
+    85
+   ],
+   "found": true,
+   "rewrite_cost": 0.000462
+  },
+  "c01": {
+   "id": "c01",
+   "type": "chart",
+   "query": "crescimento do PIB segundo trimestre de 2026 economia internacional Estados Unidos China Japão área do euro Reino Unido",
+   "pages": [
+    10,
+    13,
+    16
+   ],
+   "found": true,
+   "rewrite_cost": 0.000522
+  },
+  "c02": {
+   "id": "c02",
+   "type": "chart",
+   "query": "gráfico medidas de incerteza política comercial EUA TPU pico",
+   "pages": [
+    10,
+    32
+   ],
+   "found": true,
+   "rewrite_cost": 0.000398
+  },
+  "c03": {
+   "id": "c03",
+   "type": "chart",
+   "query": "gráfico projeção Dívida Líquida do Setor Público DLSP trajetória evolución percentual do PIB",
+   "pages": [
+    30,
+    56
+   ],
+   "found": false,
+   "rewrite_cost": 0.000486
+  },
+  "c04": {
+   "id": "c04",
+   "type": "chart",
+   "query": "taxa de desocupação máximo histórico série desde 2004 Relatório de Política Monetária setembro 2026",
+   "pages": [
+    1,
+    74,
+    78
+   ],
+   "found": false,
+   "rewrite_cost": 0.000524
+  },
+  "c05": {
+   "id": "c05",
+   "type": "chart",
+   "query": "IPA-DI acumulado em doze meses 50% histórico",
+   "pages": [
+    16,
+    39,
+    71
+   ],
+   "found": false,
+   "rewrite_cost": 0.000388
+  },
+  "c06": {
+   "id": "c06",
+   "type": "chart",
+   "query": "preços ureia enxofre Estados Unidos fertilizantes insumos agrícolas 2026",
+   "pages": [
+    15,
+    32,
+    69
+   ],
+   "found": true,
+   "rewrite_cost": 0.00045
+  },
+  "c07": {
+   "id": "c07",
+   "type": "chart",
+   "query": "exportações balança comercial média móvel trimestral 2026",
+   "pages": [
+    31,
+    34,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.00042
+  },
+  "c08": {
+   "id": "c08",
+   "type": "chart",
+   "query": "taxa de desligamento voluntário demissão voluntária a pedido gráfico série histórica mínimo",
+   "pages": [
+    22,
+    34,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.000414
+  },
+  "c09": {
+   "id": "c09",
+   "type": "chart",
+   "query": "saldo de empregos formais Caged geração de postos de trabalho mercado de trabalho gráfico",
+   "pages": [
+    22,
+    23,
+    63
+   ],
+   "found": true,
+   "rewrite_cost": 0.00043
+  },
+  "c10": {
+   "id": "c10",
+   "type": "chart",
+   "query": "gráfico IPC inflação ao consumidor economias emergentes países emergentes",
+   "pages": [
+    6,
+    10,
+    56
+   ],
+   "found": false,
+   "rewrite_cost": 0.0004
+  },
+  "x01": {
+   "id": "x01",
+   "type": "text",
+   "query": "crescimento do PIB comparação interanual segundo trimestre de 2026 2T26 atividade econômica",
+   "pages": [
+    16,
+    17,
+    56
+   ],
+   "found": true,
+   "rewrite_cost": 0.000498
+  },
+  "x02": {
+   "id": "x02",
+   "type": "text",
+   "query": "Índice de Atividade Econômica do Banco Central IBC-Br variação julho 2026 atividade econômica",
+   "pages": [
+    1,
+    20,
+    56
+   ],
+   "found": true,
+   "rewrite_cost": 0.00046
+  },
+  "x03": {
+   "id": "x03",
+   "type": "text",
+   "query": "taxa de participação força de trabalho trimestre encerrado em julho PNAD Contínua mercado de trabalho",
+   "pages": [
+    21,
+    22,
+    24
+   ],
+   "found": true,
+   "rewrite_cost": 0.000432
+  },
+  "x04": {
+   "id": "x04",
+   "type": "text",
+   "query": "saldo criação de empregos formais Novo Caged acumulado no ano até julho",
+   "pages": [
+    22,
+    23,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.000408
+  },
+  "x05": {
+   "id": "x05",
+   "type": "text",
+   "query": "rendimento médio real trabalho recuo trimestre encerrado julho PNAD Contínua",
+   "pages": [
+    22,
+    23,
+    24
+   ],
+   "found": true,
+   "rewrite_cost": 0.000402
+  },
+  "x06": {
+   "id": "x06",
+   "type": "text",
+   "query": "redução bloqueio despesas Relatório de Avaliação de Receitas e Despesas Primárias terceiro bimestre",
+   "pages": [
+    1,
+    29
+   ],
+   "found": true,
+   "rewrite_cost": 0.000456
+  },
+  "x07": {
+   "id": "x07",
+   "type": "text",
+   "query": "crescimento das exportações acumulado no ano até agosto balança comercial setor externo setembro 2026",
+   "pages": [
+    1,
+    31,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.000464
+  },
+  "x08": {
+   "id": "x08",
+   "type": "text",
+   "query": "média dos núcleos de inflação acumulado em 12 meses agosto",
+   "pages": [
+    12,
+    34,
+    36
+   ],
+   "found": true,
+   "rewrite_cost": 0.00039
+  },
+  "x09": {
+   "id": "x09",
+   "type": "text",
+   "query": "preço médio gasolina C bomba repasse choque petróleo combustíveis IPCA setembro 2026",
+   "pages": [
+    39,
+    70,
+    72
+   ],
+   "found": false,
+   "rewrite_cost": 0.000456
+  },
+  "x10": {
+   "id": "x10",
+   "type": "text",
+   "query": "revisão projeção IPCA setembro projeções de curto prazo inflação",
+   "pages": [
+    79,
+    80
+   ],
+   "found": true,
+   "rewrite_cost": 0.000396
+  },
+  "x11": {
+   "id": "x11",
+   "type": "text",
+   "query": "projeção de inflação IPCA horizonte relevante primeiro trimestre de 2028 2028T1 escenario de referência",
+   "pages": [
+    39,
+    85
+   ],
+   "found": true,
+   "rewrite_cost": 0.000544
+  },
+  "x12": {
+   "id": "x12",
+   "type": "text",
+   "query": "Expectativas de inflação 2028 Focus IPCA comparação relatório anterior",
+   "pages": [
+    39,
+    40,
+    81
+   ],
+   "found": false,
+   "rewrite_cost": 0.000418
+  }
+ },
+ "en/anthropic/claude-sonnet-5.5": {
+  "t01": {
+   "id": "t01",
+   "type": "table",
+   "query": "agricultural GDP growth second quarter 2026 quarter-over-quarter seasonally adjusted supply-side GDP agriculture",
+   "pages": [
+    16,
+    17
+   ],
+   "found": true,
+   "rewrite_cost": 0.000676
+  },
+  "t02": {
+   "id": "t02",
+   "type": "table",
+   "query": "construction value added GDP supply-side annual growth 2022 civil construction industry",
+   "pages": [
+    16,
+    18,
+    19
+   ],
+   "found": true,
+   "rewrite_cost": 0.001976
+  },
+  "t03": {
+   "id": "t03",
+   "type": "table",
+   "query": "light vehicle production August 2026 monthly change seasonally adjusted Anfavea industrial production transportation equipment",
+   "pages": [
+    17,
+    20
+   ],
+   "found": true,
+   "rewrite_cost": 0.00058
+  },
+  "t04": {
+   "id": "t04",
+   "type": "table",
+   "query": "corrugated cardboard shipments May 2026 change seasonally adjusted month-over-month industrial production activity indicators",
+   "pages": [
+    17,
+    20
+   ],
+   "found": true,
+   "rewrite_cost": 0.00284
+  },
+  "t05": {
+   "id": "t05",
+   "type": "table",
+   "query": "Central Government discretionary expenditures, twelve months through July 2026, primary result, fiscal policy, R$ billion, % of GDP",
+   "pages": [
+    28,
+    29
+   ],
+   "found": true,
+   "rewrite_cost": 0.00202
+  },
+  "t06": {
+   "id": "t06",
+   "type": "table",
+   "query": "",
+   "pages": [
+    1,
+    66,
+    68
+   ],
+   "found": false,
+   "rewrite_cost": 0.003212
+  },
+  "t07": {
+   "id": "t07",
+   "type": "table",
+   "query": "Brazil imports January to July 2024 US$ billion, goods imports, trade balance, foreign trade, balance of payments",
+   "pages": [
+    32,
+    65,
+    66
+   ],
+   "found": false,
+   "rewrite_cost": 0.000612
+  },
+  "t08": {
+   "id": "t08",
+   "type": "table",
+   "query": "IPCA consumer price inflation July 2026 monthly change, 12-month accumulated inflation, Monetary Policy Report",
+   "pages": [
+    34,
+    36,
+    78
+   ],
+   "found": true,
+   "rewrite_cost": 0.000616
+  },
+  "t09": {
+   "id": "t09",
+   "type": "table",
+   "query": "IPCA 12-month inflation projection Q4 2026 baseline scenario Copom Monetary Policy Report September 2026",
+   "pages": [
+    77,
+    79,
+    83
+   ],
+   "found": false,
+   "rewrite_cost": 0.000632
+  },
+  "t10": {
+   "id": "t10",
+   "type": "table",
+   "query": "Monetary Policy Report September 2026 inflation projection reference scenario market prices \"free prices\" IPCA 2027 Q4 12-month accumulated",
+   "pages": [
+    7,
+    79,
+    83
+   ],
+   "found": true,
+   "rewrite_cost": 0.000758
+  },
+  "t11": {
+   "id": "t11",
+   "type": "table",
+   "query": "Monetary Policy Report September 2026 probability of inflation exceeding upper limit of tolerance band 2027 inflation target Copom forecast scenario",
+   "pages": [
+    7,
+    83,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.000744
+  },
+  "c01": {
+   "id": "c01",
+   "type": "chart",
+   "query": "Monetary Policy Report September 2026 international economic outlook GDP growth second quarter 2026 advanced economies United States China Japan euro area United Kingdom",
+   "pages": [
+    10,
+    13
+   ],
+   "found": true,
+   "rewrite_cost": 0.000784
+  },
+  "c02": {
+   "id": "c02",
+   "type": "chart",
+   "query": "Monetary Policy Report September 2026 uncertainty measures chart US Trade Policy Uncertainty index (TPU) peak",
+   "pages": [
+    7,
+    10,
+    12
+   ],
+   "found": true,
+   "rewrite_cost": 0.001916
+  },
+  "c03": {
+   "id": "c03",
+   "type": "chart",
+   "query": "public sector net debt DLSP percent of GDP projections lowest level year",
+   "pages": [
+    11,
+    27,
+    30
+   ],
+   "found": true,
+   "rewrite_cost": 0.00046
+  },
+  "c04": {
+   "id": "c04",
+   "type": "chart",
+   "query": "unemployment rate highest level in historical series since 2004 PNAD Contínua labor market",
+   "pages": [
+    21,
+    23,
+    61
+   ],
+   "found": true,
+   "rewrite_cost": 0.001996
+  },
+  "c05": {
+   "id": "c05",
+   "type": "chart",
+   "query": "IPA-DI 12-month change close to 50% wholesale price index (IPA) agricultural and industrial prices, year",
+   "pages": [
+    35,
+    36,
+    70
+   ],
+   "found": true,
+   "rewrite_cost": 0.002386
+  },
+  "c06": {
+   "id": "c06",
+   "type": "chart",
+   "query": "urea sulfur fertilizer prices increase 2026 United States international commodity prices",
+   "pages": [
+    15,
+    68,
+    70
+   ],
+   "found": true,
+   "rewrite_cost": 0.00186
+  },
+  "c07": {
+   "id": "c07",
+   "type": "chart",
+   "query": "Brazil exports volume seasonally adjusted three-month moving average June 2026 Monetary Policy Report foreign trade balance of payments",
+   "pages": [
+    13,
+    32,
+    66
+   ],
+   "found": false,
+   "rewrite_cost": 0.000684
+  },
+  "c08": {
+   "id": "c08",
+   "type": "chart",
+   "query": "Monetary Policy Report September 2026 labor market quit rate voluntary resignations Caged turnover chart historical series lowest",
+   "pages": [
+    12,
+    22,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.002386
+  },
+  "c09": {
+   "id": "c09",
+   "type": "chart",
+   "query": "Monetary Policy Report September 2026 formal job creation Caged net hiring labor market chart peak year",
+   "pages": [
+    12,
+    22,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.000546
+  },
+  "c10": {
+   "id": "c10",
+   "type": "chart",
+   "query": "Monetary Policy Report September 2026 international environment consumer price inflation emerging market economies CPI 12-month change by country highest",
+   "pages": [
+    11,
+    12,
+    14
+   ],
+   "found": true,
+   "rewrite_cost": 0.001916
+  },
+  "x01": {
+   "id": "x01",
+   "type": "text",
+   "query": "GDP growth second quarter 2026 year-over-year change, Monetary Policy Report, economic activity, GDP year-on-year (y/y) growth, quarter-over-quarter seasonally adjusted",
+   "pages": [
+    13,
+    16,
+    17
+   ],
+   "found": true,
+   "rewrite_cost": 0.00089
+  },
+  "x02": {
+   "id": "x02",
+   "type": "text",
+   "query": "IBC-Br economic activity index July 2026 monthly change seasonally adjusted",
+   "pages": [
+    17,
+    19,
+    20
+   ],
+   "found": true,
+   "rewrite_cost": 0.00048
+  },
+  "x03": {
+   "id": "x03",
+   "type": "text",
+   "query": "labor force participation rate quarter ended July seasonally adjusted PNAD Contínua labor market unemployment rate employed population",
+   "pages": [
+    21,
+    23,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.001696
+  },
+  "x04": {
+   "id": "x04",
+   "type": "text",
+   "query": "Novo Caged net formal job creation 12 months through July, formal employment, labor market",
+   "pages": [
+    22,
+    23,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.000482
+  },
+  "x05": {
+   "id": "x05",
+   "type": "text",
+   "query": "average real labor income, quarter ended in July, seasonally adjusted, PNAD Contínua, labor market, change compared to previous quarter",
+   "pages": [
+    22,
+    23,
+    75
+   ],
+   "found": true,
+   "rewrite_cost": 0.002256
+  },
+  "x06": {
+   "id": "x06",
+   "type": "text",
+   "query": "third bimonthly report of revenue and expenditure assessment 2026 reduction",
+   "pages": [
+    17,
+    18,
+    29
+   ],
+   "found": true,
+   "rewrite_cost": 0.003198
+  },
+  "x07": {
+   "id": "x07",
+   "type": "text",
+   "query": "exports growth year through August trade balance goods exports volume",
+   "pages": [
+    19,
+    30,
+    31
+   ],
+   "found": true,
+   "rewrite_cost": 0.002052
+  },
+  "x08": {
+   "id": "x08",
+   "type": "text",
+   "query": "average of underlying inflation measures monitored by the Central Bank, 12-month change in August, IPCA core inflation",
+   "pages": [
+    34,
+    36,
+    39
+   ],
+   "found": true,
+   "rewrite_cost": 0.002074
+  },
+  "x09": {
+   "id": "x09",
+   "type": "text",
+   "query": "Monetary Policy Report September 2026 gasoline C average pump price increase oil price shock fuels IPCA Petrobras",
+   "pages": [
+    12,
+    39,
+    83
+   ],
+   "found": false,
+   "rewrite_cost": 0.001938
+  },
+  "x10": {
+   "id": "x10",
+   "type": "text",
+   "query": "IPCA inflation projection revised reference scenario Copom relevant horizon September 2026",
+   "pages": [
+    83,
+    84
+   ],
+   "found": false,
+   "rewrite_cost": 0.002294
+  },
+  "x11": {
+   "id": "x11",
+   "type": "text",
+   "query": "Monetary Policy Report September 2026 Copom inflation projection reference scenario relevant horizon 2028 Q1 IPCA",
+   "pages": [
+    83,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.00067
+  },
+  "x12": {
+   "id": "x12",
+   "type": "text",
+   "query": "Monetary Policy Report September 2026 Focus survey market inflation expectations 2028 IPCA increased from previous Report",
+   "pages": [
+    39,
+    79,
+    83
+   ],
+   "found": false,
+   "rewrite_cost": 0.001772
+  }
+ },
+ "en/openai/gpt-6.1-sol": {
+  "t01": {
+   "id": "t01",
+   "type": "table",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 agriculture growth 2026 Q2 quarter-on-quarter seasonally adjusted",
+   "pages": [
+    17,
+    18,
+    48
+   ],
+   "found": false,
+   "rewrite_cost": 0.000922
+  },
+  "t02": {
+   "id": "t02",
+   "type": "table",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 construction gross value added annual growth 2022",
+   "pages": [
+    19,
+    56,
+    64
+   ],
+   "found": false,
+   "rewrite_cost": 0.001148
+  },
+  "t03": {
+   "id": "t03",
+   "type": "table",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 light vehicle production August 2026 percentage change",
+   "pages": [
+    20,
+    28,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.001362
+  },
+  "t04": {
+   "id": "t04",
+   "type": "table",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 corrugated cardboard shipments May 2026 monthly change",
+   "pages": [
+    20,
+    64,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.001544
+  },
+  "t05": {
+   "id": "t05",
+   "type": "table",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 central government discretionary expenditures accumulated in the year through July 2026",
+   "pages": [
+    28,
+    65,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.001742
+  },
+  "t06": {
+   "id": "t06",
+   "type": "table",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 QPC 281st Copom meeting projected total Central Government expenditure 2026",
+   "pages": [
+    77,
+    84,
+    88
+   ],
+   "found": false,
+   "rewrite_cost": 0.0013
+  },
+  "t07": {
+   "id": "t07",
+   "type": "table",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 Brazil imports January–July 2024 US$ billion",
+   "pages": [
+    32,
+    65,
+    66
+   ],
+   "found": false,
+   "rewrite_cost": 0.00133
+  },
+  "t08": {
+   "id": "t08",
+   "type": "table",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 IPCA inflation July 2026",
+   "pages": [
+    34,
+    78,
+    79
+   ],
+   "found": true,
+   "rewrite_cost": 0.000938
+  },
+  "t09": {
+   "id": "t09",
+   "type": "table",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 short-term inflation projections 12-month IPCA November 2026",
+   "pages": [
+    78,
+    79,
+    83
+   ],
+   "found": true,
+   "rewrite_cost": 0.00076
+  },
+  "t10": {
+   "id": "t10",
+   "type": "table",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 reference scenario market-set prices inflation projection 2027 Q4",
+   "pages": [
+    79,
+    83,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.00112
+  },
+  "t11": {
+   "id": "t11",
+   "type": "table",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 estimated probability inflation exceeding upper limit of tolerance interval 2027",
+   "pages": [
+    39,
+    83,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.001334
+  },
+  "c01": {
+   "id": "c01",
+   "type": "chart",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 GDP growth second quarter 2026 United States China Japan euro area United Kingdom",
+   "pages": [
+    13,
+    55,
+    56
+   ],
+   "found": false,
+   "rewrite_cost": 0.001176
+  },
+  "c02": {
+   "id": "c02",
+   "type": "chart",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 US trade policy uncertainty index (TPU) uncertainty indicators chart peak year",
+   "pages": [
+    10,
+    12,
+    85
+   ],
+   "found": true,
+   "rewrite_cost": 0.001076
+  },
+  "c03": {
+   "id": "c03",
+   "type": "chart",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 public sector net debt (PSND) debt projections chart lowest level year",
+   "pages": [
+    30,
+    57,
+    63
+   ],
+   "found": true,
+   "rewrite_cost": 0.001328
+  },
+  "c04": {
+   "id": "c04",
+   "type": "chart",
+   "query": "site:bcb.gov.br \"Monetary Policy Report\" \"September 2026\" unemployment rate historical peak series since 2004",
+   "pages": [
+    7,
+    21,
+    22
+   ],
+   "found": true,
+   "rewrite_cost": 0.001482
+  },
+  "c05": {
+   "id": "c05",
+   "type": "chart",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 IPA-DI 12-month change nearly 50% year",
+   "pages": [
+    36,
+    40,
+    70
+   ],
+   "found": true,
+   "rewrite_cost": 0.001176
+  },
+  "c06": {
+   "id": "c06",
+   "type": "chart",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 United States fertilizer prices urea sulfur year-to-date price increases",
+   "pages": [
+    15,
+    66,
+    80
+   ],
+   "found": false,
+   "rewrite_cost": 0.00154
+  },
+  "c07": {
+   "id": "c07",
+   "type": "chart",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 exports three-month moving average June July 2026",
+   "pages": [
+    13,
+    20,
+    32
+   ],
+   "found": false,
+   "rewrite_cost": 0.001916
+  },
+  "c08": {
+   "id": "c08",
+   "type": "chart",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 voluntary quit rate historical low chart year",
+   "pages": [
+    18,
+    21,
+    64
+   ],
+   "found": false,
+   "rewrite_cost": 0.001186
+  },
+  "c09": {
+   "id": "c09",
+   "type": "chart",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 formal employment net job creation by year chart highest value Caged",
+   "pages": [
+    22,
+    61,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.001244
+  },
+  "c10": {
+   "id": "c10",
+   "type": "chart",
+   "query": "site:bcb.gov.br \"Monetary Policy Report\" \"September 2026\" \"emerging economies\" \"consumer price inflation\" chart highest",
+   "pages": [
+    12,
+    40,
+    48
+   ],
+   "found": false,
+   "rewrite_cost": 0.001036
+  },
+  "x01": {
+   "id": "x01",
+   "type": "text",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 GDP year-on-year growth 2026Q2",
+   "pages": [
+    55,
+    56,
+    57
+   ],
+   "found": false,
+   "rewrite_cost": 0.000938
+  },
+  "x02": {
+   "id": "x02",
+   "type": "text",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 IBC-Br July 2026 month-on-month change seasonally adjusted",
+   "pages": [
+    18,
+    20,
+    78
+   ],
+   "found": true,
+   "rewrite_cost": 0.001012
+  },
+  "x03": {
+   "id": "x03",
+   "type": "text",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 labor force participation rate quarter ended in July",
+   "pages": [
+    12,
+    21,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.000892
+  },
+  "x04": {
+   "id": "x04",
+   "type": "text",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 net formal job creation Novo Caged twelve months through July",
+   "pages": [
+    12,
+    22,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.00098
+  },
+  "x05": {
+   "id": "x05",
+   "type": "text",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 average real usual labor earnings decline three-month period ended in July",
+   "pages": [
+    7,
+    18,
+    34
+   ],
+   "found": false,
+   "rewrite_cost": 0.001644
+  },
+  "x06": {
+   "id": "x06",
+   "type": "text",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 third bimonthly Revenue and Expenditure Assessment Report reduction in expenditure freeze",
+   "pages": [
+    29,
+    65,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.00182
+  },
+  "x07": {
+   "id": "x07",
+   "type": "text",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 exports growth year-to-date through August",
+   "pages": [
+    19,
+    56,
+    66
+   ],
+   "found": false,
+   "rewrite_cost": 0.001386
+  },
+  "x08": {
+   "id": "x08",
+   "type": "text",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 average of core inflation measures twelve-month inflation August 2026",
+   "pages": [
+    12,
+    36,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.001474
+  },
+  "x09": {
+   "id": "x09",
+   "type": "text",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 gasoline C average pump price after oil shock",
+   "pages": [
+    80,
+    84,
+    87
+   ],
+   "found": false,
+   "rewrite_cost": 0.001082
+  },
+  "x10": {
+   "id": "x10",
+   "type": "text",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 IPCA inflation projection revised to",
+   "pages": [
+    39,
+    79,
+    83
+   ],
+   "found": false,
+   "rewrite_cost": 0.001174
+  },
+  "x11": {
+   "id": "x11",
+   "type": "text",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 inflation projection reference scenario relevant horizon for monetary policy first quarter of 2028",
+   "pages": [
+    77,
+    83,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.00133
+  },
+  "x12": {
+   "id": "x12",
+   "type": "text",
+   "query": "Banco Central do Brasil Monetary Policy Report September 2026 median inflation expectations for 2028 increased since the previous Report",
+   "pages": [
+    39,
+    79,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.001266
+  }
+ },
+ "en/google/gemini-4-argon": {
+  "t01": {
+   "id": "t01",
+   "type": "table",
+   "query": "GDP agriculture livestock growth 2026Q2 quarter-over-quarter seasonally adjusted",
+   "pages": [
+    11,
+    17
+   ],
+   "found": false,
+   "rewrite_cost": 0.000424
+  },
+  "t02": {
+   "id": "t02",
+   "type": "table",
+   "query": "construction GDP annual growth rate 2022 Banco Central do Brasil Monetary Policy Report September 2026",
+   "pages": [
+    19,
+    56,
+    57
+   ],
+   "found": false,
+   "rewrite_cost": 0.00046
+  },
+  "t03": {
+   "id": "t03",
+   "type": "table",
+   "query": "light vehicle production August 2026 ANFAVEA automotive industry",
+   "pages": [
+    17,
+    20,
+    55
+   ],
+   "found": true,
+   "rewrite_cost": 0.000384
+  },
+  "t04": {
+   "id": "t04",
+   "type": "table",
+   "query": "corrugated cardboard shipments May 2026",
+   "pages": [
+    15,
+    39,
+    74
+   ],
+   "found": false,
+   "rewrite_cost": 0.000344
+  },
+  "t05": {
+   "id": "t05",
+   "type": "table",
+   "query": "Central Government discretionary expenses year-to-date July 2026 primary expenditures fiscal policy",
+   "pages": [
+    28,
+    29
+   ],
+   "found": true,
+   "rewrite_cost": 0.000434
+  },
+  "t06": {
+   "id": "t06",
+   "type": "table",
+   "query": "Pre-Copom Questionnaire\" OR \"QPC\" \"281st\" \"Central Government\" total expenditure 2026",
+   "pages": [
+    28,
+    29,
+    77
+   ],
+   "found": true,
+   "rewrite_cost": 0.000546
+  },
+  "t07": {
+   "id": "t07",
+   "type": "table",
+   "query": "trade balance\" \"imports\" \"January\" \"July 2024\" \"US$ billion",
+   "pages": [
+    10,
+    31,
+    32
+   ],
+   "found": true,
+   "rewrite_cost": 0.000472
+  },
+  "t08": {
+   "id": "t08",
+   "type": "table",
+   "query": "IPCA inflation July 2026 consumer prices",
+   "pages": [
+    34,
+    39,
+    83
+   ],
+   "found": false,
+   "rewrite_cost": 0.00034
+  },
+  "t09": {
+   "id": "t09",
+   "type": "table",
+   "query": "short-term projections IPCA 12-month November 2026",
+   "pages": [
+    78,
+    79,
+    83
+   ],
+   "found": true,
+   "rewrite_cost": 0.000418
+  },
+  "t10": {
+   "id": "t10",
+   "type": "table",
+   "query": "Monetary Policy Report\" \"September 2026\" \"reference scenario\" projection \"market-set prices\" OR \"free prices\" 2027Q4 OR \"2027",
+   "pages": [
+    7,
+    83,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.000694
+  },
+  "t11": {
+   "id": "t11",
+   "type": "table",
+   "query": "probability inflation surpass upper limit tolerance interval 2027 fan chart",
+   "pages": [
+    83
+   ],
+   "found": true,
+   "rewrite_cost": 0.000386
+  },
+  "c01": {
+   "id": "c01",
+   "type": "chart",
+   "query": "global economy GDP growth 2026Q2 United States China Japan euro area United Kingdom",
+   "pages": [
+    10,
+    13
+   ],
+   "found": true,
+   "rewrite_cost": 0.000458
+  },
+  "c02": {
+   "id": "c02",
+   "type": "chart",
+   "query": "trade policy uncertainty\" \"TPU\" \"uncertainty measures\" chart US peak",
+   "pages": [
+    10,
+    16,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.000392
+  },
+  "c03": {
+   "id": "c03",
+   "type": "chart",
+   "query": "Public sector net debt PSND DLSP projections chart",
+   "pages": [
+    27,
+    30
+   ],
+   "found": true,
+   "rewrite_cost": 0.000346
+  },
+  "c04": {
+   "id": "c04",
+   "type": "chart",
+   "query": "Monetary Policy Report\" \"unemployment rate\" highest peak \"since 2004\" PNAD Contínua Banco Central do Brasil September 2026",
+   "pages": [
+    2,
+    12,
+    63
+   ],
+   "found": false,
+   "rewrite_cost": 0.000584
+  },
+  "c05": {
+   "id": "c05",
+   "type": "chart",
+   "query": "IPA-DI\" \"12-month\" \"50%\" \"Producer Price Index",
+   "pages": [
+    35,
+    36,
+    70
+   ],
+   "found": true,
+   "rewrite_cost": 0.000448
+  },
+  "c06": {
+   "id": "c06",
+   "type": "chart",
+   "query": "US urea sulfur prices 2026 fertilizers commodities",
+   "pages": [
+    15,
+    35,
+    68
+   ],
+   "found": true,
+   "rewrite_cost": 0.00035
+  },
+  "c07": {
+   "id": "c07",
+   "type": "chart",
+   "query": "exports\" \"three-month moving average\" \"2026\" \"trade balance",
+   "pages": [
+    1,
+    11,
+    31
+   ],
+   "found": true,
+   "rewrite_cost": 0.00045
+  },
+  "c08": {
+   "id": "c08",
+   "type": "chart",
+   "query": "voluntary quit rate\" OR \"voluntary resignations\" OR \"voluntary separations\" chart \"Banco Central do Brasil\" \"Monetary Policy Report\" September 2026",
+   "pages": [
+    2,
+    22,
+    33
+   ],
+   "found": true,
+   "rewrite_cost": 0.000604
+  },
+  "c09": {
+   "id": "c09",
+   "type": "chart",
+   "query": "Banco Central do Brasil\" \"Monetary Policy Report\" \"September 2026\" \"formal job creation\" OR \"net formal job creation\" OR \"Caged\" chart peak highest",
+   "pages": [
+    22,
+    63,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.000622
+  },
+  "c10": {
+   "id": "c10",
+   "type": "chart",
+   "query": "emerging economies CPI consumer price inflation chart",
+   "pages": [
+    10,
+    14
+   ],
+   "found": true,
+   "rewrite_cost": 0.000306
+  },
+  "x01": {
+   "id": "x01",
+   "type": "text",
+   "query": "GDP\" (\"2026Q2\" OR \"second quarter of 2026\") (\"year-on-year\" OR \"year-over-year\" OR \"same quarter of the previous year\")",
+   "pages": [
+    16,
+    17,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.0007
+  },
+  "x02": {
+   "id": "x02",
+   "type": "text",
+   "query": "IBC-Br\" OR \"Economic Activity Index\" \"July 2026",
+   "pages": [
+    18,
+    19,
+    20
+   ],
+   "found": true,
+   "rewrite_cost": 0.000424
+  },
+  "x03": {
+   "id": "x03",
+   "type": "text",
+   "query": "labor force participation rate quarter ended in July PNAD Contínua labor market September 2026 Monetary Policy Report Banco Central do Brasil",
+   "pages": [
+    12,
+    21,
+    23
+   ],
+   "found": true,
+   "rewrite_cost": 0.0005
+  },
+  "x04": {
+   "id": "x04",
+   "type": "text",
+   "query": "Novo Caged\" \"net formal job creation\" July \"Monetary Policy Report\" September 2026",
+   "pages": [
+    12,
+    22,
+    82
+   ],
+   "found": true,
+   "rewrite_cost": 0.000468
+  },
+  "x05": {
+   "id": "x05",
+   "type": "text",
+   "query": "average real labor income\" OR \"average real earnings\" quarter ended July \"Monetary Policy Report\" September 2026 Banco Central do Brasil",
+   "pages": [
+    18,
+    23,
+    75
+   ],
+   "found": false,
+   "rewrite_cost": 0.000532
+  },
+  "x06": {
+   "id": "x06",
+   "type": "text",
+   "query": "third bimonthly revenue and expenditure assessment report budget freeze contingency blockage reduction fiscal framework",
+   "pages": [
+    28,
+    29
+   ],
+   "found": true,
+   "rewrite_cost": 0.000396
+  },
+  "x07": {
+   "id": "x07",
+   "type": "text",
+   "query": "exports growth year-to-date August trade balance external sector Banco Central do Brasil Monetary Policy Report September 2026",
+   "pages": [
+    13,
+    31,
+    66
+   ],
+   "found": true,
+   "rewrite_cost": 0.000474
+  },
+  "x08": {
+   "id": "x08",
+   "type": "text",
+   "query": "average of core inflation measures 12-month August 2026",
+   "pages": [
+    12,
+    14,
+    34
+   ],
+   "found": false,
+   "rewrite_cost": 0.000396
+  },
+  "x09": {
+   "id": "x09",
+   "type": "text",
+   "query": "average price gasoline C pump oil shock Banco Central do Brasil Monetary Policy Report September 2026",
+   "pages": [
+    69,
+    70,
+    72
+   ],
+   "found": false,
+   "rewrite_cost": 0.00044
+  },
+  "x10": {
+   "id": "x10",
+   "type": "text",
+   "query": "Monetary Policy Report\" \"September 2026\" \"IPCA\" \"September\" (\"projection\" OR \"forecast\") (\"revised\" OR \"revision\")",
+   "pages": [
+    77,
+    83,
+    84
+   ],
+   "found": false,
+   "rewrite_cost": 0.000562
+  },
+  "x11": {
+   "id": "x11",
+   "type": "text",
+   "query": "Monetary Policy Report\" \"September 2026\" \"inflation projection\" \"relevant horizon\" \"2028Q1\" OR \"first quarter of 2028\" IPCA \"reference scenario",
+   "pages": [
+    77,
+    83,
+    84
+   ],
+   "found": true,
+   "rewrite_cost": 0.000702
+  },
+  "x12": {
+   "id": "x12",
+   "type": "text",
+   "query": "inflation expectations\" 2028 Focus survey \"previous report\" IPCA",
+   "pages": [
+    39,
+    79,
+    83
+   ],
+   "found": false,
+   "rewrite_cost": 0.000408
+  }
+ }
+}

@@ -32,7 +32,8 @@ Portuguese, and the same 33 questions with known answers: 12 in the text, 11 in 
 | `index_pg.py` | Part 4: stores the `pypdf` chunks in Postgres + pgvector and creates a read-only role for the MCP server |
 | `mcp_server.py` | Part 4: MCP server (stdio) with two read-only tools, `search_report(query)` and `view_page(page)` |
 | `agent.py` | Part 4: the agent loop, with no framework: lists the server's tools, calls models through OpenRouter, at most 6 steps |
-| `results/` | The results reported in the articles (`qwen2.5:3b`, the `qwen2.5:7b` rerun on table questions, extraction times, `results_vision.json` for part 3 and `results_agent.json` for part 4) |
+| `rewrite.py` | Part 4: the question rewritten by a model in one call, then part 3's fixed search, with no agent (two prompt versions) |
+| `results/` | The results reported in the articles (`qwen2.5:3b`, the `qwen2.5:7b` rerun on table questions, extraction times, `results_vision.json` for part 3, and `results_agent.json` and `results_rewrite_v1/v2.json` for part 4) |
 
 ## Running part 2
 
@@ -97,7 +98,13 @@ export OPENROUTER_API_KEY=...      # Windows PowerShell: $env:OPENROUTER_API_KEY
 MODELS=google/gemini-4-argon IDS=t01,c01 python agent.py   # a test run: 2 questions, a few cents
 python agent.py                    # three models, both languages: about US$ 3
 TOOL_DOCS=bare python agent.py     # the same with one-line tool descriptions: about US$ 3.30
+
+PROMPT=v1 python rewrite.py        # rewrite the question, then the fixed search: right page only, cents
+python rewrite.py                  # the same with the second prompt (v2)
 ```
+
+`rewrite.py` measures only whether the right page comes back; `ANSWER=1` also answers from the page
+images, as in part 3. We did not run that step: the rewritten queries did not find more pages.
 
 `agent.py` starts `mcp_server.py` as a subprocess, one per model and language. Every finished
 question is cached in `out/agent_cache.jsonl` with its tool calls, tokens and cost, so reruns and
