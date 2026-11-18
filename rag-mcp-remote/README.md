@@ -14,6 +14,7 @@ What changed from the local server, and why:
 | PDFs in `data/` | downloaded from the Banco Central do Brasil on first use, checksum verified | the report is not redistributed here |
 | Postgres in Docker | Postgres + pgvector on Neon, read-only role | the function needs a database on the internet |
 | `DOC_LANG` picks one report | `lang` argument on both tools | one connector for both editions |
+| no login (it runs on your machine) | OAuth with a password page, no database (`auth.py`) | on the internet, anyone with the address could use it |
 
 Measured on the author's machine, from start to the first answer (one search, one page):
 PyTorch server 1,285 MB and 19.5 s; this one 571 MB and 3.0 s (model and PDFs already on disk).
@@ -21,6 +22,7 @@ PyTorch server 1,285 MB and 19.5 s; this one 571 MB and 3.0 s (model and PDFs al
 ## Files
 
 - `app.py`: the server (Vercel entrypoint: `app`).
+- `auth.py`: OAuth with one password; clients, codes and tokens are signed messages, not stored.
 - `embedding.py`: e5-small with ONNX Runtime, and the download-once cache.
 - `build_model.py`: writes `model/e5-small-int8emb.onnx` from Hugging Face's fp32 ONNX file.
 - `check_model.py`: compares a model's retrieved chunks with the index's, for the 33 questions.
@@ -37,7 +39,8 @@ python check_model.py     # same 3 chunks in 66/66?
 uvicorn app:app --port 8000
 ```
 
-The server is at `http://localhost:8000/mcp`. Locally it reads the PDFs from `../rag-pdf-bcb/data`
+Locally, set `AUTH_SECRET`, `ACCESS_PASSWORD` and, to test with a client other than Claude,
+`ALLOWED_REDIRECTS` with its callback address. The server is at `http://localhost:8000/mcp`. Locally it reads the PDFs from `../rag-pdf-bcb/data`
 and the model from `model/`.
 
 On Vercel:
@@ -47,12 +50,28 @@ On Vercel:
 2. Publish `model/e5-small-int8emb.onnx` where the function can download it (we used a GitHub
    release asset: the file is too large for the repository and for a Vercel CLI upload).
 3. Import this repository in Vercel with **Root Directory** `rag-mcp-remote`, and set
-   `READER_DSN` (the `rpm_reader` address), `MODEL_URL` and `MODEL_SHA256`.
+   `READER_DSN` (the `rpm_reader` address), `MODEL_URL`, `MODEL_SHA256`, `AUTH_SECRET`
+   (`python -c "import secrets; print(secrets.token_urlsafe(32))"`) and `ACCESS_PASSWORD`.
 4. In Claude: **Customize → Connectors → Add custom connector**, with `https://<project>.vercel.app/mcp`.
+   Claude opens the password page once; after that it renews its token on its own.
 
-## No authentication, on purpose
+## Authentication
 
-The report is public and both tools only read, so the server has no login: anyone with the
-address can use it. It ran on Vercel's Hobby plan, which stops instead of billing past its
-limits, and came down after the article. A server over private documents, or with any tool that
-writes, needs OAuth.
+Claude on the web accepts a custom connector with no authentication or with OAuth (a fixed token
+in a header is a beta not every account has). So the server is its own OAuth authorization server,
+and logging in means typing one password. The SDK provides the `/authorize`, `/token` and
+`/register` endpoints; `auth.py` provides what they read and write.
+
+Nothing is stored, because on Vercel each request may run on a different instance. The client
+registration, the authorization code and the tokens are messages signed with `AUTH_SECRET`, which
+any instance can check. The trade-offs:
+
+- Tokens cannot be revoked one by one; changing `AUTH_SECRET` revokes them all.
+- An authorization code could be exchanged twice within its 5 minutes; PKCE means only the client
+  that started the login can exchange it.
+- Only Claude's callback addresses may register, so codes go nowhere else.
+- One password for everyone: fine for a demo or a small team, not for telling users apart.
+  For that, put a real identity provider (Google, GitHub, your company's) behind `/authorize`.
+
+The server ran on Vercel's Hobby plan, which stops instead of billing past its limits, and came
+down after the article.

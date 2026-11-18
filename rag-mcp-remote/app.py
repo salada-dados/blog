@@ -9,11 +9,11 @@ Same two tools as rag-pdf-bcb/mcp_server.py, with the changes a serverless host 
 
 Local:  uvicorn app:app --port 8000      then point an MCP client at http://localhost:8000/mcp
 Vercel: app.py is the entrypoint; see README.md.
-Env:    READER_DSN, MODEL_URL + MODEL_SHA256 (or MODEL_PATH), CACHE_DIR
+Env:    READER_DSN, MODEL_URL + MODEL_SHA256 (or MODEL_PATH), CACHE_DIR,
+        AUTH_SECRET, ACCESS_PASSWORD, PUBLIC_URL (see auth.py)
 
-No authentication, on purpose: the report is public and every tool only reads. Anyone with the
-address can use it, so it runs on a plan that stops instead of billing, and it comes down after
-the article. A server over private documents needs OAuth.
+Authentication: OAuth with a password page (auth.py). Without it, anyone who finds the address
+uses the server, and its cost and limits, as much as they want.
 """
 import os
 import sys
@@ -32,6 +32,7 @@ from pgvector.psycopg import register_vector
 from starlette.requests import Request
 from starlette.responses import PlainTextResponse
 
+from auth import SETTINGS, StatelessProvider, login
 from embedding import embedder, fetch
 
 DSN = os.environ.get("READER_DSN", "postgresql://rpm_reader:reader@localhost:5433/rag")
@@ -69,7 +70,11 @@ INSTRUCTIONS = (
 )
 # Each request may hit a fresh instance, so nothing is kept between calls (stateless_http) and
 # answers come back as plain JSON instead of an event stream (json_response).
-mcp = MCPServer("monetary-policy-report", instructions=INSTRUCTIONS)
+mcp = MCPServer("monetary-policy-report", instructions=INSTRUCTIONS,
+                auth=SETTINGS, auth_server_provider=StatelessProvider())
+# The SDK adds /authorize, /token, /register and the .well-known metadata; /mcp then needs a token.
+# The login page is ours: custom routes are public, as a login page must be.
+mcp.custom_route("/login", methods=["GET", "POST"])(login)
 READ_ONLY = ToolAnnotations(read_only_hint=True, destructive_hint=False, open_world_hint=False)
 
 
@@ -114,7 +119,7 @@ def view_page(page: int, lang: Lang = "pt") -> Image:
 async def home(_: Request) -> PlainTextResponse:
     return PlainTextResponse(
         "MCP server for the Banco Central do Brasil's Monetary Policy Report (September 2026).\n"
-        "Add <this address>/mcp as a custom connector in Claude. Code and article: "
+        "Add <this address>/mcp as a custom connector in Claude (it asks for a password). Code: "
         "https://github.com/salada-dados/blog/tree/main/rag-mcp-remote\n"
     )
 
