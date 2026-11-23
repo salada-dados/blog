@@ -9,7 +9,7 @@ Same two tools as rag-pdf-bcb/mcp_server.py, with the changes a serverless host 
 
 Local:  uvicorn app:app --port 8000      then point an MCP client at http://localhost:8000/mcp
 Vercel: app.py is the entrypoint; see README.md.
-Env:    READER_DSN, MODEL_URL + MODEL_SHA256 (or MODEL_PATH), CACHE_DIR,
+Env:    READER_DSN, MODEL_URL + MODEL_SHA256 (or MODEL_PATH),
         AUTH_SECRET, ACCESS_PASSWORD, PUBLIC_URL (see auth.py)
 
 Authentication: OAuth with a password page (auth.py). Without it, anyone who finds the address
@@ -35,7 +35,7 @@ from starlette.requests import Request
 from starlette.responses import PlainTextResponse
 
 from auth import SETTINGS, StatelessProvider, login
-from embedding import embedder, fetch
+from embedding import download, embedder
 
 DSN = os.environ.get("READER_DSN", "postgresql://rpm_reader:reader@localhost:5433/rag")
 K = 3
@@ -59,7 +59,7 @@ def document(lang):
         if lang not in _docs:
             url, sha256, _ = PDFS[lang]
             local = os.path.join(os.path.dirname(__file__), "..", "rag-pdf-bcb", "data", url.rsplit("/", 1)[-1])
-            _docs[lang] = pymupdf.open(fetch(url, sha256, local))
+            _docs[lang] = pymupdf.open(stream=download(url, sha256, local), filetype="pdf")
         return _docs[lang]
 
 

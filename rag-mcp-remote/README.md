@@ -10,14 +10,19 @@ What changed from the local server, and why:
 |---|---|---|
 | stdio | Streamable HTTP, stateless, JSON responses | Claude's servers call it over HTTPS; any request may hit a new instance |
 | PyTorch + sentence-transformers | ONNX Runtime + tokenizers (`embedding.py`) | PyTorch alone exceeds Vercel's 500 MB limit for a Python function |
-| model from Hugging Face's cache | `e5-small-int8emb.onnx`, 183 MB, downloaded on the first search | only the vocabulary table is int8; same 3 chunks as the index in 66 of 66 questions |
-| PDFs in `data/` | downloaded from the Banco Central do Brasil on first use, checksum verified | the report is not redistributed here |
+| model from Hugging Face's cache | `e5-small-int8emb.onnx`, 183 MB, downloaded on the first search and kept in memory | only the vocabulary table is int8; same 3 chunks as the index in 66 of 66 questions |
+| PDFs in `data/` | downloaded from the Banco Central do Brasil on first use, checksum verified, kept in memory | the report is not redistributed here |
 | Postgres in Docker | Postgres + pgvector on Neon, read-only role | the function needs a database on the internet |
 | `DOC_LANG` picks one report | `lang` argument on both tools | one connector for both editions |
 | no login (it runs on your machine) | OAuth with a password page, no database (`auth.py`) | on the internet, anyone with the address could use it |
 
 Measured on the author's machine, from start to the first answer (one search, one page):
 PyTorch server 1,285 MB and 19.5 s; this one 571 MB and 3.0 s (model and PDFs already on disk).
+With both PDFs open and everything in memory, as on Vercel, it peaks at 926 MB.
+
+Why memory and not `/tmp`: on Vercel, `/tmp` (about 500 MB) also holds the Python dependencies,
+installed there when the function starts. With the model on disk, 80 MB were left; with
+pymupdf 2.x, which brings pymupdf4llm and its dependencies, the tokenizer no longer fit.
 
 ## Files
 
