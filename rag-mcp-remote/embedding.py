@@ -10,6 +10,7 @@ The files are not in the function bundle. They are downloaded on the first searc
 """
 import hashlib
 import os
+import shutil
 import sys
 import tempfile
 import threading
@@ -37,15 +38,20 @@ def fetch(url, sha256=None, local=None):
         CACHE.mkdir(parents=True, exist_ok=True)
         start = time.perf_counter()
         part = path.with_suffix(".part")
-        with urllib.request.urlopen(url, timeout=120) as response, open(part, "wb") as out:
-            while block := response.read(1 << 20):
-                out.write(block)
+        try:
+            with urllib.request.urlopen(url, timeout=120) as response, open(part, "wb") as out:
+                while block := response.read(1 << 20):
+                    out.write(block)
+        except BaseException:
+            part.unlink(missing_ok=True)  # a failed download must not keep filling /tmp
+            raise
         if sha256 and hashlib.sha256(part.read_bytes()).hexdigest() != sha256:
             part.unlink()
             raise RuntimeError(f"{url}: checksum does not match")
         part.replace(path)  # a half-written file never takes the final name
         print(f"downloaded {path.name}: {path.stat().st_size / 1e6:.0f} MB "
-              f"in {time.perf_counter() - start:.1f} s", file=sys.stderr)
+              f"in {time.perf_counter() - start:.1f} s; {shutil.disk_usage(CACHE).free / 1e6:.0f} MB "
+              f"left in {CACHE}", file=sys.stderr)
     return path
 
 
