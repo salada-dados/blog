@@ -6,7 +6,7 @@ weights, except the vocabulary table, stored as int8 with one scale per row (183
 check_model.py shows it brings the same 3 chunks as the index for all 66 test questions.
 
 The files are not in the function bundle. They are downloaded on the first search and kept in
-memory while the instance lives. Not in /tmp: on Vercel, /tmp is about 500 MB and also holds the
+memory while the instance lives. Not in /tmp: on Vercel, /tmp has limited space and also holds the
 Python dependencies, installed there when the function starts; with the model on disk, 80 MB
 were left, and one version of the server ran out of space downloading the tokenizer.
 """

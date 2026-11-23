@@ -20,7 +20,7 @@ Measured on the author's machine, from start to the first answer (one search, on
 PyTorch server 1,285 MB and 19.5 s; this one 571 MB and 3.0 s (model and PDFs already on disk).
 With both PDFs open and everything in memory, as on Vercel, it peaks at 926 MB.
 
-Why memory and not `/tmp`: on Vercel, `/tmp` (about 500 MB) also holds the Python dependencies,
+Why memory and not `/tmp`: on Vercel, `/tmp` has limited space and also holds the Python dependencies,
 installed there when the function starts. With the model on disk, 80 MB were left; with
 pymupdf 2.x, which brings pymupdf4llm and its dependencies, the tokenizer no longer fit.
 
