@@ -1,0 +1,5 @@
+# Only for `vercel deploy` from this folder: the model is downloaded by the function (MODEL_URL),
+# and the CLI refuses uploads over 100 MB on the Hobby plan.
+model/
+__pycache__/
+.venv/
