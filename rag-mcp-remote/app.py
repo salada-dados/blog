@@ -9,16 +9,18 @@ Same two tools as rag-pdf-bcb/mcp_server.py, with the changes a serverless host 
 
 Local:  uvicorn app:app --port 8000      then point an MCP client at http://localhost:8000/mcp
 Vercel: app.py is the entrypoint; see README.md.
-Env:    READER_DSN, MODEL_URL + MODEL_SHA256 (or MODEL_PATH), CACHE_DIR,
+Env:    READER_DSN, MODEL_URL + MODEL_SHA256 (or MODEL_PATH),
         AUTH_SECRET, ACCESS_PASSWORD, PUBLIC_URL (see auth.py)
 
 Authentication: OAuth with a password page (auth.py). Without it, anyone who finds the address
 uses the server, and its cost and limits, as much as they want.
 """
+import functools
 import os
 import sys
 import threading
 import time
+import traceback
 from typing import Literal
 
 import psycopg
@@ -33,7 +35,7 @@ from starlette.requests import Request
 from starlette.responses import PlainTextResponse
 
 from auth import SETTINGS, StatelessProvider, login
-from embedding import embedder, fetch
+from embedding import download, embedder
 
 DSN = os.environ.get("READER_DSN", "postgresql://rpm_reader:reader@localhost:5433/rag")
 K = 3
@@ -57,7 +59,7 @@ def document(lang):
         if lang not in _docs:
             url, sha256, _ = PDFS[lang]
             local = os.path.join(os.path.dirname(__file__), "..", "rag-pdf-bcb", "data", url.rsplit("/", 1)[-1])
-            _docs[lang] = pymupdf.open(fetch(url, sha256, local))
+            _docs[lang] = pymupdf.open(stream=download(url, sha256, local), filetype="pdf")
         return _docs[lang]
 
 
@@ -78,6 +80,22 @@ mcp.custom_route("/login", methods=["GET", "POST"])(login)
 READ_ONLY = ToolAnnotations(read_only_hint=True, destructive_hint=False, open_world_hint=False)
 
 
+def reported(tool):
+    """For any unexpected error, write the traceback to the logs and tell the model what failed.
+    Without this, the SDK answers a bare "Error executing tool" and logs nothing on Vercel: the
+    first failure we hit there showed up in Claude only as "3 failed"."""
+    @functools.wraps(tool)
+    def run(*args, **kwargs):
+        try:
+            return tool(*args, **kwargs)
+        except ToolError:
+            raise
+        except Exception as error:
+            traceback.print_exc(file=sys.stderr)
+            raise ToolError(f"server error, not your input: {type(error).__name__}: {error}"[:300]) from error
+    return run
+
+
 @mcp.tool(annotations=READ_ONLY, description=(
     f"Search the Banco Central do Brasil's Monetary Policy Report (Relatório de Política Monetária, "
     f"September 2026) and return the {K} most similar text chunks, each with its page number. "
@@ -87,6 +105,7 @@ READ_ONLY = ToolAnnotations(read_only_hint=True, destructive_hint=False, open_wo
     "report's language, with the words the report would use. If the chunks do not answer the "
     "question, search again with other words."
 ))
+@reported
 def search_report(query: str, lang: Lang = "pt") -> str:
     if len(query) > MAX_QUERY:
         raise ToolError(f"query is limited to {MAX_QUERY} characters, got {len(query)}")
@@ -108,6 +127,7 @@ def search_report(query: str, lang: Lang = "pt") -> str:
     "Use it to read a chart (gráfico) or a table (tabela) on a page that search_report found, with "
     "the same lang: the values of charts are only in the image. Load it together with search_report."
 ))
+@reported
 def view_page(page: int, lang: Lang = "pt") -> Image:
     pages = PDFS[lang][2]
     if not 1 <= page <= pages:

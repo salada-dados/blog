@@ -18,7 +18,7 @@ import psycopg
 from pgvector.psycopg import register_vector
 from sentence_transformers import SentenceTransformer
 
-from embedding import TOKENIZER, Embedder, fetch
+from embedding import TOKENIZER, Embedder, download
 
 HERE = Path(__file__).parent
 QUESTIONS = json.loads((HERE.parent / "rag-pdf-bcb" / "questions.json").read_text(encoding="utf-8"))
@@ -37,7 +37,7 @@ def top3(lang, vector):
 
 
 for path in MODELS:
-    onnx_model = Embedder(path, fetch(*TOKENIZER))
+    onnx_model = Embedder(Path(path).read_bytes(), download(*TOKENIZER))
     cosines, same_chunks, same_order = [], 0, 0
     for q in QUESTIONS:
         for lang in ("pt", "en"):

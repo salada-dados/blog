@@ -251,7 +251,8 @@ async def login(request: Request) -> Response:
         return page()
     password = os.environ.get("ACCESS_PASSWORD", "")
     if len(password) < 16:
-        return HTMLResponse("ACCESS_PASSWORD is not set on the server.", status_code=500)
+        return HTMLResponse("ACCESS_PASSWORD on the server is missing or shorter than 16 characters.",
+                            status_code=500)
     if not hmac.compare_digest(str(form.get("password", "")).encode(), password.encode()):
         await asyncio.sleep(1)  # slows down guessing; a long password is what really stops it
         return page('<p class="err">Wrong password.</p>')
