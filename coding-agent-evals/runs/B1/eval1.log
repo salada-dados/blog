@@ -1,0 +1,47 @@
+OK  t01 | Quanto a agropecuária cresceu no segundo trimestre de 2026 em relação ao trimestre anterior?
+    esperado: 2,8 | resposta: 2,8%
+OK  t03 | Qual foi a variação da produção de veículos leves em agosto de 2026?
+    esperado: 2,4 | resposta: 2,4
+OK  t05 | Quanto o Governo Central gastou com despesas discricionárias no acumulado do ano até julho de 2026?
+    esperado: 133 | resposta: 133
+OK  t06 | Qual é a despesa total do Governo Central em 2026 projetada pelo QPC na 281ª reunião do Copom?
+    esperado: 2.628 | resposta: 2.628
+OK  t08 | Qual foi o IPCA observado em julho de 2026?
+    esperado: 0,07 | resposta: 0,07
+ERR t09 | Qual é a projeção de curto prazo do IPCA em doze meses para novembro de 2026?
+    esperado: 4,85 | resposta: 5,21
+ERR t10 | No cenário de referência, qual é a projeção do IPCA Livres para o quarto trimestre de 2027?
+    esperado: 4,1 | resposta: 5,0
+OK  c01 | Entre EUA, China, Japão, área do euro e Reino Unido, qual economia teve o menor crescimento do PIB no segundo trimestre de 2026?
+    esperado: Japão | resposta: Japão
+ERR c02 | Em que ano o índice de incerteza de política comercial dos EUA (TPU) atingiu o pico no gráfico de medidas de incerteza?
+    esperado: 2025 | resposta: 2024
+ERR c03 | Em que ano a dívida líquida do setor público (DLSP) atingiu o menor nível no gráfico de projeções de dívida?
+    esperado: 2013 | resposta: 2012
+OK  c04 | Em que ano a taxa de desocupação atingiu o maior valor na série desde 2004?
+    esperado: 2020 | resposta: 2020
+ERR c05 | Em que ano a variação em doze meses do IPA-DI chegou perto de 50%?
+    esperado: 2021 | resposta: 2026
+OK  c06 | Nos EUA, qual preço subiu mais em 2026: o da ureia ou o do enxofre?
+    esperado: enxofre | resposta: O preço do enxofre subiu mais em 2026 nos EUA.
+ERR c07 | Em quanto estavam as exportações brasileiras, em média móvel de três meses, em meados de 2026?
+    esperado: 31 | resposta: Em meados de 2026, as exportações brasileiras para os EUA estavam em torno de US$ 3,2 bilhões, conforme indicado pelo gráfico.
+OK  x01 | Quanto o PIB cresceu na comparação interanual no segundo trimestre de 2026?
+    esperado: 2,0 | resposta: 2,0%
+OK  x03 | Qual é a taxa de participação na força de trabalho no trimestre encerrado em julho?
+    esperado: 62,2 | resposta: 62,2%
+OK  x04 | Qual foi o saldo de empregos formais do Novo Caged no acumulado do ano até julho?
+    esperado: 958 | resposta: 958
+OK  x05 | Quanto recuou o rendimento médio real do trabalho no trimestre encerrado em julho?
+    esperado: 0,6 | resposta: 0,6
+OK  x07 | Quanto cresceram as exportações no acumulado do ano até agosto?
+    esperado: 10,3 | resposta: 10,3%
+OK  x08 | Qual foi a média dos núcleos de inflação em doze meses em agosto?
+    esperado: 4,35 | resposta: 4,35%
+OK  x11 | Qual é a projeção de inflação para o horizonte relevante, o primeiro trimestre de 2028?
+    esperado: 3,2 | resposta: 3,2%
+ERR x12 | Para quanto subiu a expectativa de inflação para 2028 desde o RPM anterior?
+    esperado: 3,80 | resposta: 0,25
+
+table: 5/7 | chart: 3/7 | text: 7/8
+TOTAL: 15/22 em 1036s

@@ -1,0 +1,100 @@
+[
+ {
+  "id": "t02",
+  "type": "table",
+  "question": "Qual foi a variação anual da construção civil em 2022?",
+  "answers": [
+   "6,8",
+   "6.8"
+  ]
+ },
+ {
+  "id": "t04",
+  "type": "table",
+  "question": "Qual foi a variação da expedição de papelão ondulado em maio de 2026?",
+  "answers": [
+   "-1,7",
+   "-1.7",
+   "1,7",
+   "1.7"
+  ]
+ },
+ {
+  "id": "t07",
+  "type": "table",
+  "question": "Quanto o Brasil importou no acumulado de janeiro a julho de 2024, em US$ bilhões?",
+  "answers": [
+   "155"
+  ]
+ },
+ {
+  "id": "t11",
+  "type": "table",
+  "question": "Qual é a probabilidade estimada de a inflação ultrapassar o limite superior do intervalo de tolerância em 2027?",
+  "answers": [
+   "33"
+  ]
+ },
+ {
+  "id": "c08",
+  "type": "chart",
+  "question": "Em que ano a taxa de desligamento voluntário atingiu o menor valor no gráfico?",
+  "answers": [
+   "2021"
+  ]
+ },
+ {
+  "id": "c09",
+  "type": "chart",
+  "question": "Em que ano a geração de emprego formal atingiu o maior valor no gráfico?",
+  "answers": [
+   "2021"
+  ]
+ },
+ {
+  "id": "c10",
+  "type": "chart",
+  "question": "Qual país emergente tinha a inflação ao consumidor mais alta no gráfico de IPC dos países emergentes?",
+  "answers": [
+   "Turquia",
+   "Turkey",
+   "Türkiye",
+   "Turkiye"
+  ]
+ },
+ {
+  "id": "x02",
+  "type": "text",
+  "question": "Quanto variou o IBC-Br em julho de 2026?",
+  "answers": [
+   "0,2",
+   "0.2"
+  ]
+ },
+ {
+  "id": "x06",
+  "type": "text",
+  "question": "Para quanto foi reduzido o bloqueio de gastos no relatório de avaliação do terceiro bimestre?",
+  "answers": [
+   "18"
+  ]
+ },
+ {
+  "id": "x09",
+  "type": "text",
+  "question": "Para quanto subiu o preço médio da gasolina C nos postos depois do choque do petróleo?",
+  "answers": [
+   "6,78",
+   "6.78"
+  ]
+ },
+ {
+  "id": "x10",
+  "type": "text",
+  "question": "Para quanto foi revisada a projeção do IPCA de setembro?",
+  "answers": [
+   "0,65",
+   "0.65"
+  ]
+ }
+]
