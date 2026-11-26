@@ -1,0 +1,33 @@
+{
+ "run": "A1",
+ "session": {
+  "active_seconds": 1719,
+  "cost_usd": 1.3088873000000003,
+  "turns": 31,
+  "wake_ups": 1,
+  "tool_calls": 30,
+  "eval_runs": 0,
+  "answer_runs": 5,
+  "web": 0,
+  "paths_outside": [
+   "c:/users/user/appdata/local/temp/claude/ce53a678334f37ea/605c2dff-2765-41a2-93e1-256cd6e99c47/scratchpad",
+   "c:/users/user/appdata/local/temp/claude/ce53a678334f37ea/605c2dff-2765-41a2-93e1-256cd6e99c47/scratchpad/full.txt",
+   "c:/users/user/appdata/local/temp/claude/ce53a678334f37ea/605c2dff-2765-41a2-93e1-256cd6e99c47/scratchpad/pip.log",
+   "c:/users/user/appdata/local/temp/claude/ce53a678334f37ea/605c2dff-2765-41a2-93e1-256cd6e99c47/tasks/bkth859kf.output"
+  ]
+ },
+ "changed_files": [],
+ "leaks": [],
+ "dev": {
+  "text": "8/8",
+  "table": "4/7",
+  "chart": "1/7",
+  "total": "13/22"
+ },
+ "holdout": {
+  "text": "4/4",
+  "table": "0/4",
+  "chart": "0/3",
+  "total": "4/11"
+ }
+}

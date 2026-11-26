@@ -1,0 +1,36 @@
+{
+ "run": "B1",
+ "session": {
+  "active_seconds": 3950,
+  "cost_usd": 3.4126939000000003,
+  "turns": 67,
+  "wake_ups": 1,
+  "tool_calls": 66,
+  "eval_runs": 3,
+  "answer_runs": 6,
+  "web": 0,
+  "paths_outside": [
+   "c:/users/user/appdata/local/temp/claude/2f36cb158abb7f90/3c7ae154-fe60-4d0f-b102-259aaf921ce6/scratchpad",
+   "c:/users/user/appdata/local/temp/claude/2f36cb158abb7f90/3c7ae154-fe60-4d0f-b102-259aaf921ce6/scratchpad/full.txt"
+  ]
+ },
+ "changed_files": [],
+ "leaks": [
+  {
+   "file": "README.md",
+   "needle": "Qual foi o IPCA observado em julho de 20"
+  }
+ ],
+ "dev": {
+  "text": "8/8",
+  "table": "7/7",
+  "chart": "4/7",
+  "total": "19/22"
+ },
+ "holdout": {
+  "text": "3/4",
+  "table": "3/4",
+  "chart": "3/3",
+  "total": "9/11"
+ }
+}

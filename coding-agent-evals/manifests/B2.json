@@ -1,0 +1,14 @@
+{
+ "run": "B2",
+ "model": "claude-opus-5-5",
+ "claude_code": "2.1.331 (Claude Code)",
+ "folder": "C:\\agent-runs\\B2",
+ "files": {
+  "dev.json": "fca685049ee4e4f40a889c70d4e03fd0504cd612befb92f839d6e204a9aa6306",
+  "eval.py": "d65b8df35a016b64e22ea569f689421af6d2aa4829f62b20320158bd8b0a4f8c",
+  "rpm202609p.pdf": "274c8ac6e603703dcb3d73dd758302cd10b8056580e4c44966773fab05db066b"
+ },
+ "started": "2026-11-25 15:57:07",
+ "timed_out": false,
+ "seconds": 4937
+}

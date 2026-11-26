@@ -3,3 +3,6 @@ langgraph-fastapi-example/
 
 __pycache__/
 .venv/
+
+# coding-agent-evals: raw session logs (published copies in logs/ come from publish.py)
+coding-agent-evals/logs-raw/

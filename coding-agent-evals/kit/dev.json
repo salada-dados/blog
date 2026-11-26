@@ -1,0 +1,204 @@
+[
+ {
+  "id": "t01",
+  "type": "table",
+  "question": "Quanto a agropecuária cresceu no segundo trimestre de 2026 em relação ao trimestre anterior?",
+  "answers": [
+   "2,8",
+   "2.8"
+  ]
+ },
+ {
+  "id": "t03",
+  "type": "table",
+  "question": "Qual foi a variação da produção de veículos leves em agosto de 2026?",
+  "answers": [
+   "2,4",
+   "2.4"
+  ]
+ },
+ {
+  "id": "t05",
+  "type": "table",
+  "question": "Quanto o Governo Central gastou com despesas discricionárias no acumulado do ano até julho de 2026?",
+  "answers": [
+   "133"
+  ]
+ },
+ {
+  "id": "t06",
+  "type": "table",
+  "question": "Qual é a despesa total do Governo Central em 2026 projetada pelo QPC na 281ª reunião do Copom?",
+  "answers": [
+   "2.628",
+   "2,628",
+   "2628"
+  ]
+ },
+ {
+  "id": "t08",
+  "type": "table",
+  "question": "Qual foi o IPCA observado em julho de 2026?",
+  "answers": [
+   "0,07",
+   "0.07"
+  ]
+ },
+ {
+  "id": "t09",
+  "type": "table",
+  "question": "Qual é a projeção de curto prazo do IPCA em doze meses para novembro de 2026?",
+  "answers": [
+   "4,85",
+   "4.85"
+  ]
+ },
+ {
+  "id": "t10",
+  "type": "table",
+  "question": "No cenário de referência, qual é a projeção do IPCA Livres para o quarto trimestre de 2027?",
+  "answers": [
+   "4,1",
+   "4.1"
+  ]
+ },
+ {
+  "id": "c01",
+  "type": "chart",
+  "question": "Entre EUA, China, Japão, área do euro e Reino Unido, qual economia teve o menor crescimento do PIB no segundo trimestre de 2026?",
+  "answers": [
+   "Japão",
+   "Japan"
+  ]
+ },
+ {
+  "id": "c02",
+  "type": "chart",
+  "question": "Em que ano o índice de incerteza de política comercial dos EUA (TPU) atingiu o pico no gráfico de medidas de incerteza?",
+  "answers": [
+   "2025"
+  ]
+ },
+ {
+  "id": "c03",
+  "type": "chart",
+  "question": "Em que ano a dívida líquida do setor público (DLSP) atingiu o menor nível no gráfico de projeções de dívida?",
+  "answers": [
+   "2013",
+   "2014"
+  ]
+ },
+ {
+  "id": "c04",
+  "type": "chart",
+  "question": "Em que ano a taxa de desocupação atingiu o maior valor na série desde 2004?",
+  "answers": [
+   "2020"
+  ]
+ },
+ {
+  "id": "c05",
+  "type": "chart",
+  "question": "Em que ano a variação em doze meses do IPA-DI chegou perto de 50%?",
+  "answers": [
+   "2021"
+  ]
+ },
+ {
+  "id": "c06",
+  "type": "chart",
+  "question": "Nos EUA, qual preço subiu mais em 2026: o da ureia ou o do enxofre?",
+  "answers": [
+   "enxofre",
+   "sulfur",
+   "sulphur"
+  ]
+ },
+ {
+  "id": "c07",
+  "type": "chart",
+  "question": "Em quanto estavam as exportações brasileiras, em média móvel de três meses, em meados de 2026?",
+  "answers": [
+   "31",
+   "32",
+   "33"
+  ]
+ },
+ {
+  "id": "x01",
+  "type": "text",
+  "question": "Quanto o PIB cresceu na comparação interanual no segundo trimestre de 2026?",
+  "answers": [
+   "2,0",
+   "2.0",
+   "2%"
+  ]
+ },
+ {
+  "id": "x03",
+  "type": "text",
+  "question": "Qual é a taxa de participação na força de trabalho no trimestre encerrado em julho?",
+  "answers": [
+   "62,2",
+   "62.2"
+  ]
+ },
+ {
+  "id": "x04",
+  "type": "text",
+  "question": "Qual foi o saldo de empregos formais do Novo Caged no acumulado do ano até julho?",
+  "answers": [
+   "958",
+   "958,000",
+   "958000",
+   "958.000"
+  ]
+ },
+ {
+  "id": "x05",
+  "type": "text",
+  "question": "Quanto recuou o rendimento médio real do trabalho no trimestre encerrado em julho?",
+  "answers": [
+   "0,6",
+   "0.6"
+  ]
+ },
+ {
+  "id": "x07",
+  "type": "text",
+  "question": "Quanto cresceram as exportações no acumulado do ano até agosto?",
+  "answers": [
+   "10,3",
+   "10.3"
+  ]
+ },
+ {
+  "id": "x08",
+  "type": "text",
+  "question": "Qual foi a média dos núcleos de inflação em doze meses em agosto?",
+  "answers": [
+   "4,35",
+   "4.35"
+  ]
+ },
+ {
+  "id": "x11",
+  "type": "text",
+  "question": "Qual é a projeção de inflação para o horizonte relevante, o primeiro trimestre de 2028?",
+  "answers": [
+   "3,2",
+   "3.2"
+  ]
+ },
+ {
+  "id": "x12",
+  "type": "text",
+  "question": "Para quanto subiu a expectativa de inflação para 2028 desde o RPM anterior?",
+  "answers": [
+   "3,80",
+   "3.80",
+   "3,8",
+   "3.8"
+  ]
+ }
+]

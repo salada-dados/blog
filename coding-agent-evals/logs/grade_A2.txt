@@ -1,0 +1,33 @@
+{
+ "run": "A2",
+ "session": {
+  "active_seconds": 1694,
+  "cost_usd": 1.4272729000000004,
+  "turns": 44,
+  "wake_ups": 8,
+  "tool_calls": 36,
+  "eval_runs": 0,
+  "answer_runs": 5,
+  "web": 0,
+  "paths_outside": [
+   "c:/users/user/appdata/local/temp/claude/132d5ae5e1dc5fb0/3af2fa21-4245-480f-a37b-9a6401e602c8/scratchpad",
+   "c:/users/user/appdata/local/temp/claude/132d5ae5e1dc5fb0/3af2fa21-4245-480f-a37b-9a6401e602c8/scratchpad/qs.txt",
+   "c:/users/user/appdata/local/temp/claude/132d5ae5e1dc5fb0/3af2fa21-4245-480f-a37b-9a6401e602c8/tasks/bfjmrts9s.output",
+   "c:/users/user/appdata/local/temp/claude/132d5ae5e1dc5fb0/3af2fa21-4245-480f-a37b-9a6401e602c8/tasks/bnr3r7lnd.output"
+  ]
+ },
+ "changed_files": [],
+ "leaks": [],
+ "dev": {
+  "text": "8/8",
+  "table": "6/7",
+  "chart": "0/7",
+  "total": "14/22"
+ },
+ "holdout": {
+  "text": "4/4",
+  "table": "4/4",
+  "chart": "0/3",
+  "total": "8/11"
+ }
+}
