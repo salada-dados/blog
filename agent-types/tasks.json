@@ -1,0 +1,104 @@
+[
+ {
+  "id": "L1",
+  "title": "Projections for 2026 and 2027",
+  "pt": "Monte um resumo das projeções do Banco Central neste relatório para 2026 e 2027: crescimento do PIB, crescimento nominal do saldo de crédito do SFN, déficit em transações correntes (em US$ e em % do PIB) e inflação (IPCA no fim de 2026 e no horizonte relevante da política monetária, além da probabilidade de a inflação de 2026 passar do limite superior da meta).",
+  "en": "Write a summary of the Banco Central's projections in this report for 2026 and 2027: GDP growth, nominal growth of the National Financial System credit stock, the current account deficit (in US$ and as % of GDP) and inflation (IPCA at the end of 2026 and at the relevant horizon for monetary policy, plus the probability that 2026 inflation exceeds the upper limit of the target).",
+  "rubric": [
+   "GDP growth projected at 1.8% for 2026",
+   "GDP growth projected at 1.4% for 2027",
+   "credit stock growth projected at 9.1% for 2026",
+   "credit stock growth projected at 8.8% for 2027",
+   "current account deficit of US$60 billion in 2026",
+   "current account deficit of 2.3% of GDP in 2026",
+   "current account deficit of US$55 billion in 2027",
+   "current account deficit of 2.0% of GDP in 2027",
+   "IPCA (12 months) of 5.2% at the end of 2026 (2026 Q4)",
+   "inflation of 3.2% at the relevant horizon (first quarter of 2028)",
+   "90% probability that 2026 inflation exceeds the upper limit"
+  ]
+ },
+ {
+  "id": "L2",
+  "title": "What changed since the previous report",
+  "pt": "O que mudou em relação ao Relatório de Política Monetária anterior? Para 2026, compare a projeção anterior e a atual de: PIB, consumo das famílias, formação bruta de capital fixo e importações; e saldo de crédito total, crédito livre e crédito direcionado. Explique em uma frase o motivo principal das revisões do PIB e do crédito.",
+  "en": "What changed since the previous Monetary Policy Report? For 2026, compare the previous and the current projection of: GDP, household consumption, gross fixed capital formation and imports; and the total credit stock, non-earmarked credit and earmarked credit. Explain in one sentence the main reason for the GDP and credit revisions.",
+  "rubric": [
+   "GDP 2026 revised from 2.0% to 1.8%",
+   "household consumption revised from 2.1% to 1.2%",
+   "gross fixed capital formation revised from 1.5% to 2.0%",
+   "imports revised from 2.0% to 3.5%",
+   "total credit stock revised from 9.0% to 9.1%",
+   "non-earmarked (free) credit revised from 7.8% to 7.2%",
+   "earmarked (directed) credit revised from 10.7% to 11.7%",
+   "GDP revision explained mainly by the second-quarter results (surprises) and/or early third-quarter indicators",
+   "credit revision explained by earmarked credit above expectations and/or weaker non-earmarked credit to households"
+  ]
+ },
+ {
+  "id": "L3",
+  "title": "Labor market, from text and charts",
+  "pt": "Descreva o mercado de trabalho segundo o relatório: a taxa de desocupação mais recente e o ano em que ela teve o maior valor no gráfico desde 2004 (com o valor aproximado); a geração média mensal de empregos formais no trimestre maio-julho e o ano com o maior valor no gráfico de geração de emprego formal (com o valor aproximado); e, no gráfico do rendimento médio real (dez/2019 = 100), qual rendimento cresceu mais desde 2019 (habitual, formal ou informal) e em quanto, aproximadamente.",
+  "en": "Describe the labor market according to the report: the latest unemployment rate and the year in which it was highest in the chart since 2004 (with the approximate value); the average monthly formal job creation in the May-July quarter and the year with the highest value in the formal job creation chart (with the approximate value); and, in the real average income chart (Dec 2019 = 100), which income grew the most since 2019 (usual, formal or informal) and by about how much.",
+  "rubric": [
+   "latest unemployment rate of 5.4% (quarter ending in July)",
+   "unemployment highest in 2020 (accept 2020 or 2020-2021)",
+   "peak unemployment of about 15% (accept 14% to 16%)",
+   "about 52 thousand formal jobs per month in May-July",
+   "formal job creation highest in 2021",
+   "peak formal job creation of about 275 thousand per month (accept 250 to 300 thousand)",
+   "informal income grew the most",
+   "informal income about 20% above December 2019 (index about 120; accept 17% to 23%)"
+  ]
+ },
+ {
+  "id": "L4",
+  "title": "A 20-question briefing (10 tables, 10 charts), from the RAG series questions",
+  "source_ids": [
+   "t01",
+   "t02",
+   "t03",
+   "t05",
+   "t06",
+   "t07",
+   "t08",
+   "t09",
+   "t10",
+   "t11",
+   "c01",
+   "c02",
+   "c03",
+   "c04",
+   "c05",
+   "c06",
+   "c07",
+   "c08",
+   "c09",
+   "c10"
+  ],
+  "pt": "Prepare um briefing sobre o relatório que responda a todas as perguntas abaixo, uma por item, com o número da pergunta, a resposta curta e a página. Algumas respostas estão em tabelas e outras só nos gráficos.\n\n1. Quanto a agropecuária cresceu no segundo trimestre de 2026 em relação ao trimestre anterior?\n2. Qual foi a variação anual da construção civil em 2022?\n3. Qual foi a variação da produção de veículos leves em agosto de 2026?\n4. Quanto o Governo Central gastou com despesas discricionárias no acumulado do ano até julho de 2026?\n5. Qual é a despesa total do Governo Central em 2026 projetada pelo QPC na 281ª reunião do Copom?\n6. Quanto o Brasil importou no acumulado de janeiro a julho de 2024, em US$ bilhões?\n7. Qual foi o IPCA observado em julho de 2026?\n8. Qual é a projeção de curto prazo do IPCA em doze meses para novembro de 2026?\n9. No cenário de referência, qual é a projeção do IPCA Livres para o quarto trimestre de 2027?\n10. Qual é a probabilidade estimada de a inflação ultrapassar o limite superior do intervalo de tolerância em 2027?\n11. Entre EUA, China, Japão, área do euro e Reino Unido, qual economia teve o menor crescimento do PIB no segundo trimestre de 2026?\n12. Em que ano o índice de incerteza de política comercial dos EUA (TPU) atingiu o pico no gráfico de medidas de incerteza?\n13. Em que ano a dívida líquida do setor público (DLSP) atingiu o menor nível no gráfico de projeções de dívida?\n14. Em que ano a taxa de desocupação atingiu o maior valor na série desde 2004?\n15. Em que ano a variação em doze meses do IPA-DI chegou perto de 50%?\n16. Nos EUA, qual preço subiu mais em 2026: o da ureia ou o do enxofre?\n17. Em quanto estavam as exportações brasileiras, em média móvel de três meses, em meados de 2026?\n18. Em que ano a taxa de desligamento voluntário atingiu o menor valor no gráfico?\n19. Em que ano a geração de emprego formal atingiu o maior valor no gráfico?\n20. Qual país emergente tinha a inflação ao consumidor mais alta no gráfico de IPC dos países emergentes?",
+  "en": "Prepare a briefing on the report that answers every question below, one item each, with the question number, the short answer and the page. Some answers are in tables and others only in charts.\n\n1. How much did agriculture grow in the second quarter of 2026 compared with the previous quarter?\n2. What was the annual growth of construction in 2022?\n3. What was the change in light vehicle production in August 2026?\n4. How much did the Central Government spend on discretionary expenses in the year to July 2026?\n5. What total Central Government expenditure for 2026 does the QPC project at the 281st Copom meeting?\n6. How much did Brazil import from January to July 2024, in US$ billion?\n7. What was the observed IPCA in July 2026?\n8. What is the short-term projection of 12-month IPCA for November 2026?\n9. In the reference scenario, what is the projection for market-set prices (IPCA Livres) in the fourth quarter of 2027?\n10. What is the estimated probability of inflation exceeding the upper limit of the tolerance interval in 2027?\n11. Among the US, China, Japan, the euro area and the UK, which economy had the lowest GDP growth in the second quarter of 2026?\n12. In which year did the US trade policy uncertainty index (TPU) peak in the uncertainty measures chart?\n13. In which year did public sector net debt (DLSP) reach its lowest level in the debt projections chart?\n14. In which year did the unemployment rate reach its highest value in the series since 2004?\n15. In which year did the 12-month change in the IPA-DI come close to 50%?\n16. In the US, which price rose more in 2026: urea or sulfur?\n17. What was the level of Brazilian exports, as a three-month moving average, in mid-2026?\n18. In which year did the voluntary quit rate reach its lowest value in the chart?\n19. In which year did formal job creation reach its highest value in the chart?\n20. Which emerging country had the highest consumer price inflation in the emerging-market CPI chart?",
+  "rubric": [
+   "Q1 (How much did agriculture grow in the second quarter of 2026 compared with the previous quarter?): 2.8",
+   "Q2 (What was the annual growth of construction in 2022?): 6.8",
+   "Q3 (What was the change in light vehicle production in August 2026?): 2.4",
+   "Q4 (How much did the Central Government spend on discretionary expenses in the year to July 2026?): 133 (in the table's unit)",
+   "Q5 (What total Central Government expenditure for 2026 does the QPC project at the 281st Copom meeting?): 2,628 (written 2.628 in Portuguese notation), in the table's unit",
+   "Q6 (How much did Brazil import from January to July 2024, in US$ billion?): 155",
+   "Q7 (What was the observed IPCA in July 2026?): 0.07",
+   "Q8 (What is the short-term projection of 12-month IPCA for November 2026?): 4.85",
+   "Q9 (In the reference scenario, what is the projection for market-set prices (IPCA Livres) in the fourth quarter of 2027?): 4.1",
+   "Q10 (What is the estimated probability of inflation exceeding the upper limit of the tolerance interval in 2027?): 33%",
+   "Q11 (Among the US, China, Japan, the euro area and the UK, which economy had the lowest GDP growth in the second quarter of 2026?): Japan",
+   "Q12 (In which year did the US trade policy uncertainty index (TPU) peak in the uncertainty measures chart?): 2025",
+   "Q13 (In which year did public sector net debt (DLSP) reach its lowest level in the debt projections chart?): 2013 or 2014",
+   "Q14 (In which year did the unemployment rate reach its highest value in the series since 2004?): 2020",
+   "Q15 (In which year did the 12-month change in the IPA-DI come close to 50%?): 2021",
+   "Q16 (In the US, which price rose more in 2026: urea or sulfur?): sulfur",
+   "Q17 (What was the level of Brazilian exports, as a three-month moving average, in mid-2026?): about US$31-33 billion (accept 31, 32 or 33)",
+   "Q18 (In which year did the voluntary quit rate reach its lowest value in the chart?): 2021",
+   "Q19 (In which year did formal job creation reach its highest value in the chart?): 2021",
+   "Q20 (Which emerging country had the highest consumer price inflation in the emerging-market CPI chart?): Turkey"
+  ]
+ }
+]

@@ -15,6 +15,7 @@ Each folder is a self-contained project, with its own README and dependencies.
 | [`rag-mcp-remote`](rag-mcp-remote) | From Your Computer to Claude on the Web: the MCP Server on the Internet ([en](https://saladadedados.com/en/blog/mcp-claude-web) · [pt](https://saladadedados.com/pt/blog/mcp-claude-web)) | MCP, OAuth, Vercel, ONNX |
 | [`focus-ipca`](focus-ipca) | Does the Market Get Inflation Right? 25 Years of Focus Against the IPCA ([en](https://saladadedados.com/en/blog/focus-inflation-forecasts) · [pt](https://saladadedados.com/pt/blog/focus-inflation-forecasts)) | Forecast evaluation, Central Bank APIs, AI coding assistants |
 | [`coding-agent-evals`](coding-agent-evals) | Give Your Coding AI a Way to Know It Got It Right ([en](https://saladadedados.com/en/blog/coding-agent-evals) · [pt](https://saladadedados.com/pt/blog/coding-agent-evals)) | Claude Code, evals, RAG, overfitting |
+| [`agent-types`](agent-types) | ReAct, Plan-and-Execute or Deep Agent? One Task, Four Architectures ([en](https://saladadedados.com/en/blog/agent-architectures) · [pt](https://saladadedados.com/pt/blog/agent-architectures)) | Agents, ReAct, plan-and-execute, deep agents, MCP, cost |
 
 Older series with their own repository:
 
